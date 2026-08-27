@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-08-27T21:36:13.579Z",
+  "services": [
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud API",
+      "url": "https://api-v2.soundcloud.com/",
+      "status": "operational",
+      "http_status": 401,
+      "latency_ms": 370,
+      "checked_at": "2026-08-27T21:36:13.579Z",
+      "history": [
+        {
+          "t": "2026-08-27T21:31:59.512Z",
+          "status": "down",
+          "latency_ms": 10001
+        },
+        {
+          "t": "2026-08-27T21:32:25.631Z",
+          "status": "operational",
+          "latency_ms": 325
+        },
+        {
+          "t": "2026-08-27T21:35:34.457Z",
+          "status": "down",
+          "latency_ms": 10001
+        },
+        {
+          "t": "2026-08-27T21:36:13.579Z",
+          "status": "operational",
+          "latency_ms": 370
+        }
+      ]
+    },
+    {
+      "id": "lyrics",
+      "name": "Lyrics API (lrclib.net)",
+      "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
+      "status": "operational",
+      "http_status": 200,
+      "latency_ms": 513,
+      "checked_at": "2026-08-27T21:36:13.579Z",
+      "history": [
+        {
+          "t": "2026-08-27T21:31:59.512Z",
+          "status": "operational",
+          "latency_ms": 790
+        },
+        {
+          "t": "2026-08-27T21:32:25.631Z",
+          "status": "operational",
+          "latency_ms": 905
+        },
+        {
+          "t": "2026-08-27T21:35:34.457Z",
+          "status": "operational",
+          "latency_ms": 580
+        },
+        {
+          "t": "2026-08-27T21:36:13.579Z",
+          "status": "operational",
+          "latency_ms": 513
+        }
+      ]
+    },
+    {
+      "id": "kugou",
+      "name": "Kugou API",
+      "url": "https://songsearch.kugou.com/song_search_v2?keyword=test&page=1&pagesize=10&userid=-1&clientver=&platform=WebFilter&filter=2&iscorrection=1&privilege_filter=0",
+      "status": "operational",
+      "http_status": 200,
+      "latency_ms": 877,
+      "checked_at": "2026-08-27T21:36:13.579Z",
+      "history": [
+        {
+          "t": "2026-08-27T21:35:34.457Z",
+          "status": "operational",
+          "latency_ms": 1484
+        },
+        {
+          "t": "2026-08-27T21:36:13.579Z",
+          "status": "operational",
+          "latency_ms": 877
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resona_status</title>
+    <meta name="description" content="Live status of the APIs Resona depends on.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script>
+        (function () {
+            var storedTheme = localStorage.getItem('theme');
+            var dark = storedTheme ? storedTheme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+
+            var storedLang = localStorage.getItem('lang');
+            var lang = storedLang ? storedLang : (navigator.language && navigator.language.toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+            document.documentElement.setAttribute('lang', lang);
+            document.documentElement.setAttribute('data-lang', lang);
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --md-sys-color-primary: #5B5DF0;
+            --md-sys-color-on-primary: #FFFFFF;
+            --md-sys-color-primary-container: #E0DEFF;
+            --md-sys-color-on-primary-container: #1705A3;
+            --md-sys-color-secondary: #5C5D72;
+            --md-sys-color-on-secondary: #FFFFFF;
+            --md-sys-color-secondary-container: #E1E0F9;
+            --md-sys-color-on-secondary-container: #191A2C;
+            --md-sys-color-error: #B3261E;
+            --md-sys-color-on-error: #FFFFFF;
+            --md-sys-color-error-container: #F9DEDC;
+            --md-sys-color-on-error-container: #410E0B;
+            --md-sys-color-surface: #FFFBFF;
+            --md-sys-color-on-surface: #1C1B1F;
+            --md-sys-color-surface-variant: #E6E0EC;
+            --md-sys-color-on-surface-variant: #49454E;
+            --md-sys-color-outline: #7A757F;
+            --md-sys-color-surface-container-lowest: #FFFFFF;
+            --md-sys-color-surface-container-low: #F7F2FA;
+            --md-sys-color-surface-container: #F1ECF4;
+            --md-sys-color-surface-container-high: #ECE6EF;
+            --md-sys-color-surface-container-highest: #E6E0E9;
+            --status-good: #146C43;
+            --status-good-container: #D7F2E3;
+            --status-warn: #8A5300;
+            --status-warn-container: #FFE1A6;
+            --status-bad: #B3261E;
+            --status-bad-container: #F9DEDC;
+            --status-unknown: #5C5D72;
+            --status-unknown-container: #E1E0F9;
+            --md-sys-shape-corner-extra-large: 32px;
+            --md-sys-shape-corner-large: 16px;
+            --md-sys-shape-corner-medium: 12px;
+            --md-sys-shape-corner-small: 8px;
+            --md-sys-motion-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+            --md-sys-motion-emphasized: cubic-bezier(0.2, 0, 0, 1);
+        }
+
+        [data-theme="dark"] {
+            --md-sys-color-primary: #C3C1FF;
+            --md-sys-color-on-primary: #2700C3;
+            --md-sys-color-primary-container: #3F3DC4;
+            --md-sys-color-on-primary-container: #E0DEFF;
+            --md-sys-color-secondary: #C5C4DD;
+            --md-sys-color-on-secondary: #2E2F42;
+            --md-sys-color-secondary-container: #444559;
+            --md-sys-color-on-secondary-container: #E1E0F9;
+            --md-sys-color-error: #F2B8B5;
+            --md-sys-color-on-error: #601410;
+            --md-sys-color-error-container: #8C1D18;
+            --md-sys-color-on-error-container: #F9DEDC;
+            --md-sys-color-surface: #141218;
+            --md-sys-color-on-surface: #E6E0E9;
+            --md-sys-color-surface-variant: #49454E;
+            --md-sys-color-on-surface-variant: #CAC4D0;
+            --md-sys-color-outline: #948F99;
+            --md-sys-color-surface-container-lowest: #0F0D13;
+            --md-sys-color-surface-container-low: #1D1B20;
+            --md-sys-color-surface-container: #211F26;
+            --md-sys-color-surface-container-high: #2B2930;
+            --md-sys-color-surface-container-highest: #36343B;
+            --status-good: #8FE3B7;
+            --status-good-container: #14432B;
+            --status-warn: #F2C078;
+            --status-warn-container: #4D3600;
+            --status-bad: #F2B8B5;
+            --status-bad-container: #601410;
+            --status-unknown: #C5C4DD;
+            --status-unknown-container: #444559;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        html[data-lang="en"] .t-ru { display: none !important; }
+        html[data-lang="ru"] .t-en { display: none !important; }
+
+        body {
+            font-family: 'Google Sans Flex', system-ui, -apple-system, sans-serif;
+            background-color: var(--md-sys-color-surface);
+            color: var(--md-sys-color-on-surface);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        code, pre, .mono { font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+        .serif { font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif; }
+
+        .material-symbols-rounded {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        a { color: inherit; }
+
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 200;
+            border-bottom: 1px solid var(--md-sys-color-surface-container-highest);
+            padding: 0 20px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            background: color-mix(in srgb, var(--md-sys-color-surface) 85%, transparent);
+        }
+
+        .nav-left { display: flex; align-items: center; gap: 14px; }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--md-sys-color-on-surface);
+            flex-shrink: 0;
+        }
+
+        .nav-brand img {
+            width: 32px;
+            height: 32px;
+            border-radius: 30% 70% 65% 35% / 40% 35% 65% 60%;
+            transition: border-radius 0.6s var(--md-sys-motion-spring);
+        }
+
+        .nav-brand:hover img { border-radius: 50%; }
+
+        .nav-brand span { font-weight: 600; font-size: 19px; letter-spacing: -0.4px; }
+
+        .nav-tag {
+            font-family: 'Roboto Mono', ui-monospace, monospace;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            background: var(--md-sys-color-primary-container);
+            color: var(--md-sys-color-on-primary-container);
+            padding: 4px 9px;
+            border-radius: 100px;
+        }
+
+        .nav-links { display: flex; gap: 6px; align-items: center; }
+
+        .nav-links a.nav-item {
+            text-decoration: none;
+            color: var(--md-sys-color-on-surface-variant);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .nav-links a.nav-item:hover {
+            background: var(--md-sys-color-surface-container-high);
+            color: var(--md-sys-color-on-surface);
+        }
+
+        .lang-switch {
+            display: flex;
+            background: var(--md-sys-color-surface-container-high);
+            border-radius: 100px;
+            padding: 3px;
+            gap: 2px;
+        }
+
+        .lang-switch button {
+            border: none;
+            background: transparent;
+            color: var(--md-sys-color-on-surface-variant);
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            padding: 6px 11px;
+            border-radius: 100px;
+            cursor: pointer;
+            transition: all 0.25s var(--md-sys-motion-emphasized);
+        }
+
+        .lang-switch button.active {
+            background: var(--md-sys-color-primary);
+            color: var(--md-sys-color-on-primary);
+        }
+
+        .icon-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            background: transparent;
+            color: var(--md-sys-color-on-surface-variant);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s, border-radius 0.35s var(--md-sys-motion-spring);
+        }
+
+        .icon-btn:hover { background: var(--md-sys-color-surface-container-high); border-radius: 14px; }
+        .icon-btn:active { transform: scale(0.88); }
+        .icon-btn .material-symbols-rounded { font-size: 22px; }
+
+        main.shell {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 120px 24px 100px;
+        }
+
+        .hero { margin-bottom: 40px; }
+
+        .hero h1 {
+            font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+            font-size: clamp(34px, 5vw, 50px);
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            margin-bottom: 14px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            color: var(--md-sys-color-on-surface-variant);
+            max-width: 640px;
+            line-height: 1.7;
+        }
+
+        .summary-banner {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-radius: var(--md-sys-shape-corner-large);
+            padding: 18px 22px;
+            margin-bottom: 32px;
+            border: 1px solid var(--md-sys-color-surface-container-highest);
+            background: var(--status-good-container);
+        }
+
+        .summary-banner.warn { background: var(--status-warn-container); }
+        .summary-banner.bad { background: var(--status-bad-container); }
+        .summary-banner.unknown { background: var(--status-unknown-container); }
+
+        .summary-banner .material-symbols-rounded { font-size: 26px; color: var(--status-good); flex-shrink: 0; }
+        .summary-banner.warn .material-symbols-rounded { color: var(--status-warn); }
+        .summary-banner.bad .material-symbols-rounded { color: var(--status-bad); }
+        .summary-banner.unknown .material-symbols-rounded { color: var(--status-unknown); }
+
+        .summary-banner .summary-title { font-weight: 600; font-size: 16px; }
+        .summary-banner .summary-sub { font-size: 13px; color: var(--md-sys-color-on-surface-variant); margin-top: 2px; }
+
+        .service-card {
+            border: 1px solid var(--md-sys-color-surface-container-highest);
+            border-radius: var(--md-sys-shape-corner-large);
+            padding: 22px 24px 24px;
+            margin-bottom: 18px;
+            background: var(--md-sys-color-surface-container-lowest);
+        }
+
+        .service-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-bottom: 6px;
+        }
+
+        .service-name { font-size: 16px; font-weight: 600; }
+
+        .service-url {
+            font-family: 'Roboto Mono', ui-monospace, monospace;
+            font-size: 12px;
+            color: var(--md-sys-color-on-surface-variant);
+            word-break: break-all;
+        }
+
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            border-radius: 100px;
+            font-size: 12.5px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .status-pill .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+        .status-pill.good { background: var(--status-good-container); color: var(--status-good); }
+        .status-pill.good .dot { background: var(--status-good); }
+
+        .status-pill.warn { background: var(--status-warn-container); color: var(--status-warn); }
+        .status-pill.warn .dot { background: var(--status-warn); }
+
+        .status-pill.bad { background: var(--status-bad-container); color: var(--status-bad); }
+        .status-pill.bad .dot { background: var(--status-bad); }
+
+        .status-pill.unknown { background: var(--status-unknown-container); color: var(--status-unknown); }
+        .status-pill.unknown .dot { background: var(--status-unknown); }
+
+        .service-meta {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            font-size: 13px;
+            color: var(--md-sys-color-on-surface-variant);
+            margin: 10px 0 16px;
+        }
+
+        .service-meta span { display: flex; align-items: center; gap: 5px; }
+        .service-meta .material-symbols-rounded { font-size: 15px; }
+
+        .history-bar {
+            display: flex;
+            gap: 3px;
+            align-items: flex-end;
+            height: 34px;
+        }
+
+        .history-bar .tick {
+            flex: 1;
+            min-width: 3px;
+            height: 100%;
+            border-radius: 3px;
+            background: var(--status-good);
+            cursor: default;
+        }
+
+        .history-bar .tick.warn { background: var(--status-warn); }
+        .history-bar .tick.bad { background: var(--status-bad); }
+        .history-bar .tick.unknown { background: var(--md-sys-color-surface-container-highest); }
+
+        .history-caption {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: var(--md-sys-color-on-surface-variant);
+            margin-top: 6px;
+        }
+
+        footer.page-footer {
+            border-top: 1px solid var(--md-sys-color-surface-container-highest);
+            padding-top: 24px;
+            margin-top: 40px;
+            font-size: 13px;
+            color: var(--md-sys-color-on-surface-variant);
+        }
+
+        footer.page-footer a { color: var(--md-sys-color-primary); text-decoration: none; }
+        footer.page-footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 640px) {
+            .nav-brand span { display: none; }
+            main.shell { padding: 96px 16px 80px; }
+            .hero h1 { font-size: 30px; }
+            .service-head { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-left">
+        <a href="https://github.com/savo-o/resona" class="nav-brand" target="_blank">
+            <img src="logo.png" alt="Resona">
+            <span>Resona</span>
+        </a>
+        <span class="nav-tag">Status</span>
+    </div>
+    <div class="nav-links">
+        <a href="https://github.com/savo-o/resona" target="_blank" class="nav-item">
+            <span class="t-en">GitHub</span><span class="t-ru">GitHub</span>
+        </a>
+        <div class="lang-switch">
+            <button id="langEnBtn" onclick="setLang('en')">EN</button>
+            <button id="langRuBtn" onclick="setLang('ru')">RU</button>
+        </div>
+        <button class="icon-btn" onclick="toggleTheme()" ondblclick="event.preventDefault(); resetTheme()" aria-label="Toggle theme">
+            <span class="material-symbols-rounded" id="themeIcon">dark_mode</span>
+        </button>
+    </div>
+</nav>
+
+<main class="shell">
+    <div class="hero">
+        <h1><span class="t-en">Resona status</span><span class="t-ru">Статус Resona</span></h1>
+    </div>
+
+    <div id="summaryBanner" class="summary-banner unknown">
+        <span class="material-symbols-rounded" id="summaryIcon">hourglass_empty</span>
+        <div>
+            <div class="summary-title" id="summaryTitle">
+                <span class="t-en">Loading status</span><span class="t-ru">Загрузка статуса</span>
+            </div>
+            <div class="summary-sub" id="summarySub"></div>
+        </div>
+    </div>
+
+    <div id="services"></div>
+
+    <footer class="page-footer">
+        <p class="t-en">Not affiliated with SoundCloud Ltd. or lrclib.net. Part of the <a href="https://github.com/savo-o/resona" target="_blank">Resona</a> project.</p>
+        <p class="t-ru">Не связано с SoundCloud Ltd. или lrclib.net. Часть проекта <a href="https://github.com/savo-o/resona" target="_blank">Resona</a>.</p>
+    </footer>
+</main>
+
+<script>
+    function toggleTheme() {
+        const root = document.documentElement;
+        const icon = document.getElementById('themeIcon');
+        if (root.getAttribute('data-theme') === 'dark') {
+            root.removeAttribute('data-theme');
+            icon.textContent = 'dark_mode';
+            localStorage.setItem('theme', 'light');
+        } else {
+            root.setAttribute('data-theme', 'dark');
+            icon.textContent = 'light_mode';
+            localStorage.setItem('theme', 'dark');
+        }
+    }
+
+    function resetTheme() {
+        localStorage.removeItem('theme');
+        const root = document.documentElement;
+        const icon = document.getElementById('themeIcon');
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            root.setAttribute('data-theme', 'dark');
+            icon.textContent = 'light_mode';
+        } else {
+            root.removeAttribute('data-theme');
+            icon.textContent = 'dark_mode';
+        }
+    }
+
+    if (document.documentElement.getAttribute('data-theme') === 'dark') {
+        document.getElementById('themeIcon').textContent = 'light_mode';
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+            const root = document.documentElement;
+            const icon = document.getElementById('themeIcon');
+            if (e.matches) {
+                root.setAttribute('data-theme', 'dark');
+                icon.textContent = 'light_mode';
+            } else {
+                root.removeAttribute('data-theme');
+                icon.textContent = 'dark_mode';
+            }
+        }
+    });
+
+    function setLang(lang) {
+        document.documentElement.setAttribute('lang', lang);
+        document.documentElement.setAttribute('data-lang', lang);
+        localStorage.setItem('lang', lang);
+        syncLangButtons();
+    }
+
+    function syncLangButtons() {
+        const lang = document.documentElement.getAttribute('data-lang');
+        document.getElementById('langEnBtn').classList.toggle('active', lang === 'en');
+        document.getElementById('langRuBtn').classList.toggle('active', lang === 'ru');
+    }
+    syncLangButtons();
+
+    const lang = () => document.documentElement.getAttribute('data-lang');
+
+    function statusClass(status) {
+        if (status === 'operational') return 'good';
+        if (status === 'degraded') return 'warn';
+        if (status === 'down') return 'bad';
+        return 'unknown';
+    }
+
+    function statusLabel(status) {
+        const labels = {
+            operational: { en: 'Operational', ru: 'Работает' },
+            degraded: { en: 'Degraded', ru: 'Замедлено' },
+            down: { en: 'Down', ru: 'Недоступен' },
+            unknown: { en: 'Unknown', ru: 'Неизвестно' },
+        };
+        return (labels[status] || labels.unknown)[lang()];
+    }
+
+    function timeAgo(iso) {
+        const diffMs = Date.now() - new Date(iso).getTime();
+        const mins = Math.floor(diffMs / 60000);
+        if (mins < 1) return lang() === 'ru' ? 'только что' : 'just now';
+        if (mins < 60) return lang() === 'ru' ? mins + ' мин назад' : mins + 'm ago';
+        const hours = Math.floor(mins / 60);
+        return lang() === 'ru' ? hours + ' ч назад' : hours + 'h ago';
+    }
+
+    function renderSummary(data) {
+        const banner = document.getElementById('summaryBanner');
+        const icon = document.getElementById('summaryIcon');
+        const title = document.getElementById('summaryTitle');
+        const sub = document.getElementById('summarySub');
+
+        const statuses = data.services.map(s => s.status);
+        let overall = 'good';
+        let icoName = 'check_circle';
+        let en = 'All systems operational';
+        let ru = 'Все системы работают';
+
+        if (statuses.includes('down')) {
+            overall = 'bad'; icoName = 'error'; en = 'Some systems are down'; ru = 'Некоторые системы недоступны';
+        } else if (statuses.includes('degraded')) {
+            overall = 'warn'; icoName = 'warning'; en = 'Degraded performance'; ru = 'Снижена производительность';
+        } else if (statuses.includes('unknown')) {
+            overall = 'unknown'; icoName = 'hourglass_empty'; en = 'Waiting for first check'; ru = 'Ожидание первой проверки';
+        }
+
+        banner.className = 'summary-banner ' + overall;
+        icon.textContent = icoName;
+        title.innerHTML = '<span class="t-en">' + en + '</span><span class="t-ru">' + ru + '</span>';
+        title.className = 'summary-title';
+        document.querySelectorAll('#summaryTitle .t-en, #summaryTitle .t-ru').forEach(el => {
+            if (lang() === 'en' && el.classList.contains('t-ru')) el.style.display = 'none';
+            if (lang() === 'ru' && el.classList.contains('t-en')) el.style.display = 'none';
+        });
+        sub.textContent = lang() === 'ru'
+            ? 'Обновлено: ' + timeAgo(data.generated_at)
+            : 'Updated: ' + timeAgo(data.generated_at);
+    }
+
+    function renderHistory(history) {
+        const bar = document.createElement('div');
+        bar.className = 'history-bar';
+        const padded = Array(Math.max(0, 48 - history.length)).fill(null).concat(history);
+        padded.slice(-48).forEach(entry => {
+            const tick = document.createElement('div');
+            tick.className = 'tick ' + (entry ? statusClass(entry.status) : 'unknown');
+            if (entry) tick.title = new Date(entry.t).toLocaleString() + ' - ' + statusLabel(entry.status);
+            bar.appendChild(tick);
+        });
+        return bar;
+    }
+
+    function renderServices(data) {
+        const root = document.getElementById('services');
+        root.innerHTML = '';
+        data.services.forEach(service => {
+            const card = document.createElement('div');
+            card.className = 'service-card';
+
+            const head = document.createElement('div');
+            head.className = 'service-head';
+            head.innerHTML = '<div><div class="service-name">' + service.name + '</div><div class="service-url">' + service.url + '</div></div>';
+
+            const pill = document.createElement('span');
+            pill.className = 'status-pill ' + statusClass(service.status);
+            pill.innerHTML = '<span class="dot"></span><span>' + statusLabel(service.status) + '</span>';
+            head.appendChild(pill);
+
+            const meta = document.createElement('div');
+            meta.className = 'service-meta';
+            meta.innerHTML =
+                '<span><span class="material-symbols-rounded">speed</span>' + (service.latency_ms ?? '-') + ' ms</span>' +
+                '<span><span class="material-symbols-rounded">schedule</span>' + timeAgo(service.checked_at) + '</span>';
+
+            card.appendChild(head);
+            card.appendChild(meta);
+            card.appendChild(renderHistory(service.history || []));
+
+            const caption = document.createElement('div');
+            caption.className = 'history-caption';
+            caption.innerHTML = (lang() === 'ru' ? 'раньше' : 'earlier') + '<span>' + (lang() === 'ru' ? 'сейчас' : 'now') + '</span>';
+            card.appendChild(caption);
+
+            root.appendChild(card);
+        });
+    }
+
+    let statusData = null;
+
+    function rerender() {
+        if (!statusData) return;
+        renderSummary(statusData);
+        renderServices(statusData);
+    }
+
+    async function loadStatus() {
+        try {
+            const res = await fetch('data.json?_=' + Date.now());
+            statusData = await res.json();
+        } catch {
+            statusData = { generated_at: new Date().toISOString(), services: [] };
+        }
+        rerender();
+    }
+
+    const originalSetLang = setLang;
+    setLang = function (l) {
+        originalSetLang(l);
+        rerender();
+    };
+
+    loadStatus();
+    setInterval(loadStatus, 60000);
+</script>
+</body>
+</html>
