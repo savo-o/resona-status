@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:14:26.222Z",
+  "generated_at": "2026-09-10T01:04:29.517Z",
   "services": [
     {
       "id": "soundcloud",
@@ -7,8 +7,8 @@
       "url": "https://api-v2.soundcloud.com/",
       "status": "operational",
       "http_status": 401,
-      "latency_ms": 267,
-      "checked_at": "2026-09-09T23:14:26.222Z",
+      "latency_ms": 284,
+      "checked_at": "2026-09-10T01:04:29.517Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -499,6 +499,11 @@
           "t": "2026-09-09T23:14:26.222Z",
           "status": "operational",
           "latency_ms": 267
+        },
+        {
+          "t": "2026-09-10T01:04:29.517Z",
+          "status": "operational",
+          "latency_ms": 284
         }
       ]
     },
@@ -508,8 +513,8 @@
       "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
       "status": "operational",
       "http_status": 200,
-      "latency_ms": 474,
-      "checked_at": "2026-09-09T23:14:26.222Z",
+      "latency_ms": 1165,
+      "checked_at": "2026-09-10T01:04:29.517Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -1000,6 +1005,11 @@
           "t": "2026-09-09T23:14:26.222Z",
           "status": "operational",
           "latency_ms": 474
+        },
+        {
+          "t": "2026-09-10T01:04:29.517Z",
+          "status": "operational",
+          "latency_ms": 1165
         }
       ]
     },
@@ -1007,10 +1017,10 @@
       "id": "kugou",
       "name": "Kugou API",
       "url": "https://songsearch.kugou.com/song_search_v2?keyword=test&page=1&pagesize=10&userid=-1&clientver=&platform=WebFilter&filter=2&iscorrection=1&privilege_filter=0",
-      "status": "operational",
+      "status": "degraded",
       "http_status": 200,
-      "latency_ms": 1981,
-      "checked_at": "2026-09-09T23:14:26.222Z",
+      "latency_ms": 4444,
+      "checked_at": "2026-09-10T01:04:29.517Z",
       "history": [
         {
           "t": "2026-08-27T21:35:34.457Z",
@@ -1491,6 +1501,11 @@
           "t": "2026-09-09T23:14:26.222Z",
           "status": "operational",
           "latency_ms": 1981
+        },
+        {
+          "t": "2026-09-10T01:04:29.517Z",
+          "status": "degraded",
+          "latency_ms": 4444
         }
       ]
     }
