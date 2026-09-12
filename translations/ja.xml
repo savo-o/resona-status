@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resona</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Resonaへようこそ</string>
+    <string name="onboarding_welcome_desc">SoundCloudを高速かつすっきり楽しむ方法 — 自分のアカウント、自分のトラック、余計なものはなし。</string>
+    <string name="onboarding_mix_title">あなた好みのミックス</string>
+    <string name="onboarding_mix_desc">Resonaはお気に入りとオフラインのトラックから無限のミックスを作成します。誰を含めるかはあなたが決められます。</string>
+    <string name="onboarding_lyrics_title">同期歌詞</string>
+    <string name="onboarding_lyrics_desc">トラックの再生に合わせて1行ずつ歌詞を追えます。タイミングがずれていても簡単に調整できます。</string>
+    <string name="onboarding_offline_title">オフラインで楽しむ</string>
+    <string name="onboarding_offline_desc">トラックを保存してオフラインで聴いたり、統計を確認したりできます。すべてを1か所で管理できます。</string>
+    <string name="onboarding_migrate_title">ライブラリを引き継ぐ</string>
+    <string name="onboarding_migrate_desc">SoundCloudに「いいね」した曲や、Telegramのチャットで共有されたトラックがありますか？ホーム画面の「インポート / エクスポート」からいつでも取り込めます。</string>
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_next">次へ</string>
+    <string name="onboarding_get_started">始める</string>
+
+    <!-- Home screen launcher icon shortcuts -->
+    <string name="shortcut_favorites_short">お気に入り</string>
+    <string name="shortcut_favorites_long">お気に入りを開く</string>
+    <string name="shortcut_offline_short">オフライン</string>
+    <string name="shortcut_offline_long">オフラインのトラックを開く</string>
+    <string name="shortcut_search_short">検索</string>
+    <string name="shortcut_search_long">トラックを検索</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_search">検索</string>
+    <string name="nav_favorites">お気に入り</string>
+    <string name="nav_account">アカウント</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_artist">アーティスト</string>
+    <string name="nav_playlist">プレイリスト</string>
+    <string name="nav_favorite_artists">お気に入りのアーティスト</string>
+    <string name="nav_favorite_playlists">お気に入りのプレイリスト</string>
+    <string name="nav_import_export">インポート / エクスポート</string>
+
+    <!-- Home -->
+    <string-array name="home_greeting_morning">
+        <item>Good morning</item>
+        <item>朝</item>
+        <item>さあ、起きて音楽を聴こう</item>
+        <item>おはよう、早起きさん</item>
+        <item>今日もいいスタートを</item>
+        <item>新しい朝、新しいミックス</item>
+    </string-array>
+    <string-array name="home_greeting_afternoon">
+        <item>Good afternoon</item>
+        <item>やあ</item>
+        <item>今日もいい一日を過ごせていますように</item>
+        <item>昼のサウンドトラックをどうぞ</item>
+        <item>この勢いでいこう</item>
+        <item>午後のグルーヴ</item>
+    </string-array>
+    <string-array name="home_greeting_evening">
+        <item>Good evening</item>
+        <item>夜</item>
+        <item>ゆっくり過ごす時間</item>
+        <item>今日はどうだった？</item>
+        <item>夜の音楽が待っています</item>
+        <item>そろそろ一息つく？</item>
+    </string-array>
+    <string-array name="home_greeting_night">
+        <item>Hello, night owl</item>
+        <item>まだ起きてる？</item>
+        <item>夜更かし中？</item>
+        <item>夜更けのサウンドをあなたに</item>
+        <item>眠れない？</item>
+        <item>終わらない夜</item>
+    </string-array>
+    <string name="home_mix_subtitle_count">ミックスに%dトラック</string>
+    <string name="home_mix_empty_title">聴き始める</string>
+    <string name="home_mix_empty_desc">トラックを再生するか、お気に入りを追加してミックスを作りましょう</string>
+    <string name="home_section_jump_back_in">続きから再生</string>
+    <string name="home_section_favorites">お気に入りから</string>
+    <string name="home_section_offline">オフライン対応</string>
+    <string name="home_section_artists">あなたのアーティスト</string>
+    <string name="home_section_playlists">お気に入りのアルバム</string>
+    <string name="home_action_statistics">統計</string>
+    <string name="home_action_charts">チャート</string>
+    <string name="charts_title">チャート</string>
+    <string name="charts_subtitle">新着＆人気 · すべての音楽</string>
+    <string name="charts_play_all">すべて再生</string>
+    <string name="charts_empty">現在チャートデータはありません</string>
+    <string name="charts_error">チャートを読み込めませんでした。下に引っ張って再試行してください。</string>
+
+    <!-- Mix customizer -->
+    <string name="mix_customizer_title">今日は誰を聴きたい？</string>
+    <string name="mix_customizer_subtitle">アーティストを選んで、ミックスの探索方法を調整しましょう</string>
+    <string name="mix_customizer_your_artists">あなたのアーティスト</string>
+    <string name="mix_customizer_discover_title">新しい音楽を発見</string>
+    <string name="mix_customizer_discover_desc">まだ聴いたことのないアーティストのトラックを追加</string>
+    <string name="mix_customizer_blocked_title">好みではないアーティスト</string>
+    <string name="mix_customizer_unblock">削除</string>
+    <string name="mix_customizer_start">ミックスを作る</string>
+
+    <!-- Disliked artists -->
+    <string name="settings_disliked_artists">好みではないアーティスト</string>
+    <string name="disliked_artists_empty">まだ好みではないアーティストはありません</string>
+    <string name="disliked_artists_remove">削除</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">統計</string>
+    <string name="statistics_hours_listened">再生時間</string>
+    <string name="statistics_total_plays">再生したトラック</string>
+    <string name="statistics_top_artists">よく聴いたアーティスト</string>
+    <string name="statistics_empty">再生履歴はまだありません — 何か聴いてみましょう！</string>
+    <string name="statistics_duration_hm">%1$dh %2$dm</string>
+    <string name="statistics_duration_m">%1$dm</string>
+    <string name="statistics_play_count">%d回再生</string>
+    <string name="statistics_top_artists_info_title">ランキングの仕組み</string>
+    <string name="statistics_top_artists_info_body">アーティストはタップ数やスキップ数ではなく、実際に再生された合計時間で順位付けされます。一時停止はカウントされず、トラックを5秒以上再生した場合のみ1回の再生としてカウントされます。各アーティストの横にある再生回数は、この条件を満たした再生回数を別に集計したものです。</string>
+    <string name="statistics_top_artists_info_dismiss">了解</string>
+    <string name="statistics_share">まとめを共有</string>
+    <string name="wrapped_kicker">あなたの再生まとめ</string>
+    <string name="wrapped_hours_listened">再生時間</string>
+    <string name="wrapped_plays_count">%d回再生</string>
+    <string name="wrapped_top_artists">トップアーティスト</string>
+    <string name="wrapped_top_tracks">トップトラック</string>
+    <string name="wrapped_footer">Resonaで作成</string>
+    <string name="wrapped_share">共有</string>
+
+    <!-- Search -->
+    <string name="search_hint">トラック、アーティスト、アルバム…</string>
+    <string name="search_tracks">Tracks</string>
+    <string name="search_artists">アーティスト</string>
+    <string name="search_playlists">プレイリスト</string>
+    <string name="search_nothing_found">見つかりませんでした</string>
+    <string name="search_empty">何か検索してみよう…</string>
+    <string name="search_empty_title">SoundCloud全体を検索</string>
+    <string name="search_empty_desc">ライブラリだけでなく、SoundCloud上のすべてを検索します。</string>
+    <string name="search_empty_hint_tabs">トラック、アーティスト、アルバムを検索できます。上のタブで切り替えられます。</string>
+    <string name="search_empty_hint_history">最近の検索がここに表示されます。</string>
+    <string name="search_clear">クリア</string>
+    <string name="search_history">最近の検索</string>
+    <string name="search_clear_history">クリア</string>
+    <string name="search_remove">削除</string>
+
+    <string name="library_offline">オフラインのトラック</string>
+    <string name="offline_empty">オフラインのトラックはまだありません</string>
+    <string name="offline_import_folder">フォルダーからインポート</string>
+    <string name="offline_import_result">%1$dトラックをインポート、%2$dトラックをスキップしました</string>
+    <string name="offline_import_result_no_skip">%1$dトラックをインポートしました</string>
+    <string name="offline_watched_folders_title">監視中のフォルダー</string>
+    <string name="offline_watched_folders_empty">監視中のフォルダーはありません</string>
+    <string name="offline_unwatch_folder">フォルダーの監視を停止</string>
+    <string name="network_unavailable">接続なし</string>
+    <string name="network_restored">接続が復元されました</string>
+    <string name="track_skipped_message">「%1$s」を読み込めませんでした。スキップしました</string>
+    <string name="track_skipped_deleted">「%1$s」はアップロードしたユーザーによって削除されました</string>
+    <string name="track_skipped_drm">「%1$s」には有料のSoundCloudプランが必要です</string>
+    <string name="track_skipped_preview">SoundCloudでは「%1$s」の30秒プレビューのみ提供されています。フルトラックにはSoundCloud Go+のサブスクリプションが必要です</string>
+    <string name="track_unavailable_message">「%1$s」は利用できません</string>
+    <string name="track_unavailable">利用できません</string>
+    <string name="track_skipped_retry">再試行</string>
+    <string name="track_skipped_details">詳細</string>
+    <string name="track_dialog_ok">了解</string>
+    <string name="track_unavailable_note">これはSoundCloud側の制限であり、Resonaの不具合ではありません。</string>
+    <string name="network_retrying">接続が弱いため、再試行しています…</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">お気に入り</string>
+    <string name="favorites_empty">空です！</string>
+    <string name="favorite_artists_title">お気に入りのアーティスト</string>
+    <string name="favorite_artists_empty">お気に入りのアーティストはまだありません</string>
+    <string name="favorite_playlists_title">お気に入りのプレイリスト</string>
+    <string name="favorite_playlists_empty">お気に入りのプレイリストはまだありません</string>
+
+    <!-- Player -->
+    <string name="player_collapse">折りたたむ</string>
+    <string name="player_favorite">お気に入り</string>
+    <string name="player_play">再生</string>
+    <string name="player_pause">一時停止</string>
+    <string name="player_previous">前のトラック</string>
+    <string name="player_next">次のトラック</string>
+    <string name="player_share">共有</string>
+    <string name="player_save_offline">オフライン用に保存</string>
+    <string name="player_saved_offline">オフライン用に保存済み</string>
+    <string name="player_shuffle">シャッフル</string>
+    <string name="player_repeat">リピート</string>
+    <string name="player_lyrics">歌詞</string>
+    <string name="player_lyrics_none_found">このトラックの歌詞は見つかりませんでした</string>
+    <string name="player_lyrics_source">歌詞提供：%s</string>
+    <string name="player_lyrics_offset_earlier">歌詞を前にずらす</string>
+    <string name="player_lyrics_offset_later">歌詞を後ろにずらす</string>
+    <string name="player_playing_from">%1$sから再生中</string>
+    <string name="player_source_mix">ミックス</string>
+    <string name="player_source_favorites">お気に入り</string>
+    <string name="player_source_offline">ダウンロード済み</string>
+    <string name="player_source_search">検索</string>
+    <string name="player_exclude_artist">このアーティストをおすすめしない</string>
+    <string name="player_more_options">その他のオプション</string>
+    <string name="player_sleep_timer">スリープタイマー</string>
+    <string name="player_sleep_timer_minutes_format">%d分</string>
+    <string name="player_sleep_timer_active_format">%s後に停止</string>
+    <string name="player_sleep_timer_cancel">キャンセル</string>
+    <string name="player_queue">キュー</string>
+    <string name="player_queue_remove">キューから削除</string>
+    <string name="player_speed">速度</string>
+    <string name="player_speed_format">%s\u00D7</string>
+    <string name="player_speed_reset">通常速度</string>
+    <string name="history_title">再生履歴</string>
+    <string name="history_empty">ここにはまだ何もありません。再生したトラックが履歴に表示されます。</string>
+    <string name="history_clear">履歴を消去</string>
+    <string name="history_clear_confirm">すべての再生履歴が削除され、統計もリセットされます。</string>
+    <string name="history_remove_entry">履歴から削除</string>
+    <string name="history_today">今日</string>
+    <string name="history_yesterday">昨日</string>
+    <string name="history_entry_format">%1$s、%2$s再生</string>
+    <string name="history_entry_repeated_format">%1$s、%2$s再生、再生回数：%3$d</string>
+    <string name="settings_cache_limit">キャッシュ上限</string>
+    <string name="settings_cache_limit_desc">最近再生したトラックをすぐ再生できるよう保持します。上限に達すると古いものから削除されます。</string>
+    <string name="settings_cache_limit_mb">%d MB</string>
+    <string name="settings_cache_limit_gb">%d GB</string>
+    <string name="player_sleep_timer_after_track">トラック終了まで</string>
+    <string name="player_sleep_timer_after_track_active">このトラックの終了時に再生を停止</string>
+    <string name="settings_crossfade_duration">クロスフェード時間</string>
+    <string name="settings_crossfade_duration_format">%d秒</string>
+    <string name="track_play_next">次に再生</string>
+    <string name="track_add_to_queue">キューに追加</string>
+    <string name="selection_queue_all">キューに追加</string>
+    <string name="player_exclude_artist_short">このアーティストをおすすめしない</string>
+
+    <!-- Search tabs -->
+    <string name="tab_tracks">Tracks</string>
+    <string name="tab_artists">アーティスト</string>
+    <string name="tab_playlists">プレイリスト</string>
+
+    <!-- Artist / Playlist -->
+    <string name="play_all">すべて再生</string>
+    <string name="artist_tracks">Tracks</string>
+    <string name="artist_followers">フォロワー%d人</string>
+    <string name="artist_tracks_count">%dトラック</string>
+    <string name="artist_at_username">@%s</string>
+    <string name="artist_id">ID：%d</string>
+    <string name="artist_error">エラー：%s</string>
+    <string name="playlist_by">%s</string>
+    <string name="playlist_tracks_count">%dトラック</string>
+
+    <!-- Account -->
+    <string name="account_title">アカウント</string>
+    <string name="account_sign_in_soundcloud">SoundCloudでログイン</string>
+    <string name="account_sign_in_title">Resonaにログイン</string>
+    <string name="account_sign_in_desc">お気に入り、プロフィールなどにアクセスできます</string>
+    <string name="account_sign_out">ログアウト</string>
+    <string name="account_share_link">プロフィールを共有</string>
+    <string name="login_email_label">メールアドレス</string>
+    <string name="login_password_label">パスワード</string>
+    <string name="login_sign_in_button">ログイン</string>
+    <string name="login_signing_in">ログイン中…</string>
+    <string name="login_or_continue_with">または以下で続行</string>
+    <string name="login_continue_google">Googleで続行</string>
+    <string name="login_continue_facebook">Facebookで続行</string>
+    <string name="login_trouble_use_browser">問題がありますか？ブラウザーからログインしてください</string>
+    <string name="favorites_online_toggle_title">オンラインのお気に入り</string>
+    <string name="favorites_online_toggle_desc">実際のSoundCloudアカウントの「いいね」と同期</string>
+    <string name="favorites_badge_local">ローカルのお気に入り</string>
+    <string name="favorites_badge_online">SoundCloudの「いいね」</string>
+    <string name="favorites_badge_both">ローカル + SoundCloud</string>
+    <string name="favorites_online_unlike_failed">SoundCloudの「いいね」を削除できませんでした</string>
+    <string name="favorites_online_fetch_failed">SoundCloudの「いいね」を読み込めませんでした</string>
+    <string name="favorites_online_sync_now">今すぐ同期</string>
+    <string name="favorites_online_sync_now_desc">SoundCloudの「いいね」を今すぐ再取得</string>
+    <string name="favorites_online_sync_now_done">オンラインのお気に入りを%d件同期しました</string>
+    <string name="favorites_online_sync_now_failed">同期に失敗しました</string>
+    <string name="account_settings">設定</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_customization">カスタマイズ</string>
+    <string name="settings_color_theme">カラーテーマ</string>
+    <string name="settings_custom_color">カスタムカラー</string>
+    <string name="settings_custom_color_hue">色相</string>
+    <string name="settings_custom_color_saturation">彩度</string>
+    <string name="settings_custom_color_brightness">明度</string>
+    <string name="settings_home_sections">ホームのセクション</string>
+    <string name="settings_home_sections_desc">ホームに表示するセクションと順番を選択します。</string>
+    <string name="player_customize_hint">プレーヤーの外観は「設定」→「カスタマイズ」で変更できます</string>
+    <string name="settings_app_background">アプリの背景</string>
+    <string name="settings_app_background_dynamic">アートワーク</string>
+    <string name="settings_app_background_default">デフォルト</string>
+    <string name="settings_app_background_custom">カスタム</string>
+    <string name="settings_app_background_player_only">プレーヤー</string>
+    <string name="settings_app_background_dynamic_desc">アプリ全体とプレーヤーが現在のトラックのカバーから色を取得します</string>
+    <string name="settings_app_background_default_desc">テーマ設定に合わせたシンプルなライトまたはダークの背景</string>
+    <string name="settings_app_background_custom_desc">背景に好きな色を設定し、トラックのピルはそこから離して表示します</string>
+    <string name="settings_app_background_player_only_desc">プレーヤーだけがカバーに合わせて変化し、その他の部分はシンプルなままです</string>
+    <string name="settings_player_style">プレーヤーのスタイル</string>
+    <string name="settings_pixel_glow">アートワークの背後のグロー</string>
+    <string name="settings_pixel_glow_desc">現在のトラックの色を使った柔らかな放射状グラデーション。Legacy Orbプレーヤーと同じ効果です</string>
+    <string name="settings_player_style_pixel">ピクセル</string>
+    <string name="settings_player_style_legacy">レガシー</string>
+    <string name="settings_player_background">プレーヤーの背景</string>
+    <string name="settings_player_background_orb">オーブ</string>
+    <string name="settings_player_background_blurred">ぼかし</string>
+    <string name="settings_player_background_minimal">ミニマル</string>
+    <string name="settings_app_icon">アプリアイコン</string>
+    <string name="settings_app_icon_normal">通常</string>
+    <string name="settings_app_icon_dynamic">ダイナミック</string>
+    <string name="settings_app_icon_desc">Android 13以降では、システムの壁紙設定で「テーマアイコン」が有効な場合、壁紙の色に合わせて変化します。</string>
+    <string name="settings_dark_theme">ダークテーマ</string>
+    <string name="settings_dark_system">システム</string>
+    <string name="settings_dark_light">ライト</string>
+    <string name="settings_dark_dark">ダーク</string>
+    <string name="settings_dynamic_color">トラックから動的に色を取得</string>
+    <string name="settings_dynamic_color_desc">アクセントカラーが現在のトラックに応じて変化します</string>
+    <string name="settings_autoplay">次のトラックを自動再生</string>
+    <string name="settings_crossfade">クロスフェード</string>
+    <string name="settings_crossfade_desc">トラック間で音量をフェードさせ、突然切り替わらないようにします</string>
+    <string name="settings_seek_bar_style">シークバーのスタイル</string>
+    <string name="settings_seek_bar_style_classic">クラシック</string>
+    <string name="settings_seek_bar_style_wavy">ウェーブ</string>
+    <string name="settings_lyrics_provider">歌詞プロバイダー</string>
+    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
+    <string name="settings_lyrics_provider_kugou">Kugou</string>
+    <string name="settings_lyrics_provider_desc">LRCLIBがデフォルトで最も信頼性の高いソースです。Kugouは実験的で非常に不安定です。仕組みを理解している場合のみ有効にしてください。</string>
+    <string name="settings_lyrics_genius_fallback">Geniusの非同期歌詞</string>
+    <string name="settings_lyrics_genius_fallback_desc">同期歌詞が見つからない場合、何も表示せずにGeniusの非公式検索から通常の歌詞を取得します</string>
+    <string name="settings_haptics">触覚フィードバック</string>
+    <string name="settings_haptics_desc">タップや操作時に振動します</string>
+    <string name="settings_haptics_intensity">振動の強さ</string>
+    <string name="settings_haptics_intensity_low">弱</string>
+    <string name="settings_haptics_intensity_medium">中</string>
+    <string name="settings_haptics_intensity_high">強</string>
+    <string name="settings_developer_mode">開発者モード</string>
+    <string name="settings_developer_mode_desc">プロフィールにユーザーIDを表示</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_language_en">英語</string>
+    <string name="settings_language_ru">ロシア語</string>
+    <string name="settings_storage">ストレージ</string>
+    <string name="settings_cache">キャッシュ</string>
+    <string name="settings_cache_size">計算中…</string>
+    <string name="settings_cache_cleared">キャッシュを消去しました</string>
+    <string name="settings_clear">クリア</string>
+    <string name="settings_offline_tracks">オフラインのトラック</string>
+    <string name="settings_offline_tracks_count">%1$d tracks · %2$s</string>
+    <string name="settings_offline_cleared">Offline tracks cleared</string>
+    <string name="settings_client_id">Client IDを更新</string>
+    <string name="settings_client_id_desc">再生または検索が動作しなくなった場合（エラー401）のみ必要です</string>
+    <string name="settings_client_id_refreshed">Client IDを更新しました</string>
+    <string name="settings_keep_android_open_title">Keep Android Open</string>
+    <string name="settings_keep_android_open_desc">ResonaはKeep Android Open運動を支持しています。この運動は、Playストア外からインストールされたアプリを含む、すべてのAndroidアプリに本人確認を義務付けるGoogleの計画に反対しています。詳しくはkeepandroidopen.orgをご覧ください。</string>
+    <string name="settings_about">アプリについて</string>
+    <string name="settings_version">バージョン %s</string>
+    <string name="settings_eula">免責事項</string>
+    <string name="settings_eula_desc">利用規約</string>
+    <string name="eula_title">免責事項</string>
+    <string name="eula_body">Resonaは、SoundCloudのコンテンツを閲覧・再生するための非公式なオープンソースアプリです。SoundCloudとは一切提携、承認、関係していません。\n\nこのアプリは自己責任で使用してください。いかなる保証もありません。使用によって生じた問題、データ損失、アカウントの問題について、開発者は責任を負いません。\n\n音楽、アートワーク、その他のコンテンツはすべて、SoundCloud上の原作者および権利者に帰属します。Resonaはそれらをホストまたは所有せず、すでに公開されているものを再生するだけです。\n\nこのアプリを使用することで、SoundCloudのプラットフォームを利用する際に、SoundCloud自身の規約にも従うことに同意するものとします。\n\nResona自体はGPL v3ライセンスのもとで無料かつオープンソースです。コードを読んだり、変更したり、GitHubで貢献したりできます。</string>
+    <string name="eula_gate_checkbox">免責事項を読み、同意します</string>
+    <string name="eula_decline">Decline</string>
+    <string name="eula_agree">同意して続行</string>
+    <string name="settings_debug_menu">デバッグメニュー</string>
+    <string name="settings_debug_menu_desc">開発者ツールと診断</string>
+    <string name="settings_updates">アップデート</string>
+    <string name="settings_update_channel_release">リリース</string>
+    <string name="settings_update_channel_canary">Canary</string>
+    <string name="settings_auto_check_updates">アップデートを自動的に確認</string>
+    <string name="settings_check_for_updates">アップデートを確認</string>
+    <string name="settings_checking_for_updates">確認中…</string>
+    <string name="settings_update_up_to_date">最新バージョンを使用しています。</string>
+    <string name="settings_update_check_failed">アップデートを確認できませんでした。後でもう一度お試しください。</string>
+
+    <!-- Update dialogs -->
+    <string name="update_dialog_title_release">アップデートがあります</string>
+    <string name="update_dialog_message_release">バージョン：%1$s\n\n変更内容：\n%2$s</string>
+    <string name="update_dialog_no_changelog">変更履歴はありません。</string>
+    <string name="update_dialog_title_canary">新しいCanaryビルドがあります</string>
+    <string name="update_dialog_message_canary">新しいCanaryビルドが利用可能です。</string>
+    <string name="update_dialog_later">後で</string>
+    <string name="crash_dialog_title">Resonaは前回クラッシュしました</string>
+    <string name="crash_dialog_message">クラッシュ直前に取得された情報です。コピーしてバグレポートとして共有できます。</string>
+    <string name="crash_dialog_dismiss">閉じる</string>
+    <string name="update_dialog_open_github">GitHubを開く</string>
+
+    <!-- Debug Menu -->
+    <string name="debug_menu_title">デバッグメニュー</string>
+    <string name="debug_menu_build_info">ビルド情報</string>
+    <string name="debug_menu_version">バージョン</string>
+    <string name="debug_menu_build_type">ビルドタイプ</string>
+    <string name="debug_menu_application_id">アプリケーションID</string>
+    <string name="debug_menu_device">デバイス</string>
+    <string name="debug_menu_client_id">SoundCloud Client ID（共有しないでください！）</string>
+    <string name="debug_menu_client_id_current">現在：%s</string>
+    <string name="debug_menu_client_id_override_hint">手動上書き</string>
+    <string name="debug_menu_client_id_save">設定</string>
+    <string name="debug_menu_database">ローカルデータベース</string>
+    <string name="debug_menu_favorite_tracks">お気に入りトラック：%d</string>
+    <string name="debug_menu_favorite_artists">お気に入りアーティスト：%d</string>
+    <string name="debug_menu_favorite_playlists">お気に入りプレイリスト：%d</string>
+    <string name="debug_menu_offline_tracks">オフライントラック：%d</string>
+    <string name="debug_menu_reset_database">ローカルデータベースをリセット</string>
+    <string name="debug_menu_reset_database_desc">お気に入り、オフライントラック、インポート履歴を消去します</string>
+    <string name="debug_menu_reset_database_done">ローカルデータベースをリセットしました</string>
+    <string name="debug_menu_actions">アクション</string>
+    <string name="debug_menu_copy_report">デバッグレポートをコピー</string>
+    <string name="debug_menu_copy_report_desc">ビルド、デバイス、クライアント情報をクリップボードにコピーします</string>
+    <string name="debug_menu_copy">コピー</string>
+    <string name="debug_menu_report_copied">デバッグレポートをコピーしました</string>
+    <string name="debug_menu_test_crash">テストクラッシュを発生</string>
+    <string name="debug_menu_test_crash_desc">クラッシュ処理をテストするため、アプリを強制的にクラッシュさせます</string>
+    <string name="debug_menu_diagnostics">診断</string>
+    <string name="debug_menu_verbose_network">詳細なネットワークログ</string>
+    <string name="debug_menu_verbose_network_desc">リクエストとレスポンスの全文を下のトレースログに記録します</string>
+    <string name="debug_menu_screenshot_mode">スクリーンショットモード</string>
+    <string name="debug_menu_screenshot_mode_toggle">アートワークとアバターを非表示</string>
+    <string name="debug_menu_screenshot_mode_desc">アプリ全体でトラック、プレイリスト、アーティストのアートワークをプレースホルダーに置き換え、スクリーンショットに著作権のあるカバーが表示されないようにします。有効にした後、画面を移動すると適用されます。</string>
+    <string name="debug_menu_screenshot_mode_clear_cache">画像キャッシュを消去</string>
+    <string name="debug_menu_screenshot_mode_cache_cleared">画像キャッシュを消去しました</string>
+    <string name="debug_menu_player_state">プレーヤーの状態</string>
+    <string name="debug_menu_player_state_desc">PlayerControllerのリアルタイムスナップショット。ミックスやキューの再生問題をデバッグする際に役立ちます</string>
+    <string name="debug_menu_trace">トレースログ</string>
+    <string name="debug_menu_trace_desc">最近のアプリイベント（ログイン、お気に入り同期、ネットワーク）</string>
+    <string name="debug_menu_trace_empty">トレース項目はまだありません</string>
+    <string name="debug_menu_clear">クリア</string>
+    <string name="debug_menu_greetings">ホームの挨拶</string>
+    <string name="debug_menu_greetings_desc">時間帯や特定のフレーズを指定して、ホーム画面の挨拶をプレビューします</string>
+    <string name="debug_menu_greetings_current">現在：%s</string>
+    <string name="debug_menu_greeting_period_morning">朝</string>
+    <string name="debug_menu_greeting_period_afternoon">午後</string>
+    <string name="debug_menu_greeting_period_evening">夜</string>
+    <string name="debug_menu_greeting_period_night">深夜</string>
+    <string name="debug_menu_greetings_clear">実際の時刻を使用</string>
+
+    <!-- Import / Export -->
+    <string name="import_export_title">インポート / エクスポート</string>
+    <string name="export_favorites">お気に入りをエクスポート</string>
+    <string name="export_favorites_desc">トラック、アーティスト、プレイリストをJSONファイルに保存します</string>
+    <string name="import_favorites">お気に入りをインポート</string>
+    <string name="import_favorites_desc">JSONファイルからお気に入りを読み込みます。ローカル/オフラインのお気に入りにのみ保存され、SoundCloudの自分の「いいね」とは同期されません。</string>
+    <string name="import_sc_title">SoundCloudからインポート</string>
+    <string name="import_sc_desc">SoundCloudのユーザー名またはプロフィールURLを入力します。ローカル/オフラインのお気に入りにのみ保存され、SoundCloudの自分の「いいね」とは同期されません。</string>
+    <string name="import_sc_hint">ユーザー名またはsoundcloud.com/ユーザー名</string>
+    <string name="import_sc_resolve">プロフィールを特定</string>
+    <string name="import_sc_fetch">「いいね」を取得</string>
+    <string name="import_sc_cancel">キャンセル</string>
+    <string name="import_sc_resolving">プロフィールを特定中…</string>
+    <string name="import_sc_fetched">%dトラックを取得しました…</string>
+    <string name="import_sc_slow">「いいね」が多いプロフィールでは時間がかかる場合があります</string>
+    <string name="import_sc_preview">プレビュー</string>
+    <string name="import_sc_preview_count">%sから%d件の「いいね」トラック</string>
+    <string name="import_sc_preview_playlists">「いいね」したプレイリスト%d件</string>
+    <string name="import_sc_fetch_playlists">プレイリストを取得</string>
+    <string name="import_sc_fetching_playlists">%d件のプレイリストを取得しました…</string>
+    <string name="import_sc_replace">現在のお気に入りを置き換える</string>
+    <string name="import_sc_merge">現在のお気に入りと統合</string>
+    <string name="import_sc_importing">インポート中…</string>
+    <string name="import_sc_dismiss">閉じる</string>
+
+    <!-- Telegram import (BETA) -->
+    <string name="import_tg_title">Telegramからインポート</string>
+    <string name="import_tg_beta">ベータ</string>
+    <string name="import_tg_desc">チャット内の共有音声をスキャンしてSoundCloudと照合し、見つからなかったものをオフライントラックに追加します。一致したものはローカル/オフラインのお気に入りにのみ保存され、SoundCloudの自分の「いいね」とは同期されません。</string>
+    <string name="import_tg_unavailable">このビルドでは設定されていません — Telegramインポートのセットアップメモを確認してください。</string>
+    <string name="import_tg_start">Telegramでログイン</string>
+    <string name="import_tg_connecting">接続中…</string>
+    <string name="import_tg_phone_hint">電話番号（国番号付き）</string>
+    <string name="import_tg_send_phone">Continue</string>
+    <string name="import_tg_code_sent">コードを%sに送信しました</string>
+    <string name="import_tg_code_hint">ログインコード</string>
+    <string name="import_tg_send_code">Continue</string>
+    <string name="import_tg_password_hint">クラウドパスワード</string>
+    <string name="import_tg_send_password">Continue</string>
+    <string name="import_tg_load_chats">チャットを選択</string>
+    <string name="import_tg_log_out">Sign out</string>
+    <string name="import_tg_loading_chats">チャットを読み込み中…</string>
+    <string name="import_tg_select_folder">チャットを探す</string>
+    <string name="import_tg_all_chats">すべてのチャット</string>
+    <string name="import_tg_pinned">ピン留め</string>
+    <string name="import_tg_select_chat">スキャンするチャットを選択</string>
+    <string name="import_tg_progress">スキャン中… %1$d件処理済み\n%2$s</string>
+    <string name="import_tg_progress_stats">一致 %1$d · オフライン %2$d · 失敗 %3$d · ライブラリに既存 %4$d</string>
+    <string name="import_tg_done">インポート完了</string>
+
+    <!-- Messages -->
+    <string name="msg_export_success">お気に入りを正常にエクスポートしました</string>
+    <string name="msg_export_failed">エクスポートに失敗しました：%s</string>
+    <string name="msg_import_result">インポート済み：%1$dトラック、%2$dアーティスト、%3$dプレイリスト</string>
+    <string name="msg_import_failed">インポートに失敗しました：%s</string>
+    <string name="msg_sc_import_result">SoundCloudから%dトラックをインポートしました</string>
+    <string name="msg_sc_import_failed">インポートに失敗しました</string>
+    <string name="msg_sc_resolve_failed">プロフィールの特定に失敗しました</string>
+    <string name="msg_sc_search_failed">検索に失敗しました</string>
+    <string name="msg_sc_no_results">プロフィールが見つかりませんでした</string>
+    <string name="import_sc_searching">検索中…</string>
+    <string name="import_sc_select_profile">プロフィールを選択</string>
+    <string name="msg_sc_fetch_failed">「いいね」の取得に失敗しました</string>
+
+    <!-- About -->
+    <string name="about_github">GitHub</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_build_canary">Canary-build</string>
+    <string name="easter_egg_caption">これらは何も起こしません</string>
+    <string name="easter_egg_press_me">押してみて</string>
+    <string name="easter_egg_launch">起動</string>
+    <string name="easter_egg_gravity">重力</string>
+
+    <!-- Badges -->
+    <string name="badge_developer">開発者バッジ</string>
+    <string name="badge_developer_desc">このユーザーはResonaの開発者です。</string>
+    <string name="badge_supporter">サポーターバッジ</string>
+    <string name="badge_supporter_desc">このユーザーはResonaのサポーターです。</string>
+    <string name="badge_unknown">不明なバッジ。</string>
+    <string name="badge_received">%1$sが%2$sバッジを獲得しました。</string>
+
+    <!-- Common -->
+    <string name="back">戻る</string>
+    <string name="done">完了</string>
+    <string name="close">閉じる</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- Sorting -->
+    <string name="sort_button">並べ替え</string>
+    <string name="sort_sheet_title">並べ替え基準</string>
+    <string name="sort_default">デフォルト</string>
+    <string name="sort_title">タイトル</string>
+    <string name="sort_artist">アーティスト</string>
+    <string name="sort_duration">再生時間</string>
+    <string name="sort_direction">方向</string>
+    <string name="sort_dir_original">元の順序</string>
+    <string name="sort_dir_reversed">逆順</string>
+    <string name="sort_dir_a_z">A–Z</string>
+    <string name="sort_dir_z_a">Z–A</string>
+    <string name="sort_dir_shortest">短い順</string>
+    <string name="sort_dir_longest">長い順</string>
+
+    <!-- Multi-select -->
+    <string name="selection_clear">選択を解除</string>
+    <string name="selection_count">%1$d件選択中</string>
+    <string name="selection_favorite_all">お気に入りを切り替え</string>
+    <string name="selection_download_all">ダウンロードを切り替え</string>
+    <string name="selection_select_all">すべて選択</string>
+
+    <!-- Theme names -->
+    <string name="theme_sc_orange">SoundCloudオレンジ</string>
+    <string name="theme_ultraviolet">ウルトラバイオレット</string>
+    <string name="theme_mint">ミント</string>
+    <string name="theme_ocean">オーシャン</string>
+    <string name="theme_system">システム（Material You）</string>
+    <string name="theme_from_track">トラックカバーから</string>
+    <string name="player_close_lyrics">歌詞を閉じる</string>
+    <string name="statistics_period_week">週</string>
+    <string name="statistics_period_month">月</string>
+    <string name="statistics_period_year">年</string>
+    <string name="statistics_period_all">すべて</string>
+    <string name="search_error_network_title">接続なし</string>
+    <string name="search_error_network_desc">インターネット接続を確認して、もう一度お試しください</string>
+    <string name="search_error_auth_title">アクセスが拒否されました</string>
+    <string name="search_error_auth_desc">Client IDが古くなっている可能性があります</string>
+    <string name="search_error_not_found_title">見つかりませんでした</string>
+    <string name="search_error_not_found_desc">別の検索語をお試しください</string>
+    <string name="search_error_track_gone_title">トラックが見つかりません</string>
+    <string name="search_error_track_gone_desc">削除されたか、非公開にされました</string>
+    <string name="search_error_server_title">SoundCloudが応答していません</string>
+    <string name="search_error_server_desc">SoundCloud側の問題です。後でもう一度お試しください</string>
+    <string name="search_error_link_title">リンクを開けませんでした</string>
+    <string name="search_error_link_desc">リンクを確認して、もう一度お試しください</string>
+    <string name="search_error_unknown_title">問題が発生しました</string>
+    <string name="search_error_unknown_desc">もう一度お試しください</string>
+    <string name="search_error_hint_check_connection">Wi-Fiまたはモバイルデータ通信を確認してください。</string>
+    <string name="search_error_hint_pull_to_retry">リストを下に引っ張って再試行してください。</string>
+    <string name="search_error_hint_client_id">「設定」→「Client IDを更新」を開いてください。</string>
+    <string name="search_error_hint_wait">通常は数分で解消します。</string>
+    <string name="search_error_hint_change_query">短い語句や別の言葉をお試しください。</string>
+    <string name="search_error_hint_search_by_name">トラック名で検索してください。</string>
+    <string name="search_error_hint_check_link">リンクはsoundcloud.comを指している必要があります。</string>
+    <string name="calculating">計算中…</string>
+    <string name="action_favorite">お気に入り</string>
+    <string name="action_download">ダウンロード</string>
+    <string name="action_share">共有</string>
+    <string name="favorites_removed_count">お気に入りから%d件削除しました</string>
+    <string name="undo">元に戻す</string>
+    <string name="history_entry_removed">履歴から削除しました</string>
+    <string name="favorite_added">お気に入りに追加しました</string>
+    <string name="favorite_removed">お気に入りから削除しました</string>
+    <string name="bulk_download_progress">%2$d件中%1$d件をダウンロード中</string>
+    <string name="bulk_download_done">%2$d件中%1$d件をダウンロードしました</string>
+    <string name="bulk_download_failed">失敗：%1$d</string>
+    <string name="bulk_download_cancel">ダウンロードをキャンセル</string>
+    <string name="settings_dividers">区切り線</string>
+    <string name="settings_dividers_desc">設定、メニュー、ミニプレーヤーの項目間に線を表示します</string>
+    <string name="settings_dividers_hidden">オフ</string>
+    <string name="settings_dividers_subtle">控えめ</string>
+    <string name="settings_dividers_bright">明るい</string>
+    <string name="settings_drm_hiding">DRMトラック</string>
+    <string name="settings_drm_hiding_desc">SoundCloudは一部のアップロードを暗号化しており、アプリでは再生できません。通常、影響を受けるのは大手レーベルのリリースです。</string>
+    <string name="settings_drm_hiding_full">完全</string>
+    <string name="settings_drm_hiding_partial">一部</string>
+    <string name="settings_drm_hiding_off">オフ</string>
+    <string name="settings_drm_hiding_full_desc">暗号化されたトラックはアーティストプロフィールに表示されません。</string>
+    <string name="settings_drm_hiding_partial_desc">同じアーティストに再生可能なコピーがある場合のみ、暗号化されたトラックを非表示にします。コピーがないトラックは表示されたまま、利用不可としてマークされます。</string>
+    <string name="settings_drm_hiding_off_desc">すべてのトラックを表示し、暗号化されたものは利用不可としてマークします。</string>
+    <string name="auto_export">自動エクスポート</string>
+    <string name="auto_export_desc">一度選択したファイルにお気に入りを保存します。その後はファイルを再指定せず、バックグラウンドで保存されます。</string>
+    <string name="auto_export_pick_file">ファイルを選択</string>
+    <string name="auto_export_change_file">ファイルを変更</string>
+    <string name="auto_export_no_file">ファイルはまだ選択されていません</string>
+    <string name="auto_export_interval_6h">6時間</string>
+    <string name="auto_export_interval_daily">毎日</string>
+    <string name="auto_export_interval_weekly">毎週</string>
+    <string name="auto_export_last_run">最終保存：%s</string>
+    <string name="auto_export_never">まだ保存されていません</string>
+    <string name="auto_export_run_now">今すぐ保存</string>
+    <string name="auto_export_battery_note">バッテリーセーバーがオンの場合、Androidがバックグラウンド保存を遅延させることがあります。コピーが古い場合、アプリ起動時にも保存します。</string>
+    <string name="settings_language_custom">カスタム</string>
+    <string name="custom_language_title">カスタム翻訳</string>
+    <string name="custom_language_desc">自分または他の人が翻訳したstrings.xmlファイルを読み込みます。まずテンプレートを保存し、タグ内のテキストを翻訳してからファイルを読み込んでください。</string>
+    <string name="custom_language_template">テンプレートを保存</string>
+    <string name="custom_language_pick">翻訳を読み込む</string>
+    <string name="custom_language_replace">翻訳を置き換える</string>
+    <string name="custom_language_none">ファイルはまだ読み込まれていません</string>
+    <string name="custom_language_stats">%2$d個中%1$d個の文字列を翻訳済み</string>
+    <string name="custom_language_unknown">不明なキーをスキップしました：%d</string>
+    <string name="custom_language_missing_note">ファイルに含まれていない項目は英語のままになります。</string>
+    <string name="custom_language_clear">翻訳を削除</string>
+    <string name="custom_language_loaded">翻訳を読み込みました</string>
+    <string name="custom_language_failed">ファイルを読み込めませんでした</string>
+    <string name="custom_language_template_saved">テンプレートを保存しました</string>
+</resources>

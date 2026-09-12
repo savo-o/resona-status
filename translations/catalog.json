@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "template": {
+    "file": "template.xml",
+    "appVersion": "1.5",
+    "strings": 534,
+    "arrays": 4
+  },
+  "translations": [
+    {
+      "id": "ja",
+      "name": "日本語",
+      "englishName": "Japanese",
+      "author": "savo-o",
+      "file": "ja.xml",
+      "appVersion": "1.5",
+      "strings": 534,
+      "arrays": 4,
+      "updated": "2026-09-12"
+    },
+    {
+      "id": "ru-pre-reform",
+      "name": "Русскій (дореформенный)",
+      "englishName": "Russian (pre-reform orthography)",
+      "author": "savo-o",
+      "file": "strings_pre_reform_ru.xml",
+      "appVersion": "1.5",
+      "strings": 534,
+      "arrays": 4,
+      "updated": "2026-09-12"
+    },
+    {
+      "id": "nya",
+      "name": "Няняняня",
+      "englishName": "Nya (joke)",
+      "author": "savo-o",
+      "file": "strings_nyanyany.xml",
+      "appVersion": "1.5",
+      "strings": 534,
+      "arrays": 4,
+      "updated": "2026-09-12"
+    }
+  ]
+}

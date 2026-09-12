@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">няняняняня</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">няняняняня</string>
+    <string name="onboarding_welcome_desc">няняняняня</string>
+    <string name="onboarding_mix_title">няняняняня</string>
+    <string name="onboarding_mix_desc">няняняняня</string>
+    <string name="onboarding_lyrics_title">няняняняня</string>
+    <string name="onboarding_lyrics_desc">няняняняня</string>
+    <string name="onboarding_offline_title">няняняняня</string>
+    <string name="onboarding_offline_desc">няняняняня</string>
+    <string name="onboarding_migrate_title">няняняняня</string>
+    <string name="onboarding_migrate_desc">няняняняня</string>
+    <string name="onboarding_skip">няняняняня</string>
+    <string name="onboarding_next">няняняняня</string>
+    <string name="onboarding_get_started">няняняняня</string>
+
+    <!-- Home screen launcher icon shortcuts -->
+    <string name="shortcut_favorites_short">няняняняня</string>
+    <string name="shortcut_favorites_long">няняняняня</string>
+    <string name="shortcut_offline_short">няняняняня</string>
+    <string name="shortcut_offline_long">няняняняня</string>
+    <string name="shortcut_search_short">няняняняня</string>
+    <string name="shortcut_search_long">няняняняня</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">няняняняня</string>
+    <string name="nav_search">няняняняня</string>
+    <string name="nav_favorites">няняняняня</string>
+    <string name="nav_account">няняняняня</string>
+    <string name="nav_settings">няняняняня</string>
+    <string name="nav_artist">няняняняня</string>
+    <string name="nav_playlist">няняняняня</string>
+    <string name="nav_favorite_artists">няняняняня</string>
+    <string name="nav_favorite_playlists">няняняняня</string>
+    <string name="nav_import_export">няняняняня</string>
+
+    <!-- Home -->
+    <string-array name="home_greeting_morning">
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+    </string-array>
+    <string-array name="home_greeting_afternoon">
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+    </string-array>
+    <string-array name="home_greeting_evening">
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+    </string-array>
+    <string-array name="home_greeting_night">
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+        <item>няняняняня</item>
+    </string-array>
+    <string name="home_mix_subtitle_count">няняняняня</string>
+    <string name="home_mix_empty_title">няняняняня</string>
+    <string name="home_mix_empty_desc">няняняняня</string>
+    <string name="home_section_jump_back_in">няняняняня</string>
+    <string name="home_section_favorites">няняняняня</string>
+    <string name="home_section_offline">няняняняня</string>
+    <string name="home_section_artists">няняняняня</string>
+    <string name="home_section_playlists">няняняняня</string>
+    <string name="home_action_statistics">няняняняня</string>
+    <string name="home_action_charts">няняняняня</string>
+    <string name="charts_title">няняняняня</string>
+    <string name="charts_subtitle">няняняняня</string>
+    <string name="charts_play_all">няняняняня</string>
+    <string name="charts_empty">няняняняня</string>
+    <string name="charts_error">няняняняня</string>
+
+    <!-- Mix customizer -->
+    <string name="mix_customizer_title">няняняняня</string>
+    <string name="mix_customizer_subtitle">няняняняня</string>
+    <string name="mix_customizer_your_artists">няняняняня</string>
+    <string name="mix_customizer_discover_title">няняняняня</string>
+    <string name="mix_customizer_discover_desc">няняняняня</string>
+    <string name="mix_customizer_blocked_title">няняняняня</string>
+    <string name="mix_customizer_unblock">няняняняня</string>
+    <string name="mix_customizer_start">няняняняня</string>
+
+    <!-- Disliked artists -->
+    <string name="settings_disliked_artists">няняняняня</string>
+    <string name="disliked_artists_empty">няняняняня</string>
+    <string name="disliked_artists_remove">няняняняня</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">няняняняня</string>
+    <string name="statistics_hours_listened">няняняняня</string>
+    <string name="statistics_total_plays">няняняняня</string>
+    <string name="statistics_top_artists">няняняняня</string>
+    <string name="statistics_empty">няняняняня</string>
+    <string name="statistics_duration_hm">няняняняня</string>
+    <string name="statistics_duration_m">няняняняня</string>
+    <string name="statistics_play_count">няняняняня</string>
+    <string name="statistics_top_artists_info_title">няняняняня</string>
+    <string name="statistics_top_artists_info_body">няняняняня</string>
+    <string name="statistics_top_artists_info_dismiss">няняняняня</string>
+    <string name="statistics_share">няняняняня</string>
+    <string name="wrapped_kicker">няняняняня</string>
+    <string name="wrapped_hours_listened">няняняняня</string>
+    <string name="wrapped_plays_count">няняняняня</string>
+    <string name="wrapped_top_artists">няняняняня</string>
+    <string name="wrapped_top_tracks">няняняняня</string>
+    <string name="wrapped_footer">няняняняня</string>
+    <string name="wrapped_share">няняняняня</string>
+
+    <!-- Search -->
+    <string name="search_hint">няняняняня</string>
+    <string name="search_tracks">няняняняня</string>
+    <string name="search_artists">няняняняня</string>
+    <string name="search_playlists">няняняняня</string>
+    <string name="search_nothing_found">няняняняня</string>
+    <string name="search_empty">няняняняня</string>
+    <string name="search_empty_title">няняняняня</string>
+    <string name="search_empty_desc">няняняняня</string>
+    <string name="search_empty_hint_tabs">няняняняня</string>
+    <string name="search_empty_hint_history">няняняняня</string>
+    <string name="search_clear">няняняняня</string>
+    <string name="search_history">няняняняня</string>
+    <string name="search_clear_history">няняняняня</string>
+    <string name="search_remove">няняняняня</string>
+
+    <string name="library_offline">няняняняня</string>
+    <string name="offline_empty">няняняняня</string>
+    <string name="offline_import_folder">няняняняня</string>
+    <string name="offline_import_result">няняняняня</string>
+    <string name="offline_import_result_no_skip">няняняняня</string>
+    <string name="offline_watched_folders_title">няняняняня</string>
+    <string name="offline_watched_folders_empty">няняняняня</string>
+    <string name="offline_unwatch_folder">няняняняня</string>
+    <string name="network_unavailable">няняняняня</string>
+    <string name="network_restored">няняняняня</string>
+    <string name="track_skipped_message">няняняняня</string>
+    <string name="track_skipped_deleted">няняняняня</string>
+    <string name="track_skipped_drm">няняняняня</string>
+    <string name="track_skipped_preview">няняняняня</string>
+    <string name="track_unavailable_message">няняняняня</string>
+    <string name="track_unavailable">няняняняня</string>
+    <string name="track_skipped_retry">няняняняня</string>
+    <string name="track_skipped_details">няняняняня</string>
+    <string name="track_dialog_ok">няняняняня</string>
+    <string name="track_unavailable_note">няняняняня</string>
+    <string name="network_retrying">няняняняня</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">няняняняня</string>
+    <string name="favorites_empty">няняняняня</string>
+    <string name="favorite_artists_title">няняняняня</string>
+    <string name="favorite_artists_empty">няняняняня</string>
+    <string name="favorite_playlists_title">няняняняня</string>
+    <string name="favorite_playlists_empty">няняняняня</string>
+
+    <!-- Player -->
+    <string name="player_collapse">няняняняня</string>
+    <string name="player_favorite">няняняняня</string>
+    <string name="player_play">няняняняня</string>
+    <string name="player_pause">няняняняня</string>
+    <string name="player_previous">няняняняня</string>
+    <string name="player_next">няняняняня</string>
+    <string name="player_share">няняняняня</string>
+    <string name="player_save_offline">няняняняня</string>
+    <string name="player_saved_offline">няняняняня</string>
+    <string name="player_shuffle">няняняняня</string>
+    <string name="player_repeat">няняняняня</string>
+    <string name="player_lyrics">няняняняня</string>
+    <string name="player_lyrics_none_found">няняняняня</string>
+    <string name="player_lyrics_source">няняняняня</string>
+    <string name="player_lyrics_offset_earlier">няняняняня</string>
+    <string name="player_lyrics_offset_later">няняняняня</string>
+    <string name="player_playing_from">няняняняня</string>
+    <string name="player_source_mix">няняняняня</string>
+    <string name="player_source_favorites">няняняняня</string>
+    <string name="player_source_offline">няняняняня</string>
+    <string name="player_source_search">няняняняня</string>
+    <string name="player_exclude_artist">няняняняня</string>
+    <string name="player_more_options">няняняняня</string>
+    <string name="player_sleep_timer">няняняняня</string>
+    <string name="player_sleep_timer_minutes_format">няняняняня</string>
+    <string name="player_sleep_timer_active_format">няняняняня</string>
+    <string name="player_sleep_timer_cancel">няняняняня</string>
+    <string name="player_queue">няняняняня</string>
+    <string name="player_queue_remove">няняняняня</string>
+    <string name="player_speed">няняняняня</string>
+    <string name="player_speed_format">няняняняня</string>
+    <string name="player_speed_reset">няняняняня</string>
+    <string name="history_title">няняняняня</string>
+    <string name="history_empty">няняняняня</string>
+    <string name="history_clear">няняняняня</string>
+    <string name="history_clear_confirm">няняняняня</string>
+    <string name="history_remove_entry">няняняняня</string>
+    <string name="history_today">няняняняня</string>
+    <string name="history_yesterday">няняняняня</string>
+    <string name="history_entry_format">няняняняня</string>
+    <string name="history_entry_repeated_format">няняняняня</string>
+    <string name="settings_cache_limit">няняняняня</string>
+    <string name="settings_cache_limit_desc">няняняняня</string>
+    <string name="settings_cache_limit_mb">няняняняня</string>
+    <string name="settings_cache_limit_gb">няняняняня</string>
+    <string name="player_sleep_timer_after_track">няняняняня</string>
+    <string name="player_sleep_timer_after_track_active">няняняняня</string>
+    <string name="settings_crossfade_duration">няняняняня</string>
+    <string name="settings_crossfade_duration_format">няняняняня</string>
+    <string name="track_play_next">няняняняня</string>
+    <string name="track_add_to_queue">няняняняня</string>
+    <string name="selection_queue_all">няняняняня</string>
+    <string name="player_exclude_artist_short">няняняняня</string>
+
+    <!-- Search tabs -->
+    <string name="tab_tracks">няняняняня</string>
+    <string name="tab_artists">няняняняня</string>
+    <string name="tab_playlists">няняняняня</string>
+
+    <!-- Artist / Playlist -->
+    <string name="play_all">няняняняня</string>
+    <string name="artist_tracks">няняняняня</string>
+    <string name="artist_followers">няняняняня</string>
+    <string name="artist_tracks_count">няняняняня</string>
+    <string name="artist_at_username">няняняняня</string>
+    <string name="artist_id">няняняняня</string>
+    <string name="artist_error">няняняняня</string>
+    <string name="playlist_by">няняняняня</string>
+    <string name="playlist_tracks_count">няняняняня</string>
+
+    <!-- Account -->
+    <string name="account_title">няняняняня</string>
+    <string name="account_sign_in_soundcloud">няняняняня</string>
+    <string name="account_sign_in_title">няняняняня</string>
+    <string name="account_sign_in_desc">няняняняня</string>
+    <string name="account_sign_out">няняняняня</string>
+    <string name="account_share_link">няняняняня</string>
+    <string name="login_email_label">няняняняня</string>
+    <string name="login_password_label">няняняняня</string>
+    <string name="login_sign_in_button">няняняняня</string>
+    <string name="login_signing_in">няняняняня</string>
+    <string name="login_or_continue_with">няняняняня</string>
+    <string name="login_continue_google">няняняняня</string>
+    <string name="login_continue_facebook">няняняняня</string>
+    <string name="login_trouble_use_browser">няняняняня</string>
+    <string name="favorites_online_toggle_title">няняняняня</string>
+    <string name="favorites_online_toggle_desc">няняняняня</string>
+    <string name="favorites_badge_local">няняняняня</string>
+    <string name="favorites_badge_online">няняняняня</string>
+    <string name="favorites_badge_both">няняняняня</string>
+    <string name="favorites_online_unlike_failed">няняняняня</string>
+    <string name="favorites_online_fetch_failed">няняняняня</string>
+    <string name="favorites_online_sync_now">няняняняня</string>
+    <string name="favorites_online_sync_now_desc">няняняняня</string>
+    <string name="favorites_online_sync_now_done">няняняняня</string>
+    <string name="favorites_online_sync_now_failed">няняняняня</string>
+    <string name="account_settings">няняняняня</string>
+
+    <!-- Settings -->
+    <string name="settings_title">няняняняня</string>
+    <string name="settings_customization">няняняняня</string>
+    <string name="settings_color_theme">няняняняня</string>
+    <string name="settings_custom_color">няняняняня</string>
+    <string name="settings_custom_color_hue">няняняняня</string>
+    <string name="settings_custom_color_saturation">няняняняня</string>
+    <string name="settings_custom_color_brightness">няняняняня</string>
+    <string name="settings_home_sections">няняняняня</string>
+    <string name="settings_home_sections_desc">няняняняня</string>
+    <string name="player_customize_hint">няняняняня</string>
+    <string name="settings_app_background">няняняняня</string>
+    <string name="settings_app_background_dynamic">няняняняня</string>
+    <string name="settings_app_background_default">няняняняня</string>
+    <string name="settings_app_background_custom">няняняняня</string>
+    <string name="settings_app_background_player_only">няняняняня</string>
+    <string name="settings_app_background_dynamic_desc">няняняняня</string>
+    <string name="settings_app_background_default_desc">няняняняня</string>
+    <string name="settings_app_background_custom_desc">няняняняня</string>
+    <string name="settings_app_background_player_only_desc">няняняняня</string>
+    <string name="settings_player_style">няняняняня</string>
+    <string name="settings_pixel_glow">няняняняня</string>
+    <string name="settings_pixel_glow_desc">няняняняня</string>
+    <string name="settings_player_style_pixel">няняняняня</string>
+    <string name="settings_player_style_legacy">няняняняня</string>
+    <string name="settings_player_background">няняняняня</string>
+    <string name="settings_player_background_orb">няняняняня</string>
+    <string name="settings_player_background_blurred">няняняняня</string>
+    <string name="settings_player_background_minimal">няняняняня</string>
+    <string name="settings_app_icon">няняняняня</string>
+    <string name="settings_app_icon_normal">няняняняня</string>
+    <string name="settings_app_icon_dynamic">няняняняня</string>
+    <string name="settings_app_icon_desc">няняняняня</string>
+    <string name="settings_dark_theme">няняняняня</string>
+    <string name="settings_dark_system">няняняняня</string>
+    <string name="settings_dark_light">няняняняня</string>
+    <string name="settings_dark_dark">няняняняня</string>
+    <string name="settings_dynamic_color">няняняняня</string>
+    <string name="settings_dynamic_color_desc">няняняняня</string>
+    <string name="settings_autoplay">няняняняня</string>
+    <string name="settings_crossfade">няняняняня</string>
+    <string name="settings_crossfade_desc">няняняняня</string>
+    <string name="settings_seek_bar_style">няняняняня</string>
+    <string name="settings_seek_bar_style_classic">няняняняня</string>
+    <string name="settings_seek_bar_style_wavy">няняняняня</string>
+    <string name="settings_lyrics_provider">няняняняня</string>
+    <string name="settings_lyrics_provider_lrclib">няняняняня</string>
+    <string name="settings_lyrics_provider_kugou">няняняняня</string>
+    <string name="settings_lyrics_provider_desc">няняняняня</string>
+    <string name="settings_lyrics_genius_fallback">няняняняня</string>
+    <string name="settings_lyrics_genius_fallback_desc">няняняняня</string>
+    <string name="settings_haptics">няняняняня</string>
+    <string name="settings_haptics_desc">няняняняня</string>
+    <string name="settings_haptics_intensity">няняняняня</string>
+    <string name="settings_haptics_intensity_low">няняняняня</string>
+    <string name="settings_haptics_intensity_medium">няняняняня</string>
+    <string name="settings_haptics_intensity_high">няняняняня</string>
+    <string name="settings_developer_mode">няняняняня</string>
+    <string name="settings_developer_mode_desc">няняняняня</string>
+    <string name="settings_language">няняняняня</string>
+    <string name="settings_language_en">няняняняня</string>
+    <string name="settings_language_ru">няняняняня</string>
+    <string name="settings_storage">няняняняня</string>
+    <string name="settings_cache">няняняняня</string>
+    <string name="settings_cache_size">няняняняня</string>
+    <string name="settings_cache_cleared">няняняняня</string>
+    <string name="settings_clear">няняняняня</string>
+    <string name="settings_offline_tracks">няняняняня</string>
+    <string name="settings_offline_tracks_count">няняняняня</string>
+    <string name="settings_offline_cleared">няняняняня</string>
+    <string name="settings_client_id">няняняняня</string>
+    <string name="settings_client_id_desc">няняняняня</string>
+    <string name="settings_client_id_refreshed">няняняняня</string>
+    <string name="settings_keep_android_open_title">няняняняня</string>
+    <string name="settings_keep_android_open_desc">няняняняня</string>
+    <string name="settings_about">няняняняня</string>
+    <string name="settings_version">няняняняня</string>
+    <string name="settings_eula">няняняняня</string>
+    <string name="settings_eula_desc">няняняняня</string>
+    <string name="eula_title">няняняняня</string>
+    <string name="eula_body">няняняняня</string>
+    <string name="eula_gate_checkbox">няняняняня</string>
+    <string name="eula_decline">няняняняня</string>
+    <string name="eula_agree">няняняняня</string>
+    <string name="settings_debug_menu">няняняняня</string>
+    <string name="settings_debug_menu_desc">няняняняня</string>
+    <string name="settings_updates">няняняняня</string>
+    <string name="settings_update_channel_release">няняняняня</string>
+    <string name="settings_update_channel_canary">няняняняня</string>
+    <string name="settings_auto_check_updates">няняняняня</string>
+    <string name="settings_check_for_updates">няняняняня</string>
+    <string name="settings_checking_for_updates">няняняняня</string>
+    <string name="settings_update_up_to_date">няняняняня</string>
+    <string name="settings_update_check_failed">няняняняня</string>
+
+    <!-- Update dialogs -->
+    <string name="update_dialog_title_release">няняняняня</string>
+    <string name="update_dialog_message_release">няняняняня</string>
+    <string name="update_dialog_no_changelog">няняняняня</string>
+    <string name="update_dialog_title_canary">няняняняня</string>
+    <string name="update_dialog_message_canary">няняняняня</string>
+    <string name="update_dialog_later">няняняняня</string>
+    <string name="crash_dialog_title">няняняняня</string>
+    <string name="crash_dialog_message">няняняняня</string>
+    <string name="crash_dialog_dismiss">няняняняня</string>
+    <string name="update_dialog_open_github">няняняняня</string>
+
+    <!-- Debug Menu -->
+    <string name="debug_menu_title">няняняняня</string>
+    <string name="debug_menu_build_info">няняняняня</string>
+    <string name="debug_menu_version">няняняняня</string>
+    <string name="debug_menu_build_type">няняняняня</string>
+    <string name="debug_menu_application_id">няняняняня</string>
+    <string name="debug_menu_device">няняняняня</string>
+    <string name="debug_menu_client_id">няняняняня</string>
+    <string name="debug_menu_client_id_current">няняняняня</string>
+    <string name="debug_menu_client_id_override_hint">няняняняня</string>
+    <string name="debug_menu_client_id_save">няняняняня</string>
+    <string name="debug_menu_database">няняняняня</string>
+    <string name="debug_menu_favorite_tracks">няняняняня</string>
+    <string name="debug_menu_favorite_artists">няняняняня</string>
+    <string name="debug_menu_favorite_playlists">няняняняня</string>
+    <string name="debug_menu_offline_tracks">няняняняня</string>
+    <string name="debug_menu_reset_database">няняняняня</string>
+    <string name="debug_menu_reset_database_desc">няняняняня</string>
+    <string name="debug_menu_reset_database_done">няняняняня</string>
+    <string name="debug_menu_actions">няняняняня</string>
+    <string name="debug_menu_copy_report">няняняняня</string>
+    <string name="debug_menu_copy_report_desc">няняняняня</string>
+    <string name="debug_menu_copy">няняняняня</string>
+    <string name="debug_menu_report_copied">няняняняня</string>
+    <string name="debug_menu_test_crash">няняняняня</string>
+    <string name="debug_menu_test_crash_desc">няняняняня</string>
+    <string name="debug_menu_diagnostics">няняняняня</string>
+    <string name="debug_menu_verbose_network">няняняняня</string>
+    <string name="debug_menu_verbose_network_desc">няняняняня</string>
+    <string name="debug_menu_screenshot_mode">няняняняня</string>
+    <string name="debug_menu_screenshot_mode_toggle">няняняняня</string>
+    <string name="debug_menu_screenshot_mode_desc">няняняняня</string>
+    <string name="debug_menu_screenshot_mode_clear_cache">няняняняня</string>
+    <string name="debug_menu_screenshot_mode_cache_cleared">няняняняня</string>
+    <string name="debug_menu_player_state">няняняняня</string>
+    <string name="debug_menu_player_state_desc">няняняняня</string>
+    <string name="debug_menu_trace">няняняняня</string>
+    <string name="debug_menu_trace_desc">няняняняня</string>
+    <string name="debug_menu_trace_empty">няняняняня</string>
+    <string name="debug_menu_clear">няняняняня</string>
+    <string name="debug_menu_greetings">няняняняня</string>
+    <string name="debug_menu_greetings_desc">няняняняня</string>
+    <string name="debug_menu_greetings_current">няняняняня</string>
+    <string name="debug_menu_greeting_period_morning">няняняняня</string>
+    <string name="debug_menu_greeting_period_afternoon">няняняняня</string>
+    <string name="debug_menu_greeting_period_evening">няняняняня</string>
+    <string name="debug_menu_greeting_period_night">няняняняня</string>
+    <string name="debug_menu_greetings_clear">няняняняня</string>
+
+    <!-- Import / Export -->
+    <string name="import_export_title">няняняняня</string>
+    <string name="export_favorites">няняняняня</string>
+    <string name="export_favorites_desc">няняняняня</string>
+    <string name="import_favorites">няняняняня</string>
+    <string name="import_favorites_desc">няняняняня</string>
+    <string name="import_sc_title">няняняняня</string>
+    <string name="import_sc_desc">няняняняня</string>
+    <string name="import_sc_hint">няняняняня</string>
+    <string name="import_sc_resolve">няняняняня</string>
+    <string name="import_sc_fetch">няняняняня</string>
+    <string name="import_sc_cancel">няняняняня</string>
+    <string name="import_sc_resolving">няняняняня</string>
+    <string name="import_sc_fetched">няняняняня</string>
+    <string name="import_sc_slow">няняняняня</string>
+    <string name="import_sc_preview">няняняняня</string>
+    <string name="import_sc_preview_count">няняняняня</string>
+    <string name="import_sc_preview_playlists">няняняняня</string>
+    <string name="import_sc_fetch_playlists">няняняняня</string>
+    <string name="import_sc_fetching_playlists">няняняняня</string>
+    <string name="import_sc_replace">няняняняня</string>
+    <string name="import_sc_merge">няняняняня</string>
+    <string name="import_sc_importing">няняняняня</string>
+    <string name="import_sc_dismiss">няняняняня</string>
+
+    <!-- Telegram import (BETA) -->
+    <string name="import_tg_title">няняняняня</string>
+    <string name="import_tg_beta">няняняняня</string>
+    <string name="import_tg_desc">няняняняня</string>
+    <string name="import_tg_unavailable">няняняняня</string>
+    <string name="import_tg_start">няняняняня</string>
+    <string name="import_tg_connecting">няняняняня</string>
+    <string name="import_tg_phone_hint">няняняняня</string>
+    <string name="import_tg_send_phone">няняняняня</string>
+    <string name="import_tg_code_sent">няняняняня</string>
+    <string name="import_tg_code_hint">няняняняня</string>
+    <string name="import_tg_send_code">няняняняня</string>
+    <string name="import_tg_password_hint">няняняняня</string>
+    <string name="import_tg_send_password">няняняняня</string>
+    <string name="import_tg_load_chats">няняняняня</string>
+    <string name="import_tg_log_out">няняняняня</string>
+    <string name="import_tg_loading_chats">няняняняня</string>
+    <string name="import_tg_select_folder">няняняняня</string>
+    <string name="import_tg_all_chats">няняняняня</string>
+    <string name="import_tg_pinned">няняняняня</string>
+    <string name="import_tg_select_chat">няняняняня</string>
+    <string name="import_tg_progress">няняняняня</string>
+    <string name="import_tg_progress_stats">няняняняня</string>
+    <string name="import_tg_done">няняняняня</string>
+
+    <!-- Messages -->
+    <string name="msg_export_success">няняняняня</string>
+    <string name="msg_export_failed">няняняняня</string>
+    <string name="msg_import_result">няняняняня</string>
+    <string name="msg_import_failed">няняняняня</string>
+    <string name="msg_sc_import_result">няняняняня</string>
+    <string name="msg_sc_import_failed">няняняняня</string>
+    <string name="msg_sc_resolve_failed">няняняняня</string>
+    <string name="msg_sc_search_failed">няняняняня</string>
+    <string name="msg_sc_no_results">няняняняня</string>
+    <string name="import_sc_searching">няняняняня</string>
+    <string name="import_sc_select_profile">няняняняня</string>
+    <string name="msg_sc_fetch_failed">няняняняня</string>
+
+    <!-- About -->
+    <string name="about_github">няняняняня</string>
+    <string name="about_version">няняняняня</string>
+    <string name="about_build_canary">няняняняня</string>
+    <string name="easter_egg_caption">няняняняня</string>
+    <string name="easter_egg_press_me">няняняняня</string>
+    <string name="easter_egg_launch">няняняняня</string>
+    <string name="easter_egg_gravity">няняняняня</string>
+
+    <!-- Badges -->
+    <string name="badge_developer">няняняняня</string>
+    <string name="badge_developer_desc">няняняняня</string>
+    <string name="badge_supporter">няняняняня</string>
+    <string name="badge_supporter_desc">няняняняня</string>
+    <string name="badge_unknown">няняняняня</string>
+    <string name="badge_received">няняняняня</string>
+
+    <!-- Common -->
+    <string name="back">няняняняня</string>
+    <string name="done">няняняняня</string>
+    <string name="close">няняняняня</string>
+    <string name="cancel">няняняняня</string>
+
+    <!-- Sorting -->
+    <string name="sort_button">няняняняня</string>
+    <string name="sort_sheet_title">няняняняня</string>
+    <string name="sort_default">няняняняня</string>
+    <string name="sort_title">няняняняня</string>
+    <string name="sort_artist">няняняняня</string>
+    <string name="sort_duration">няняняняня</string>
+    <string name="sort_direction">няняняняня</string>
+    <string name="sort_dir_original">няняняняня</string>
+    <string name="sort_dir_reversed">няняняняня</string>
+    <string name="sort_dir_a_z">няняняняня</string>
+    <string name="sort_dir_z_a">няняняняня</string>
+    <string name="sort_dir_shortest">няняняняня</string>
+    <string name="sort_dir_longest">няняняняня</string>
+
+    <!-- Multi-select -->
+    <string name="selection_clear">няняняняня</string>
+    <string name="selection_count">няняняняня</string>
+    <string name="selection_favorite_all">няняняняня</string>
+    <string name="selection_download_all">няняняняня</string>
+    <string name="selection_select_all">няняняняня</string>
+
+    <!-- Theme names -->
+    <string name="theme_sc_orange">няняняняня</string>
+    <string name="theme_ultraviolet">няняняняня</string>
+    <string name="theme_mint">няняняняня</string>
+    <string name="theme_ocean">няняняняня</string>
+    <string name="theme_system">няняняняня</string>
+    <string name="theme_from_track">няняняняня</string>
+    <string name="player_close_lyrics">няняняняня</string>
+    <string name="statistics_period_week">няняняняня</string>
+    <string name="statistics_period_month">няняняняня</string>
+    <string name="statistics_period_year">няняняняня</string>
+    <string name="statistics_period_all">няняняняня</string>
+    <string name="search_error_network_title">няняняняня</string>
+    <string name="search_error_network_desc">няняняняня</string>
+    <string name="search_error_auth_title">няняняняня</string>
+    <string name="search_error_auth_desc">няняняняня</string>
+    <string name="search_error_not_found_title">няняняняня</string>
+    <string name="search_error_not_found_desc">няняняняня</string>
+    <string name="search_error_track_gone_title">няняняняня</string>
+    <string name="search_error_track_gone_desc">няняняняня</string>
+    <string name="search_error_server_title">няняняняня</string>
+    <string name="search_error_server_desc">няняняняня</string>
+    <string name="search_error_link_title">няняняняня</string>
+    <string name="search_error_link_desc">няняняняня</string>
+    <string name="search_error_unknown_title">няняняняня</string>
+    <string name="search_error_unknown_desc">няняняняня</string>
+    <string name="search_error_hint_check_connection">няняняняня</string>
+    <string name="search_error_hint_pull_to_retry">няняняняня</string>
+    <string name="search_error_hint_client_id">няняняняня</string>
+    <string name="search_error_hint_wait">няняняняня</string>
+    <string name="search_error_hint_change_query">няняняняня</string>
+    <string name="search_error_hint_search_by_name">няняняняня</string>
+    <string name="search_error_hint_check_link">няняняняня</string>
+    <string name="calculating">няняняняня</string>
+    <string name="action_favorite">няняняняня</string>
+    <string name="action_download">няняняняня</string>
+    <string name="action_share">няняняняня</string>
+    <string name="favorites_removed_count">няняняняня</string>
+    <string name="undo">няняняняня</string>
+    <string name="history_entry_removed">няняняняня</string>
+    <string name="favorite_added">няняняняня</string>
+    <string name="favorite_removed">няняняняня</string>
+    <string name="bulk_download_progress">няняняняня</string>
+    <string name="bulk_download_done">няняняняня</string>
+    <string name="bulk_download_failed">няняняняня</string>
+    <string name="bulk_download_cancel">няняняняня</string>
+    <string name="settings_dividers">няняняняня</string>
+    <string name="settings_dividers_desc">няняняняня</string>
+    <string name="settings_dividers_hidden">няняняняня</string>
+    <string name="settings_dividers_subtle">няняняняня</string>
+    <string name="settings_dividers_bright">няняняняня</string>
+    <string name="settings_drm_hiding">няняняняня</string>
+    <string name="settings_drm_hiding_desc">няняняняня</string>
+    <string name="settings_drm_hiding_full">няняняняня</string>
+    <string name="settings_drm_hiding_partial">няняняняня</string>
+    <string name="settings_drm_hiding_off">няняняняня</string>
+    <string name="settings_drm_hiding_full_desc">няняняняня</string>
+    <string name="settings_drm_hiding_partial_desc">няняняняня</string>
+    <string name="settings_drm_hiding_off_desc">няняняняня</string>
+    <string name="auto_export">няняняняня</string>
+    <string name="auto_export_desc">няняняняня</string>
+    <string name="auto_export_pick_file">няняняняня</string>
+    <string name="auto_export_change_file">няняняняня</string>
+    <string name="auto_export_no_file">няняняняня</string>
+    <string name="auto_export_interval_6h">няняняняня</string>
+    <string name="auto_export_interval_daily">няняняняня</string>
+    <string name="auto_export_interval_weekly">няняняняня</string>
+    <string name="auto_export_last_run">няняняняня</string>
+    <string name="auto_export_never">няняняняня</string>
+    <string name="auto_export_run_now">няняняняня</string>
+    <string name="auto_export_battery_note">няняняняня</string>
+    <string name="settings_language_custom">няняняняня</string>
+    <string name="custom_language_title">няняняняня</string>
+    <string name="custom_language_desc">няняняняня</string>
+    <string name="custom_language_template">няняняняня</string>
+    <string name="custom_language_pick">няняняняня</string>
+    <string name="custom_language_replace">няняняняня</string>
+    <string name="custom_language_none">няняняняня</string>
+    <string name="custom_language_stats">няняняняня</string>
+    <string name="custom_language_unknown">няняняняня</string>
+    <string name="custom_language_missing_note">няняняняня</string>
+    <string name="custom_language_clear">няняняняня</string>
+    <string name="custom_language_loaded">няняняняня</string>
+    <string name="custom_language_failed">няняняняня</string>
+    <string name="custom_language_template_saved">няняняняня</string>
+</resources>

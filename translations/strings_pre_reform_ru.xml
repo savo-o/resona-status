@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resona</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Добро пожаловатьъ въ Resona</string>
+    <string name="onboarding_welcome_desc">Быстрый и чистый способъ слушать SoundCloud — ваша учётная запись, ваши треки, никакого хлама.</string>
+    <string name="onboarding_mix_title">Миксъ по вашему вкусу</string>
+    <string name="onboarding_mix_desc">Resona создаётъ безконечный миксъ изъ вашего избраннаго и оффлайнъ-трековъ, а кого въ него включать — рѣшаете вы.</string>
+    <string name="onboarding_lyrics_title">Синхронныя тексты</string>
+    <string name="onboarding_lyrics_desc">Слѣдите за текстомъ построчно во время воспроизведенія трека; если синхронізація сбилась, её легко поправить.</string>
+    <string name="onboarding_offline_title">Слушать оффлайнъ</string>
+    <string name="onboarding_offline_desc">Сохраняйте треки для оффлайнъ-прослушиванія и слѣдите за статистикой — всё въ одномъ мѣстѣ.</string>
+    <string name="onboarding_migrate_title">Перенести вашу библиотеку</string>
+    <string name="onboarding_migrate_desc">Уже естьъ лайки въ SoundCloud или треки, которыми дѣлились въ чатѣ Telegram? Въ любой моментъ перенесите ихъ черезъ «Импортъ / Экспортъ» на главномъ экранѣ.</string>
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_next">Далѣе</string>
+    <string name="onboarding_get_started">Начать</string>
+
+    <!-- Home screen launcher icon shortcuts -->
+    <string name="shortcut_favorites_short">Избранное</string>
+    <string name="shortcut_favorites_long">Открыть избранное</string>
+    <string name="shortcut_offline_short">Оффлайнъ</string>
+    <string name="shortcut_offline_long">Открыть оффлайнъ-треки</string>
+    <string name="shortcut_search_short">Поискъ</string>
+    <string name="shortcut_search_long">Искать треки</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_search">Поискъ</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_account">Учётная запись</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_artist">Артисту</string>
+    <string name="nav_playlist">Плейлистъ</string>
+    <string name="nav_favorite_artists">Избранныя артисты</string>
+    <string name="nav_favorite_playlists">Избранныя плейлисты</string>
+    <string name="nav_import_export">Импортъ / Экспортъ</string>
+
+    <!-- Home -->
+    <string-array name="home_greeting_morning">
+        <item>Good morning</item>
+        <item>Утро</item>
+        <item>Подъёмъ!</item>
+        <item>Доброе утро, ранняя пташка</item>
+        <item>Хорошаго начала дня</item>
+        <item>Новое утро — новый миксъ</item>
+    </string-array>
+    <string-array name="home_greeting_afternoon">
+        <item>Good afternoon</item>
+        <item>Привѣтъ</item>
+        <item>Надѣюсь, день идётъ хорошо</item>
+        <item>Дневной саундтрекъ къ вашимъ услугамъ</item>
+        <item>Продолжимъ въ томъ же духѣ</item>
+        <item>Дневной грувъ</item>
+    </string-array>
+    <string-array name="home_greeting_evening">
+        <item>Good evening</item>
+        <item>Вечеръ</item>
+        <item>Время отдохнуть</item>
+        <item>Какъ прошёлъ вашъ день?</item>
+        <item>Вечерняя музыка ждётъ</item>
+        <item>Пора отдохнуть?</item>
+    </string-array>
+    <string-array name="home_greeting_night">
+        <item>Hello, night owl</item>
+        <item>Ещё не спишь?</item>
+        <item>Засидѣлись допоздна?</item>
+        <item>Ночная музыка — специально для васъ</item>
+        <item>Не спится?</item>
+        <item>Ночь безъ конца</item>
+    </string-array>
+    <string name="home_mix_subtitle_count">%d трековъ въ миксѣ</string>
+    <string name="home_mix_empty_title">Начать слушать</string>
+    <string name="home_mix_empty_desc">Включите трекъ или добавьте избранное, чтобы создать свой миксъ</string>
+    <string name="home_section_jump_back_in">Продолжить прослушиваніе</string>
+    <string name="home_section_favorites">Изъ избраннаго</string>
+    <string name="home_section_offline">Готово для оффлайна</string>
+    <string name="home_section_artists">Ваши артисты</string>
+    <string name="home_section_playlists">Избранныя альбомы</string>
+    <string name="home_action_statistics">Статистика</string>
+    <string name="home_action_charts">Чарты</string>
+    <string name="charts_title">Чарты</string>
+    <string name="charts_subtitle">Новинки и популярное · Вся музыка</string>
+    <string name="charts_play_all">Воспроизвести всё</string>
+    <string name="charts_empty">Сейчасъ нѣтъ данныхъ чарта</string>
+    <string name="charts_error">Не удалось загрузить чартъ. Потяните внизъ, чтобы повторить.</string>
+
+    <!-- Mix customizer -->
+    <string name="mix_customizer_title">Кого хотите послушать сегодня?</string>
+    <string name="mix_customizer_subtitle">Выберите артистовъ и настройте, какъ миксъ будетъ искать музыку</string>
+    <string name="mix_customizer_your_artists">Ваши артисты</string>
+    <string name="mix_customizer_discover_title">Открывать новое</string>
+    <string name="mix_customizer_discover_desc">Добавить треки артистовъ, которыхъ вы ещё не слушали</string>
+    <string name="mix_customizer_blocked_title">Нелюбимые артисты</string>
+    <string name="mix_customizer_unblock">Удалить</string>
+    <string name="mix_customizer_start">Создать мой миксъ</string>
+
+    <!-- Disliked artists -->
+    <string name="settings_disliked_artists">Нелюбимые артисты</string>
+    <string name="disliked_artists_empty">Вы ещё не отметили нелюбимыхъ артистовъ</string>
+    <string name="disliked_artists_remove">Удалить</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Статистика</string>
+    <string name="statistics_hours_listened">Время прослушиванія</string>
+    <string name="statistics_total_plays">Прослушано трековъ</string>
+    <string name="statistics_top_artists">Самые прослушиваемые артисты</string>
+    <string name="statistics_empty">Исторіи прослушиванія ещё нѣтъ — включите что-нибудьъ!</string>
+    <string name="statistics_duration_hm">%1$dh %2$dm</string>
+    <string name="statistics_duration_m">%1$dm</string>
+    <string name="statistics_play_count">%d прослушиваній</string>
+    <string name="statistics_top_artists_info_title">Какъ работаетъ рейтингъ</string>
+    <string name="statistics_top_artists_info_body">Артисты ранжируются по общему фактическому времени прослушиванія, а не по числу нажатій или пропусковъ. Пауза не считается, а прослушиваніе засчитывается только послѣ воспроизведенія трека не менѣе 5 секундъ. Число прослушиваній рядомъ съ каждымъ артистомъ — отдѣльный счётчикъ прослушиваній, достигшихъ этого порога.</string>
+    <string name="statistics_top_artists_info_dismiss">Понятно</string>
+    <string name="statistics_share">Подѣлиться итогами</string>
+    <string name="wrapped_kicker">ВАШИ ИТОГИ ПРОСЛУШИВАНІЯ</string>
+    <string name="wrapped_hours_listened">часовъ прослушано</string>
+    <string name="wrapped_plays_count">%d прослушиваній</string>
+    <string name="wrapped_top_artists">Топъ артистовъ</string>
+    <string name="wrapped_top_tracks">Топъ трековъ</string>
+    <string name="wrapped_footer">Сдѣлано въ Resona</string>
+    <string name="wrapped_share">Подѣлиться</string>
+
+    <!-- Search -->
+    <string name="search_hint">Треки, артисты, альбомы…</string>
+    <string name="search_tracks">Треки</string>
+    <string name="search_artists">Артисты</string>
+    <string name="search_playlists">Плейлисты</string>
+    <string name="search_nothing_found">Ничего не найдено</string>
+    <string name="search_empty">Давайте что-нибудьъ поищемъ…</string>
+    <string name="search_empty_title">Искать по всему SoundCloud</string>
+    <string name="search_empty_desc">Ищетъ по всему SoundCloud, а не только въ вашей библиотекѣ.</string>
+    <string name="search_empty_hint_tabs">Треки, артисты и альбомы. Переключайтесь между ними вкладками выше.</string>
+    <string name="search_empty_hint_history">Недавнія поисковыя запросы появятся здѣсь.</string>
+    <string name="search_clear">Очистить</string>
+    <string name="search_history">Недавнія поисковыя запросы</string>
+    <string name="search_clear_history">Очистить</string>
+    <string name="search_remove">Удалить</string>
+
+    <string name="library_offline">Оффлайнъ-треки</string>
+    <string name="offline_empty">Оффлайнъ-трековъ ещё нѣтъ</string>
+    <string name="offline_import_folder">Импортировать изъ папки</string>
+    <string name="offline_import_result">Импортировано трековъ: %1$d, пропущено: %2$d</string>
+    <string name="offline_import_result_no_skip">Импортировано трековъ: %1$d</string>
+    <string name="offline_watched_folders_title">Отслеживаемыя папки</string>
+    <string name="offline_watched_folders_empty">Нѣтъ отслеживаемыхъ папокъ</string>
+    <string name="offline_unwatch_folder">Перестать отслеживать папку</string>
+    <string name="network_unavailable">Нѣтъ соединенія</string>
+    <string name="network_restored">Соединеніе восстановлено</string>
+    <string name="track_skipped_message">Couldn\'t load \"%1$s\", skipped</string>
+    <string name="track_skipped_deleted">\"%1$s\" was deleted by its uploader</string>
+    <string name="track_skipped_drm">\"%1$s\" needs a paid SoundCloud plan</string>
+    <string name="track_skipped_preview">SoundCloud only serves a 30-second preview of \"%1$s\". The full track needs a SoundCloud Go+ subscription</string>
+    <string name="track_unavailable_message">\"%1$s\" is unavailable</string>
+    <string name="track_unavailable">Недоступенъ</string>
+    <string name="track_skipped_retry">Повторить</string>
+    <string name="track_skipped_details">Подробности</string>
+    <string name="track_dialog_ok">Понятно</string>
+    <string name="track_unavailable_note">Это ограниченіе SoundCloud, а не ошибка Resona.</string>
+    <string name="network_retrying">Слабое соединеніе, повторяемъ…</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty">Пусто!</string>
+    <string name="favorite_artists_title">Избранныя артисты</string>
+    <string name="favorite_artists_empty">Избранныхъ артистовъ ещё нѣтъ</string>
+    <string name="favorite_playlists_title">Избранныя плейлисты</string>
+    <string name="favorite_playlists_empty">Избранныхъ плейлистовъ ещё нѣтъ</string>
+
+    <!-- Player -->
+    <string name="player_collapse">Свернуть</string>
+    <string name="player_favorite">Въ избранное</string>
+    <string name="player_play">Воспроизвести</string>
+    <string name="player_pause">Пауза</string>
+    <string name="player_previous">Предыдущій трекъ</string>
+    <string name="player_next">Следующій трекъ</string>
+    <string name="player_share">Подѣлиться</string>
+    <string name="player_save_offline">Сохранить для оффлайна</string>
+    <string name="player_saved_offline">Сохранено для оффлайна</string>
+    <string name="player_shuffle">Перемѣшать</string>
+    <string name="player_repeat">Повторъ</string>
+    <string name="player_lyrics">Тексты</string>
+    <string name="player_lyrics_none_found">Тексты этого трека не найдены</string>
+    <string name="player_lyrics_source">Тексты: %s</string>
+    <string name="player_lyrics_offset_earlier">Сдвинуть текстъ раньше</string>
+    <string name="player_lyrics_offset_later">Сдвинуть текстъ позже</string>
+    <string name="player_playing_from">Воспроизведеніе изъ %1$s</string>
+    <string name="player_source_mix">Миксъ</string>
+    <string name="player_source_favorites">Избранное</string>
+    <string name="player_source_offline">Загружено</string>
+    <string name="player_source_search">Поискъ</string>
+    <string name="player_exclude_artist">Не рекомендовать этого артиста</string>
+    <string name="player_more_options">Другія опціи</string>
+    <string name="player_sleep_timer">Таймеръ сна</string>
+    <string name="player_sleep_timer_minutes_format">%d мин.</string>
+    <string name="player_sleep_timer_active_format">Отключится черезъ %s</string>
+    <string name="player_sleep_timer_cancel">Отмѣна</string>
+    <string name="player_queue">Очередь</string>
+    <string name="player_queue_remove">Удалить изъ очереди</string>
+    <string name="player_speed">Скорость</string>
+    <string name="player_speed_format">%s\u00D7</string>
+    <string name="player_speed_reset">Обычная скорость</string>
+    <string name="history_title">Исторія прослушиванія</string>
+    <string name="history_empty">Здѣсь пока ничего нѣтъ. Прослушанные треки появятся въ исторіи.</string>
+    <string name="history_clear">Очистить исторію</string>
+    <string name="history_clear_confirm">Вся исторія прослушиванія будетъ удалена. Статистика также сбросится.</string>
+    <string name="history_remove_entry">Удалить изъ исторіи</string>
+    <string name="history_today">Сегодня</string>
+    <string name="history_yesterday">Вчера</string>
+    <string name="history_entry_format">%1$s, прослушано %2$s</string>
+    <string name="history_entry_repeated_format">%1$s, прослушано %2$s, прослушиваній: %3$d</string>
+    <string name="settings_cache_limit">Лимитъ кэша</string>
+    <string name="settings_cache_limit_desc">Недавно прослушанные треки хранятся для мгновеннаго повтора. При достиженіи лимита старыя удаляются.</string>
+    <string name="settings_cache_limit_mb">%d МБ</string>
+    <string name="settings_cache_limit_gb">%d ГБ</string>
+    <string name="player_sleep_timer_after_track">До конца трека</string>
+    <string name="player_sleep_timer_after_track_active">Воспроизведеніе остановится въ концѣ этого трека</string>
+    <string name="settings_crossfade_duration">Длительность кроссфейда</string>
+    <string name="settings_crossfade_duration_format">%d с</string>
+    <string name="track_play_next">Воспроизвести слѣдующимъ</string>
+    <string name="track_add_to_queue">Добавить въ очередь</string>
+    <string name="selection_queue_all">Добавить въ очередь</string>
+    <string name="player_exclude_artist_short">Не рекомендовать этого артиста</string>
+
+    <!-- Search tabs -->
+    <string name="tab_tracks">Треки</string>
+    <string name="tab_artists">Артисты</string>
+    <string name="tab_playlists">Плейлисты</string>
+
+    <!-- Artist / Playlist -->
+    <string name="play_all">Play All</string>
+    <string name="artist_tracks">Треки</string>
+    <string name="artist_followers">%d подписчиковъ</string>
+    <string name="artist_tracks_count">%d трековъ</string>
+    <string name="artist_at_username">@%s</string>
+    <string name="artist_id">ID: %d</string>
+    <string name="artist_error">Ошибка: %s</string>
+    <string name="playlist_by">%s</string>
+    <string name="playlist_tracks_count">%d трековъ</string>
+
+    <!-- Account -->
+    <string name="account_title">Учётная запись</string>
+    <string name="account_sign_in_soundcloud">Войти черезъ SoundCloud</string>
+    <string name="account_sign_in_title">Войти въ Resona</string>
+    <string name="account_sign_in_desc">Доступъ къ избранному, профилю и прочему</string>
+    <string name="account_sign_out">Выйти</string>
+    <string name="account_share_link">Подѣлиться профилем</string>
+    <string name="login_email_label">Электронная почта</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_sign_in_button">Войти</string>
+    <string name="login_signing_in">Входъ…</string>
+    <string name="login_or_continue_with">или продолжить съ помощью</string>
+    <string name="login_continue_google">Продолжить съ Google</string>
+    <string name="login_continue_facebook">Продолжить съ Facebook</string>
+    <string name="login_trouble_use_browser">Возникли проблемы? Войдите черезъ браузеръ</string>
+    <string name="favorites_online_toggle_title">Онлайнъ-избранное</string>
+    <string name="favorites_online_toggle_desc">Синхронизировать лайки съ вашимъ аккаунтомъ SoundCloud</string>
+    <string name="favorites_badge_local">Локальное избранное</string>
+    <string name="favorites_badge_online">Лайкъ SoundCloud</string>
+    <string name="favorites_badge_both">Локальное + SoundCloud</string>
+    <string name="favorites_online_unlike_failed">Не удалось убрать лайкъ SoundCloud</string>
+    <string name="favorites_online_fetch_failed">Не удалось загрузить ваши лайки SoundCloud</string>
+    <string name="favorites_online_sync_now">Синхронизировать сейчасъ</string>
+    <string name="favorites_online_sync_now_desc">Заново получить ваши лайки SoundCloud сейчасъ</string>
+    <string name="favorites_online_sync_now_done">Синхронизировано онлайнъ-избраннаго: %d</string>
+    <string name="favorites_online_sync_now_failed">Синхронізація не удалась</string>
+    <string name="account_settings">Настройки</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_customization">Настройка</string>
+    <string name="settings_color_theme">Цвѣтовая тема</string>
+    <string name="settings_custom_color">Свой цвѣтъ</string>
+    <string name="settings_custom_color_hue">Оттѣнокъ</string>
+    <string name="settings_custom_color_saturation">Насыщенность</string>
+    <string name="settings_custom_color_brightness">Яркость</string>
+    <string name="settings_home_sections">Раздѣлы главной</string>
+    <string name="settings_home_sections_desc">Выберите раздѣлы главной и порядокъ ихъ отображенія.</string>
+    <string name="player_customize_hint">Видъ проигрывателя можно измѣнить въ «Настройки» → «Настройка»</string>
+    <string name="settings_app_background">Фонъ приложенія</string>
+    <string name="settings_app_background_dynamic">Обложка</string>
+    <string name="settings_app_background_default">По умолчанію</string>
+    <string name="settings_app_background_custom">Свой</string>
+    <string name="settings_app_background_player_only">Проигрыватель</string>
+    <string name="settings_app_background_dynamic_desc">Всё приложеніе и проигрыватель получаютъ цвѣта изъ обложки текущаго трека</string>
+    <string name="settings_app_background_default_desc">Простой свѣтлый или тёмный фонъ согласно настройкѣ темы</string>
+    <string name="settings_app_background_custom_desc">Вашъ собственный цвѣтъ фона, при этомъ плашки трековъ отстоятъ отъ него</string>
+    <string name="settings_app_background_player_only_desc">Только проигрыватель подстраивается подъ обложку, остальное приложеніе остаётся простымъ</string>
+    <string name="settings_player_style">Стиль проигрывателя</string>
+    <string name="settings_pixel_glow">Свѣченіе за обложкой</string>
+    <string name="settings_pixel_glow_desc">Мягкій радиальный градіентъ въ цвѣтѣ текущаго трека — тотъ же, что используетъ проигрыватель Legacy Orb</string>
+    <string name="settings_player_style_pixel">Пиксельный</string>
+    <string name="settings_player_style_legacy">Наслѣдственный</string>
+    <string name="settings_player_background">Фонъ проигрывателя</string>
+    <string name="settings_player_background_orb">Сфера</string>
+    <string name="settings_player_background_blurred">Размытый</string>
+    <string name="settings_player_background_minimal">Минималистичный</string>
+    <string name="settings_app_icon">Значокъ приложенія</string>
+    <string name="settings_app_icon_normal">Обычный</string>
+    <string name="settings_app_icon_dynamic">Динамическій</string>
+    <string name="settings_app_icon_desc">Dynamic matches your wallpaper colors on Android 13+, if \"Themed icons\" is enabled in your system\'s wallpaper settings.</string>
+    <string name="settings_dark_theme">Тёмная тема</string>
+    <string name="settings_dark_system">Система</string>
+    <string name="settings_dark_light">Свѣтлая</string>
+    <string name="settings_dark_dark">Тёмная</string>
+    <string name="settings_dynamic_color">Динамическій цвѣтъ трека</string>
+    <string name="settings_dynamic_color_desc">Акцентный цвѣтъ меняется въ зависимости отъ текущаго трека</string>
+    <string name="settings_autoplay">Автовоспроизведеніе слѣдующаго трека</string>
+    <string name="settings_crossfade">Кроссфейд</string>
+    <string name="settings_crossfade_desc">Плавно измѣнять громкость между треками вмѣсто рѣзкой смѣны</string>
+    <string name="settings_seek_bar_style">Стиль полосы перемотки</string>
+    <string name="settings_seek_bar_style_classic">Классическій</string>
+    <string name="settings_seek_bar_style_wavy">Волнистый</string>
+    <string name="settings_lyrics_provider">Поставщикъ текстовъ</string>
+    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
+    <string name="settings_lyrics_provider_kugou">Kugou</string>
+    <string name="settings_lyrics_provider_desc">LRCLIB — источникъ по умолчанію и наиболее надёжный. Kugou эксперименталенъ и весьма нестабиленъ. Включайте его, только если понимаете, что дѣлаете.</string>
+    <string name="settings_lyrics_genius_fallback">Несинхронныя тексты изъ Genius</string>
+    <string name="settings_lyrics_genius_fallback_desc">Если синхронныя тексты не найдены, искатьъ обычный текстъ черезъ неофиціальный поискъ Genius, вмѣсто того чтобы ничего не показывать</string>
+    <string name="settings_haptics">Тактильная отдача</string>
+    <string name="settings_haptics_desc">Вибрація при нажатіяхъ и взаимодѣйствіяхъ</string>
+    <string name="settings_haptics_intensity">Сила вибраціи</string>
+    <string name="settings_haptics_intensity_low">Слабая</string>
+    <string name="settings_haptics_intensity_medium">Средняя</string>
+    <string name="settings_haptics_intensity_high">Сильная</string>
+    <string name="settings_developer_mode">Режимъ разработчика</string>
+    <string name="settings_developer_mode_desc">Показывать ID пользователей въ профиляхъ</string>
+    <string name="settings_language">Языкъ</string>
+    <string name="settings_language_en">Англійскій</string>
+    <string name="settings_language_ru">Русскій</string>
+    <string name="settings_storage">Хранилище</string>
+    <string name="settings_cache">Кэшъ</string>
+    <string name="settings_cache_size">Вычисленіе…</string>
+    <string name="settings_cache_cleared">Кэшъ очищенъ</string>
+    <string name="settings_clear">Очистить</string>
+    <string name="settings_offline_tracks">Оффлайнъ-треки</string>
+    <string name="settings_offline_tracks_count">%1$d tracks · %2$s</string>
+    <string name="settings_offline_cleared">Offline tracks cleared</string>
+    <string name="settings_client_id">Обновить Client ID</string>
+    <string name="settings_client_id_desc">Нужно только если перестали работать воспроизведеніе или поискъ (ошибка 401)</string>
+    <string name="settings_client_id_refreshed">Client ID обновлёнъ</string>
+    <string name="settings_keep_android_open_title">Keep Android Open</string>
+    <string name="settings_keep_android_open_desc">Resona поддерживаетъ движеніе Keep Android Open, выступающее противъ плана Google требовать подтвержденія личности для каждаго Android-приложенія, въ томъ числѣ установленнаго внѣ Play Store. Подробности на keepandroidopen.org.</string>
+    <string name="settings_about">О приложеніи</string>
+    <string name="settings_version">Версія %s</string>
+    <string name="settings_eula">Отказъ отъ отвѣтственности</string>
+    <string name="settings_eula_desc">Условія использованія</string>
+    <string name="eula_title">Отказъ отъ отвѣтственности</string>
+    <string name="eula_body">Resona — неофиціальное приложеніе съ открытымъ исходнымъ кодомъ для просмотра и воспроизведенія содержимаго SoundCloud. Оно никоимъ образомъ не связано съ SoundCloud, не одобрено имъ и не является его частью.\n\nВы используете это приложеніе на свой страхъ и рискъ. Никакихъ гарантій не предоставляется. Разработчикъ не отвѣчаетъ за какія-либо проблемы, потерю данныхъ или проблемы съ учётной записью, возникшія при его использованіи.\n\nВся музыка, обложки и прочее содержимое остаются собственностью ихъ первоначальныхъ авторовъ и правообладателей на SoundCloud. Resona ничего изъ этого не хранитъ и не владеетъ имъ, а лишь воспроизводитъ уже общедоступное содержимое.\n\nИспользуя это приложеніе, вы соглашаетесь также соблюдать собственныя условія SoundCloud при взаимодѣйствіи съ его платформой.\n\nСамо приложеніе Resona является безплатнымъ и открытымъ подъ ліцензіей GPL v3. Вы можете читатьъ кодъ, измѣнять его и вносить вкладъ черезъ GitHub.</string>
+    <string name="eula_gate_checkbox">Я прочёлъ отказъ отъ отвѣтственности и согласенъ съ нимъ</string>
+    <string name="eula_decline">Decline</string>
+    <string name="eula_agree">Согласенъ и продолжить</string>
+    <string name="settings_debug_menu">Меню отладки</string>
+    <string name="settings_debug_menu_desc">Инструменты разработчика и діагностика</string>
+    <string name="settings_updates">Обновленія</string>
+    <string name="settings_update_channel_release">Релизъ</string>
+    <string name="settings_update_channel_canary">Canary</string>
+    <string name="settings_auto_check_updates">Автоматически проверять обновленія</string>
+    <string name="settings_check_for_updates">Проверить обновленія</string>
+    <string name="settings_checking_for_updates">Проверка…</string>
+    <string name="settings_update_up_to_date">Установлена послѣдняя версія.</string>
+    <string name="settings_update_check_failed">Не удалось проверить обновленія. Попробуйте позже.</string>
+
+    <!-- Update dialogs -->
+    <string name="update_dialog_title_release">Доступно обновленіе</string>
+    <string name="update_dialog_message_release">Версія: %1$s\n\nЧто новаго:\n%2$s</string>
+    <string name="update_dialog_no_changelog">Списокъ измѣненій не предоставленъ.</string>
+    <string name="update_dialog_title_canary">Доступна новая сборка Canary</string>
+    <string name="update_dialog_message_canary">Доступна болѣе новая сборка Canary.</string>
+    <string name="update_dialog_later">Позже</string>
+    <string name="crash_dialog_title">Въ прошлый разъ Resona завершилась съ ошибкой</string>
+    <string name="crash_dialog_message">Вотъ что было собрано непосредственно передъ сбоемъ. Вы можете скопировать это и отправить какъ отчётъ объ ошибкѣ.</string>
+    <string name="crash_dialog_dismiss">Закрыть</string>
+    <string name="update_dialog_open_github">Открыть GitHub</string>
+
+    <!-- Debug Menu -->
+    <string name="debug_menu_title">Меню отладки</string>
+    <string name="debug_menu_build_info">Информація о сборкѣ</string>
+    <string name="debug_menu_version">Version</string>
+    <string name="debug_menu_build_type">Типъ сборки</string>
+    <string name="debug_menu_application_id">ID приложенія</string>
+    <string name="debug_menu_device">Устройство</string>
+    <string name="debug_menu_client_id">SoundCloud Client ID (не дѣлитесь имъ!)</string>
+    <string name="debug_menu_client_id_current">Текущій: %s</string>
+    <string name="debug_menu_client_id_override_hint">Ручная замѣна</string>
+    <string name="debug_menu_client_id_save">Установить</string>
+    <string name="debug_menu_database">Локальная база данныхъ</string>
+    <string name="debug_menu_favorite_tracks">Избранныхъ трековъ: %d</string>
+    <string name="debug_menu_favorite_artists">Избранныхъ артистовъ: %d</string>
+    <string name="debug_menu_favorite_playlists">Избранныхъ плейлистовъ: %d</string>
+    <string name="debug_menu_offline_tracks">Оффлайнъ-трековъ: %d</string>
+    <string name="debug_menu_reset_database">Сбросить локальную базу данныхъ</string>
+    <string name="debug_menu_reset_database_desc">Удаляетъ избранное, оффлайнъ-треки и исторію импорта</string>
+    <string name="debug_menu_reset_database_done">Локальная база данныхъ сброшена</string>
+    <string name="debug_menu_actions">Дѣйствія</string>
+    <string name="debug_menu_copy_report">Копировать отчётъ отладки</string>
+    <string name="debug_menu_copy_report_desc">Копируетъ свѣденія о сборкѣ, устройствѣ и клиентѣ въ буферъ обмѣна</string>
+    <string name="debug_menu_copy">Копировать</string>
+    <string name="debug_menu_report_copied">Отчётъ отладки скопированъ</string>
+    <string name="debug_menu_test_crash">Вызвать тестовый сбой</string>
+    <string name="debug_menu_test_crash_desc">Принудительно вызываетъ сбой приложенія для проверки обработки сбоевъ</string>
+    <string name="debug_menu_diagnostics">Діагностика</string>
+    <string name="debug_menu_verbose_network">Подробный сѣтевой журналъ</string>
+    <string name="debug_menu_verbose_network_desc">Записываетъ полныя тѣла запросовъ и отвѣтовъ въ расположенный ниже журналъ трассировки</string>
+    <string name="debug_menu_screenshot_mode">Режимъ скриншота</string>
+    <string name="debug_menu_screenshot_mode_toggle">Скрывать обложки и аватары</string>
+    <string name="debug_menu_screenshot_mode_desc">Заменяетъ обложки трековъ, плейлистовъ и артистовъ во всёмъ приложеніи заглушками, чтобы на скриншотахъ не отображалисьъ защищённыя авторскимъ правомъ обложки. Послѣ включенія перейдите на нужный экранъ, чтобы измѣненіе вступило въ силу.</string>
+    <string name="debug_menu_screenshot_mode_clear_cache">Очистить кэшъ изображеній</string>
+    <string name="debug_menu_screenshot_mode_cache_cleared">Кэшъ изображеній очищенъ</string>
+    <string name="debug_menu_player_state">Состояніе проигрывателя</string>
+    <string name="debug_menu_player_state_desc">Текущий снимокъ PlayerController, полезный при отладкѣ проблемъ съ воспроизведеніемъ микса/очереди</string>
+    <string name="debug_menu_trace">Журналъ трассировки</string>
+    <string name="debug_menu_trace_desc">Недавнія событія приложенія (входъ, синхронізація избраннаго, сѣть)</string>
+    <string name="debug_menu_trace_empty">Записей трассировки ещё нѣтъ</string>
+    <string name="debug_menu_clear">Очистить</string>
+    <string name="debug_menu_greetings">Привѣтствіе на главной</string>
+    <string name="debug_menu_greetings_desc">Принудительно выбрать время сутокъ или конкретную фразу для просмотра привѣтствія на главной</string>
+    <string name="debug_menu_greetings_current">Текущій: %s</string>
+    <string name="debug_menu_greeting_period_morning">Утро</string>
+    <string name="debug_menu_greeting_period_afternoon">Afternoon</string>
+    <string name="debug_menu_greeting_period_evening">Вечеръ</string>
+    <string name="debug_menu_greeting_period_night">Night</string>
+    <string name="debug_menu_greetings_clear">Использовать настоящее время</string>
+
+    <!-- Import / Export -->
+    <string name="import_export_title">Импортъ / Экспортъ</string>
+    <string name="export_favorites">Экспортировать избранное</string>
+    <string name="export_favorites_desc">Сохранить треки, артистовъ и плейлисты въ JSON-файлъ</string>
+    <string name="import_favorites">Импортировать избранное</string>
+    <string name="import_favorites_desc">Загрузить избранное изъ JSON-файла. Сохраняется только въ локальномъ/оффлайнъ-избранномъ и не синхронизируется съ вашими лайками SoundCloud.</string>
+    <string name="import_sc_title">Импортировать изъ SoundCloud</string>
+    <string name="import_sc_desc">Введите имя пользователя SoundCloud или URL профиля. Сохраняется только въ локальномъ/оффлайнъ-избранномъ и не синхронизируется съ вашими лайками SoundCloud.</string>
+    <string name="import_sc_hint">имя пользователя или soundcloud.com/username</string>
+    <string name="import_sc_resolve">Опредѣлить профиль</string>
+    <string name="import_sc_fetch">Получить лайки</string>
+    <string name="import_sc_cancel">Отмѣна</string>
+    <string name="import_sc_resolving">Опредѣленіе профиля…</string>
+    <string name="import_sc_fetched">Получено трековъ: %d…</string>
+    <string name="import_sc_slow">Для профилей съ множествомъ лайковъ это можетъ занять некоторое время</string>
+    <string name="import_sc_preview">Предпросмотръ</string>
+    <string name="import_sc_preview_count">%d понравившихся трековъ отъ %s</string>
+    <string name="import_sc_preview_playlists">%d понравившихся плейлистовъ</string>
+    <string name="import_sc_fetch_playlists">Получить плейлисты</string>
+    <string name="import_sc_fetching_playlists">Получено плейлистовъ: %d…</string>
+    <string name="import_sc_replace">Замѣнить текущее избранное</string>
+    <string name="import_sc_merge">Объединить съ текущимъ избраннымъ</string>
+    <string name="import_sc_importing">Импортъ…</string>
+    <string name="import_sc_dismiss">Закрыть</string>
+
+    <!-- Telegram import (BETA) -->
+    <string name="import_tg_title">Импортировать изъ Telegram</string>
+    <string name="import_tg_beta">БЕТА</string>
+    <string name="import_tg_desc">Просканировать чатъ на предметъ отправленныхъ аудіозаписей, сопоставить ихъ съ SoundCloud и добавить всё ненайденное въ оффлайнъ-треки. Совпаденія сохраняются только въ локальномъ/оффлайнъ-избранномъ и не синхронизируются съ вашими лайками SoundCloud.</string>
+    <string name="import_tg_unavailable">Въ этой сборкѣ не настроено — см. замѣтки по настройкѣ импорта изъ Telegram.</string>
+    <string name="import_tg_start">Войти черезъ Telegram</string>
+    <string name="import_tg_connecting">Соединеніе…</string>
+    <string name="import_tg_phone_hint">Номеръ телефона (съ кодомъ страны)</string>
+    <string name="import_tg_send_phone">Продолжить</string>
+    <string name="import_tg_code_sent">Кодъ отправленъ на %s</string>
+    <string name="import_tg_code_hint">Кодъ входа</string>
+    <string name="import_tg_send_code">Продолжить</string>
+    <string name="import_tg_password_hint">Облачный пароль</string>
+    <string name="import_tg_send_password">Продолжить</string>
+    <string name="import_tg_load_chats">Выбрать чатъ</string>
+    <string name="import_tg_log_out">Sign out</string>
+    <string name="import_tg_loading_chats">Загрузка чатовъ…</string>
+    <string name="import_tg_select_folder">Найти чатъ</string>
+    <string name="import_tg_all_chats">Всѣ чаты</string>
+    <string name="import_tg_pinned">Закрѣплённыя</string>
+    <string name="import_tg_select_chat">Выберите чатъ для сканированія</string>
+    <string name="import_tg_progress">Сканированіе… обработано: %1$d\n%2$s</string>
+    <string name="import_tg_progress_stats">Совпало: %1$d · Оффлайнъ: %2$d · Ошибокъ: %3$d · Уже въ библиотекѣ: %4$d</string>
+    <string name="import_tg_done">Импортъ завершёнъ</string>
+
+    <!-- Messages -->
+    <string name="msg_export_success">Избранное успѣшно экспортировано</string>
+    <string name="msg_export_failed">Ошибка экспорта: %s</string>
+    <string name="msg_import_result">Импортировано: %1$d трековъ, %2$d артистовъ, %3$d плейлистовъ</string>
+    <string name="msg_import_failed">Ошибка импорта: %s</string>
+    <string name="msg_sc_import_result">Импортировано %d трековъ изъ SoundCloud</string>
+    <string name="msg_sc_import_failed">Ошибка импорта</string>
+    <string name="msg_sc_resolve_failed">Не удалось опредѣлить профиль</string>
+    <string name="msg_sc_search_failed">Ошибка поиска</string>
+    <string name="msg_sc_no_results">Профилей не найдено</string>
+    <string name="import_sc_searching">Поискъ…</string>
+    <string name="import_sc_select_profile">Выберите профиль</string>
+    <string name="msg_sc_fetch_failed">Не удалось получить лайки</string>
+
+    <!-- About -->
+    <string name="about_github">GitHub</string>
+    <string name="about_version">Версія %1$s (%2$d)</string>
+    <string name="about_build_canary">Canary-сборка</string>
+    <string name="easter_egg_caption">Ничего изъ этого ничего не дѣлаетъ</string>
+    <string name="easter_egg_press_me">Нажми меня</string>
+    <string name="easter_egg_launch">Запустить</string>
+    <string name="easter_egg_gravity">Гравитація</string>
+
+    <!-- Badges -->
+    <string name="badge_developer">Значокъ разработчика</string>
+    <string name="badge_developer_desc">Этотъ пользователь — разработчикъ Resona.</string>
+    <string name="badge_supporter">Значокъ сторонника</string>
+    <string name="badge_supporter_desc">Этотъ пользователь — сторонникъ Resona.</string>
+    <string name="badge_unknown">Неизвѣстный значокъ.</string>
+    <string name="badge_received">%1$s получилъ значокъ «%2$s».</string>
+
+    <!-- Common -->
+    <string name="back">Назадъ</string>
+    <string name="done">Готово</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмѣна</string>
+
+    <!-- Sorting -->
+    <string name="sort_button">Сортировать</string>
+    <string name="sort_sheet_title">Сортировать по</string>
+    <string name="sort_default">По умолчанію</string>
+    <string name="sort_title">Названію</string>
+    <string name="sort_artist">Артисту</string>
+    <string name="sort_duration">Длительности</string>
+    <string name="sort_direction">Направленію</string>
+    <string name="sort_dir_original">Исходный</string>
+    <string name="sort_dir_reversed">Обратный</string>
+    <string name="sort_dir_a_z">А–Я</string>
+    <string name="sort_dir_z_a">Я–А</string>
+    <string name="sort_dir_shortest">Сначала короткіе</string>
+    <string name="sort_dir_longest">Сначала длинные</string>
+
+    <!-- Multi-select -->
+    <string name="selection_clear">Снять выборъ</string>
+    <string name="selection_count">Выбрано: %1$d</string>
+    <string name="selection_favorite_all">Переключить избранное</string>
+    <string name="selection_download_all">Переключить загрузку</string>
+    <string name="selection_select_all">Выбрать всё</string>
+
+    <!-- Theme names -->
+    <string name="theme_sc_orange">Оранжевый SoundCloud</string>
+    <string name="theme_ultraviolet">Ультрафіолетъ</string>
+    <string name="theme_mint">Мятный</string>
+    <string name="theme_ocean">Океанъ</string>
+    <string name="theme_system">Система (Material You)</string>
+    <string name="theme_from_track">Изъ обложки трека</string>
+    <string name="player_close_lyrics">Закрыть тексты</string>
+    <string name="statistics_period_week">Недѣля</string>
+    <string name="statistics_period_month">Мѣсяцъ</string>
+    <string name="statistics_period_year">Годъ</string>
+    <string name="statistics_period_all">Всѣ</string>
+    <string name="search_error_network_title">Нѣтъ соединенія</string>
+    <string name="search_error_network_desc">Check your internet and try again</string>
+    <string name="search_error_auth_title">Доступъ запрещёнъ</string>
+    <string name="search_error_auth_desc">Вѣроятно, Client ID устарѣлъ</string>
+    <string name="search_error_not_found_title">Ничего не найдено</string>
+    <string name="search_error_not_found_desc">Попробуйте другой запросъ</string>
+    <string name="search_error_track_gone_title">Трекъ не найденъ</string>
+    <string name="search_error_track_gone_desc">Онъ удалёнъ или сдѣланъ приватнымъ</string>
+    <string name="search_error_server_title">SoundCloud не отвѣчаетъ</string>
+    <string name="search_error_server_desc">Проблема на сторонѣ SoundCloud, попробуйте позже</string>
+    <string name="search_error_link_title">Не удалось открыть ссылку</string>
+    <string name="search_error_link_desc">Провѣрьте ссылку и повторите попытку</string>
+    <string name="search_error_unknown_title">Что-то пошло не такъ</string>
+    <string name="search_error_unknown_desc">Повторите запросъ</string>
+    <string name="search_error_hint_check_connection">Провѣрьте Wi-Fi или мобильныя данныя.</string>
+    <string name="search_error_hint_pull_to_retry">Потяните списокъ внизъ, чтобы повторить.</string>
+    <string name="search_error_hint_client_id">Откройте «Настройки», затѣмъ «Обновить Client ID».</string>
+    <string name="search_error_hint_wait">Обычно это проходитъ за нѣсколько минутъ.</string>
+    <string name="search_error_hint_change_query">Попробуйте болѣе короткія или другія слова.</string>
+    <string name="search_error_hint_search_by_name">Ищите трекъ по его названію.</string>
+    <string name="search_error_hint_check_link">Ссылка должна вести на soundcloud.com.</string>
+    <string name="calculating">Вычисленіе…</string>
+    <string name="action_favorite">Въ избранное</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_share">Подѣлиться</string>
+    <string name="favorites_removed_count">Удалено изъ избраннаго: %d</string>
+    <string name="undo">Отмѣнить</string>
+    <string name="history_entry_removed">Удалено изъ исторіи</string>
+    <string name="favorite_added">Добавлено въ избранное</string>
+    <string name="favorite_removed">Удалено изъ избраннаго</string>
+    <string name="bulk_download_progress">Загрузка %1$d изъ %2$d</string>
+    <string name="bulk_download_done">Загружено %1$d изъ %2$d</string>
+    <string name="bulk_download_failed">Ошибокъ: %1$d</string>
+    <string name="bulk_download_cancel">Отмѣнить загрузки</string>
+    <string name="settings_dividers">Раздѣлители</string>
+    <string name="settings_dividers_desc">Линіи между пунктами въ настройкахъ, меню и мини-проигрывателѣ</string>
+    <string name="settings_dividers_hidden">Выкл.</string>
+    <string name="settings_dividers_subtle">Ненавязчивые</string>
+    <string name="settings_dividers_bright">Яркіе</string>
+    <string name="settings_drm_hiding">DRM-треки</string>
+    <string name="settings_drm_hiding_desc">SoundCloud шифруетъ нѣкоторые загруженные треки, и приложеніе не можетъ ихъ воспроизводить. Обычно это касается релизовъ крупныхъ лейбловъ.</string>
+    <string name="settings_drm_hiding_full">Полностью</string>
+    <string name="settings_drm_hiding_partial">Частично</string>
+    <string name="settings_drm_hiding_off">Выкл.</string>
+    <string name="settings_drm_hiding_full_desc">Зашифрованные треки никогда не показываются въ профилѣ артиста.</string>
+    <string name="settings_drm_hiding_partial_desc">Зашифрованный трекъ скрывается только тогда, когда у того же артиста естьъ его воспроизводимая копія. Треки безъ копіи остаются видимыми и помѣчаются какъ недоступные.</string>
+    <string name="settings_drm_hiding_off_desc">Показываются всѣ треки, а зашифрованные помѣчаются какъ недоступные.</string>
+    <string name="auto_export">Автоматическій экспортъ</string>
+    <string name="auto_export_desc">Сохраняетъ избранное въ однажды выбранный файлъ. Послѣдующія сохраненія происходятъ въ фонѣ безъ повторнаго выбора файла.</string>
+    <string name="auto_export_pick_file">Выбрать файлъ</string>
+    <string name="auto_export_change_file">Измѣнить файлъ</string>
+    <string name="auto_export_no_file">Файлъ ещё не выбранъ</string>
+    <string name="auto_export_interval_6h">6 часовъ</string>
+    <string name="auto_export_interval_daily">Ежедневно</string>
+    <string name="auto_export_interval_weekly">Еженедѣльно</string>
+    <string name="auto_export_last_run">Послѣднее сохраненіе: %s</string>
+    <string name="auto_export_never">Ещё не сохранено</string>
+    <string name="auto_export_run_now">Сохранить сейчасъ</string>
+    <string name="auto_export_battery_note">Android можетъ отложить фоновыя сохраненія при включённомъ энергосбереженіи. Приложеніе также сохраняетъ данные при запускѣ, если копія устарѣла.</string>
+    <string name="settings_language_custom">Свой</string>
+    <string name="custom_language_title">Свой переводъ</string>
+    <string name="custom_language_desc">Загрузите файлъ strings.xml, переведённый вами или кемъ-либо ещё. Сначала сохраните шаблонъ, переведите текстъ внутри теговъ, затѣмъ загрузите файлъ обратно.</string>
+    <string name="custom_language_template">Сохранить шаблонъ</string>
+    <string name="custom_language_pick">Загрузить переводъ</string>
+    <string name="custom_language_replace">Замѣнить переводъ</string>
+    <string name="custom_language_none">Файлъ ещё не загруженъ</string>
+    <string name="custom_language_stats">Переведено строкъ: %1$d изъ %2$d</string>
+    <string name="custom_language_unknown">Неизвѣстныхъ ключей пропущено: %d</string>
+    <string name="custom_language_missing_note">Всё, чего нѣтъ въ вашемъ файлѣ, останется на англійскомъ.</string>
+    <string name="custom_language_clear">Удалить переводъ</string>
+    <string name="custom_language_loaded">Переводъ загруженъ</string>
+    <string name="custom_language_failed">Не удалось прочесть файлъ</string>
+    <string name="custom_language_template_saved">Шаблонъ сохранёнъ</string>
+</resources>
