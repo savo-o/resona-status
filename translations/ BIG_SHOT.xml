@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resona</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">ДОБРО ПОЖАЛОВАТЬ В RESONA [!!!]</string>
+    <string name="onboarding_welcome_desc">БЫСТРЫЙ И ЧИСТЫЙ СПОСОБ СЛУШАТЬ SOUNDCLOUD — ТВОЙ АККАУНТ, ТВОИ ТРЕКИ, НИКАКОГО [МУСОРА].</string>
+    <string name="onboarding_mix_title">ТВОЙ MIX, НАСТРОЕННЫЙ [ТОБОЙ]</string>
+    <string name="onboarding_mix_desc">RESONA СОЗДАСТ БЕСКОНЕЧНЫЙ MIX ИЗ ТВОИХ ЛЮБИМЫХ И ОФЛАЙН-ТРЕКОВ. ТЫ РЕШАЕШЬ, КТО В НЕГО ПОПАДЁТ.</string>
+    <string name="onboarding_lyrics_title">[СИНХРОНИЗИРОВАННЫЕ] ТЕКСТЫ</string>
+    <string name="onboarding_lyrics_desc">СЛЕДИ ЗА ТЕКСТОМ СТРОКА ЗА СТРОКОЙ. ЕСЛИ ВРЕМЯ НЕПРАВИЛЬНОЕ — МОЖНО ЕГО [ПОПРАВИТЬ].</string>
+    <string name="onboarding_offline_title">УНЕСТИ ЭТО В [ДРУГОЙ МИР]</string>
+    <string name="onboarding_offline_desc">СОХРАНЯЙ ТРЕКИ ДЛЯ ПРОСЛУШИВАНИЯ БЕЗ СЕТИ И СМОТРИ СТАТИСТИКУ. ВСЁ В ОДНОМ [МЕСТЕ].</string>
+    <string name="onboarding_migrate_title">ПЕРЕНЕСТИ ТВОЮ [СОБСТВЕННОСТЬ]</string>
+    <string name="onboarding_migrate_desc">УЖЕ ЕСТЬ ЛАЙКИ В SOUNDCLOUD ИЛИ АУДИО В TELEGRAM? ЗАБИРАЙ ИХ В ЛЮБОЙ МОМЕНТ ЧЕРЕЗ [ИМПОРТ / ЭКСПОРТ].</string>
+    <string name="onboarding_skip">ПРОПУСТИТЬ</string>
+    <string name="onboarding_next">ДАЛЬШЕ [!]</string>
+    <string name="onboarding_get_started">НАЧАТЬ [ПРИКЛЮЧЕНИЕ]</string>
+
+    <!-- Home screen launcher icon shortcuts -->
+    <string name="shortcut_favorites_short">ЛЮБИМЫЕ</string>
+    <string name="shortcut_favorites_long">ОТКРЫТЬ [СЕРДЦЕ]</string>
+    <string name="shortcut_offline_short">ОФЛАЙН</string>
+    <string name="shortcut_offline_long">ОТКРЫТЬ [ДРУГОЙ МИР]</string>
+    <string name="shortcut_search_short">ПОИСК</string>
+    <string name="shortcut_search_long">ИСКАТЬ [СОКРОВИЩА]</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ДОМ</string>
+    <string name="nav_search">ПОИСК</string>
+    <string name="nav_favorites">ЛЮБИМЫЕ</string>
+    <string name="nav_account">ТВОЙ [АККАУНТ]</string>
+    <string name="nav_settings">НАСТРОЙКИ [МИРА]</string>
+    <string name="nav_artist">АРТИСТ</string>
+    <string name="nav_playlist">СПИСОК [ПЕСЕН]</string>
+    <string name="nav_favorite_artists">ЛЮБИМЫЕ [ЗВУКИ]</string>
+    <string name="nav_favorite_playlists">ЛЮБИМЫЕ [СПИСКИ]</string>
+    <string name="nav_import_export">[ИМПОРТ] / ЭКСПОРТ</string>
+
+    <!-- Home -->
+    <string-array name="home_greeting_morning">
+        <item>ДОБРОГО УТРА!!!</item>
+        <item>УТРО.</item>
+        <item>ТЫ ПРОСНУЛСЯ.</item>
+        <item>СНОВА В ЭТОМ МИРЕ?</item>
+        <item>НАЧАЛО [ХОРОШЕГО] ДНЯ.</item>
+        <item>СВЕЖЕЕ УТРО, СВЕЖИЙ [MIX].</item>
+    </string-array>
+    <string-array name="home_greeting_afternoon">
+        <item>ДОБРОГО ДНЯ.</item>
+        <item>ЭЙ, ТЫ.</item>
+        <item>НАДЕЮСЬ, ДЕНЬ НЕ СЛИШКОМ [СТРАННЫЙ].</item>
+        <item>ДНЕВНОЙ САУНДТРЕК УЖЕ [ЗДЕСЬ].</item>
+        <item>ПРОДОЛЖАЙ ДВИГАТЬСЯ [ВПЕРЁД].</item>
+        <item>ДНЕВНОЙ [ГРУВ].</item>
+    </string-array>
+    <string-array name="home_greeting_evening">
+        <item>ДОБРОГО ВЕЧЕРА.</item>
+        <item>ВЕЧЕР.</item>
+        <item>ВРЕМЯ [ОТДОХНУТЬ].</item>
+        <item>КАК ПРОШЁЛ ТВОЙ ДЕНЬ?</item>
+        <item>ВЕЧЕРНИЕ ЗВУКИ [ЖДУТ].</item>
+        <item>СОБИРАЕШЬСЯ [ОСТАНОВИТЬСЯ]?</item>
+    </string-array>
+    <string-array name="home_greeting_night">
+        <item>ТЫ — НОЧНАЯ [ПТИЦА].</item>
+        <item>ТЫ ВСЁ ЕЩЁ НЕ СПИШЬ?</item>
+        <item>ТЫ ЖЖЁШЬ ПОЛУНОЧНОЕ [МАСЛО].</item>
+        <item>НОЧНЫЕ ЗВУКИ. ТОЛЬКО ДЛЯ [ТЕБЯ].</item>
+        <item>НЕ МОЖЕШЬ УСНУТЬ?</item>
+        <item>БЕСКОНЕЧНАЯ [НОЧЬ].</item>
+    </string-array>
+    <string name="home_mix_subtitle_count">%d треков в твоём [MIX]</string>
+    <string name="home_mix_empty_title">НАЧНИ [СЛУШАТЬ]</string>
+    <string name="home_mix_empty_desc">ВКЛЮЧИ ТРЕК ИЛИ ДОБАВЬ ЛЮБИМЫЕ, ЧТОБЫ СОЗДАТЬ СВОЙ [MIX]</string>
+    <string name="home_section_jump_back_in">ВЕРНУТЬСЯ В [ИГРУ]</string>
+    <string name="home_section_favorites">ИЗ ТВОИХ [ЛЮБИМЫХ]</string>
+    <string name="home_section_offline">ГОТОВО К [ДРУГОМУ МИРУ]</string>
+    <string name="home_section_artists">ТВОИ [АРТИСТЫ]</string>
+    <string name="home_section_playlists">ЛЮБИМЫЕ [АЛЬБОМЫ]</string>
+    <string name="home_action_statistics">СТАТИСТИКА [ЖИЗНИ]</string>
+    <string name="home_action_charts">ТАБЛИЦЫ [СИЛЫ]</string>
+    <string name="charts_title">ТАБЛИЦЫ [СИЛЫ]</string>
+    <string name="charts_subtitle">НОВОЕ &amp; ГОРЯЧЕЕ · ВСЯ [МУЗЫКА]</string>
+    <string name="charts_play_all">ИГРАТЬ [ВСЁ!!!]</string>
+    <string name="charts_empty">ЗДЕСЬ НЕТ ДАННЫХ. [СТРАННО.]</string>
+    <string name="charts_error">НЕ УДАЛОСЬ ЗАГРУЗИТЬ ТАБЛИЦУ. ПОТЯНИ ВНИЗ, ЧТОБЫ [ПОПРОБОВАТЬ СНОВА].</string>
+
+    <!-- Mix customizer -->
+    <string name="mix_customizer_title">КОГО ТЫ ХОЧЕШЬ СЛУШАТЬ [СЕГОДНЯ]?</string>
+    <string name="mix_customizer_subtitle">ВЫБЕРИ АРТИСТОВ И НАСТРОЙ, КАК MIX ИССЛЕДУЕТ [МИР].</string>
+    <string name="mix_customizer_your_artists">ТВОИ [АРТИСТЫ]</string>
+    <string name="mix_customizer_discover_title">ОТКРЫТЬ [НОВОЕ]</string>
+    <string name="mix_customizer_discover_desc">ДОБАВЬ ТРЕКИ АРТИСТОВ, КОТОРЫХ ТЫ ЕЩЁ НЕ [ВСТРЕЧАЛ].</string>
+    <string name="mix_customizer_blocked_title">НЕЖЕЛАТЕЛЬНЫЕ [АРТИСТЫ]</string>
+    <string name="mix_customizer_unblock">УБРАТЬ</string>
+    <string name="mix_customizer_start">СОЗДАТЬ МОЙ [MIX]</string>
+
+    <!-- Disliked artists -->
+    <string name="settings_disliked_artists">НЕЖЕЛАТЕЛЬНЫЕ [АРТИСТЫ]</string>
+    <string name="disliked_artists_empty">ТЫ ЕЩЁ НИКОГО НЕ [ОТВЕРГ].</string>
+    <string name="disliked_artists_remove">УБРАТЬ</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">СТАТИСТИКА [ТВОЕГО ПУТИ]</string>
+    <string name="statistics_hours_listened">ЧАСЫ [ПРОСЛУШАНЫ]</string>
+    <string name="statistics_total_plays">ТРЕКИ [СЫГРАНЫ]</string>
+    <string name="statistics_top_artists">АРТИСТЫ, КОТОРЫХ ТЫ СЛУШАЛ [БОЛЬШЕ ВСЕХ]</string>
+    <string name="statistics_empty">ИСТОРИИ ПРОСЛУШИВАНИЯ ЕЩЁ НЕТ.
+[ПОСЛУШАЙ ЧТО-НИБУДЬ!]</string>
+    <string name="statistics_duration_hm">%1$dh %2$dm</string>
+    <string name="statistics_duration_m">%1$dm</string>
+    <string name="statistics_play_count">%d [ПРОСЛУШИВАНИЙ]</string>
+    <string name="statistics_top_artists_info_title">КАК РАБОТАЕТ [СИЛА] РЕЙТИНГА</string>
+    <string name="statistics_top_artists_info_body">АРТИСТЫ РАНЖИРУЮТСЯ ПО ОБЩЕМУ ВРЕМЕНИ ПРОСЛУШИВАНИЯ. НЕ ПО НАЖАТИЯМ И НЕ ПО ПРОПУСКАМ. ПАУЗА НЕ СЧИТАЕТСЯ. ПРОСЛУШИВАНИЕ НАЧИНАЕТ СЧИТАТЬСЯ ПОСЛЕ 5 СЕКУНД.</string>
+    <string name="statistics_top_artists_info_dismiss">ПОНЯТНО.</string>
+    <string name="statistics_share">ПОКАЗАТЬ [ВСЕМ]</string>
+    <string name="wrapped_kicker">ТВОЙ [МУЗЫКАЛЬНЫЙ] ПУТЬ</string>
+    <string name="wrapped_hours_listened">ЧАСОВ [В МИРЕ МУЗЫКИ]</string>
+    <string name="wrapped_plays_count">%d [ПРОСЛУШИВАНИЙ]</string>
+    <string name="wrapped_top_artists">ГЛАВНЫЕ [АРТИСТЫ]</string>
+    <string name="wrapped_top_tracks">ГЛАВНЫЕ [ТРЕКИ]</string>
+    <string name="wrapped_footer">СДЕЛАНО С [RESONA]</string>
+    <string name="wrapped_share">РАССКАЗАТЬ [ВСЕМ]</string>
+
+    <!-- Search -->
+    <string name="search_hint">Tracks, artists, albums…</string>
+    <string name="search_tracks">ТРЕКИ</string>
+    <string name="search_artists">АРТИСТЫ</string>
+    <string name="search_playlists">СПИСКИ [ПЕСЕН]</string>
+    <string name="search_nothing_found">ЗДЕСЬ НИЧЕГО НЕТ.</string>
+    <string name="search_empty">ПОИСКИ... ПОИСКИ...</string>
+    <string name="search_empty_title">ИСКАТЬ ВО ВСЁМ [МИРЕ SOUNDCLOUD]</string>
+    <string name="search_empty_desc">ЭТО ИЩЕТ ВЕЗДЕ НА SOUNDCLOUD, А НЕ ТОЛЬКО В ТВОЕЙ [БИБЛИОТЕКЕ].</string>
+    <string name="search_empty_hint_tabs">ТРЕКИ, АРТИСТЫ И АЛЬБОМЫ. ПЕРЕКЛЮЧАЙ ИХ С ПОМОЩЬЮ [ВКЛАДОК].</string>
+    <string name="search_empty_hint_history">ТВОИ НЕДАВНИЕ ПОИСКИ ПОЯВЯТСЯ [ЗДЕСЬ].</string>
+    <string name="search_clear">ОЧИСТИТЬ</string>
+    <string name="search_history">НЕДАВНИЕ [ПОИСКИ]</string>
+    <string name="search_clear_history">ЗАБЫТЬ [ПРОШЛОЕ]</string>
+    <string name="search_remove">УБРАТЬ</string>
+
+    <string name="library_offline">ТРЕКИ ИЗ [ДРУГОГО МИРА]</string>
+    <string name="offline_empty">ТУТ ПОКА [ПУСТО].</string>
+    <string name="offline_import_folder">ВЗЯТЬ ИЗ [ПАПКИ]</string>
+    <string name="offline_import_result">ПРИНЕСЕНО %1$d ТРЕКОВ, %2$d [ОСТАЛОСЬ]</string>
+    <string name="offline_import_result_no_skip">ПРИНЕСЕНО %1$d [ТРЕКОВ]</string>
+    <string name="offline_watched_folders_title">ПАПКИ, ЗА КОТОРЫМИ [СЛЕДЯТ]</string>
+    <string name="offline_watched_folders_empty">НЕТ ПАПОК, ЗА КОТОРЫМИ [СЛЕДЯТ]</string>
+    <string name="offline_unwatch_folder">ПЕРЕСТАТЬ СЛЕДИТЬ ЗА [ПАПКОЙ]</string>
+    <string name="network_unavailable">[СВЯЗЬ ПОТЕРЯНА]</string>
+    <string name="network_restored">[СВЯЗЬ ВЕРНУЛАСЬ!]</string>
+    <string name="track_skipped_message">НЕ УДАЛОСЬ ЗАГРУЗИТЬ «%1$s». [ПРОПУСКАЕМ.]</string>
+    <string name="track_skipped_deleted">«%1$s» БЫЛ УДАЛЁН ЕГО [ЗАГРУЗИВШИМ].</string>
+    <string name="track_skipped_drm">ДЛЯ «%1$s» НУЖЕН ПЛАТНЫЙ ПЛАН SOUNDCLOUD.
+[ДЕНЕГ НЕТ.]</string>
+    <string name="track_skipped_preview">SOUNDCLOUD ДАЁТ ТОЛЬКО 30-СЕКУНДНЫЙ ПРЕДПРОСМОТР «%1$s». ПОЛНАЯ ВЕРСИЯ ТРЕБУЕТ SOUNDCLOUD GO+.</string>
+    <string name="track_unavailable_message">«%1$s» [НЕДОСТУПЕН].</string>
+    <string name="track_unavailable">НЕДОСТУПНО.</string>
+    <string name="track_skipped_retry">ПОПРОБОВАТЬ [СНОВА]</string>
+    <string name="track_skipped_details">ЧТО [ПРОИЗОШЛО]?</string>
+    <string name="track_dialog_ok">ПОНЯТНО.</string>
+    <string name="track_unavailable_note">ЭТО ОГРАНИЧЕНИЕ SOUNDCLOUD, А НЕ ОШИБКА RESONA. [ЧЕСТНО.]</string>
+    <string name="network_retrying">СЛАБАЯ СВЯЗЬ. ПОПЫТКА [ЕЩЁ РАЗ]...</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">ЛЮБИМЫЕ [♥]</string>
+    <string name="favorites_empty">ПУСТО!
+[ТЫ НИЧЕГО НЕ СОХРАНИЛ.]</string>
+    <string name="favorite_artists_title">ЛЮБИМЫЕ [АРТИСТЫ]</string>
+    <string name="favorite_artists_empty">ТУТ ПОКА НЕТ ЛЮБИМЫХ [АРТИСТОВ].</string>
+    <string name="favorite_playlists_title">ЛЮБИМЫЕ [СПИСКИ]</string>
+    <string name="favorite_playlists_empty">ТУТ ПОКА НЕТ ЛЮБИМЫХ [СПИСКОВ].</string>
+
+    <!-- Player -->
+    <string name="player_collapse">СВЕРНУТЬ</string>
+    <string name="player_favorite">СОХРАНИТЬ В [СЕРДЦЕ]</string>
+    <string name="player_play">ИГРАТЬ</string>
+    <string name="player_pause">ПОДОЖДИ</string>
+    <string name="player_previous">ПРЕДЫДУЩАЯ [ГЛАВА]</string>
+    <string name="player_next">СЛЕДУЮЩАЯ [ГЛАВА]</string>
+    <string name="player_share">РАССКАЗАТЬ [ВСЕМ]</string>
+    <string name="player_save_offline">СОХРАНИТЬ В [ДРУГОЙ МИР]</string>
+    <string name="player_saved_offline">СОХРАНЕНО В [ДРУГОМ МИРЕ]</string>
+    <string name="player_shuffle">[ХАОС]</string>
+    <string name="player_repeat">СНОВА?!</string>
+    <string name="player_lyrics">ТЕКСТ [ПЕСНИ]</string>
+    <string name="player_lyrics_none_found">ТЕКСТ НЕ НАЙДЕН.
+[ПЕСНЯ МОЛЧИТ.]</string>
+    <string name="player_lyrics_source">ТЕКСТ ЧЕРЕЗ %s</string>
+    <string name="player_lyrics_offset_earlier">СДВИНУТЬ ТЕКСТ [НАЗАД]</string>
+    <string name="player_lyrics_offset_later">СДВИНУТЬ ТЕКСТ [ВПЕРЁД]</string>
+    <string name="player_playing_from">ИГРАЕТ ИЗ %1$s</string>
+    <string name="player_source_mix">[MIX]</string>
+    <string name="player_source_favorites">[ЛЮБИМЫЕ]</string>
+    <string name="player_source_offline">[ДРУГОЙ МИР]</string>
+    <string name="player_source_search">[ПОИСК]</string>
+    <string name="player_exclude_artist">НЕ РЕКОМЕНДОВАТЬ ЭТОГО [ПЕРСОНАЖА]</string>
+    <string name="player_more_options">ЕЩЁ [СТРАННЫХ] ШТУК</string>
+    <string name="player_sleep_timer">ТАЙМЕР [СНА]</string>
+    <string name="player_sleep_timer_minutes_format">%d [МИН.]</string>
+    <string name="player_sleep_timer_active_format">ВЫКЛЮЧИТСЯ ЧЕРЕЗ %s</string>
+    <string name="player_sleep_timer_cancel">ПЕРЕДУМАТЬ</string>
+    <string name="player_queue">ОЧЕРЕДЬ [ПРЕДСТОЯЩЕГО]</string>
+    <string name="player_queue_remove">УБРАТЬ ИЗ [ОЧЕРЕДИ]</string>
+    <string name="player_speed">СКОРОСТЬ</string>
+    <string name="player_speed_format">%s\u00D7</string>
+    <string name="player_speed_reset">ОБЫЧНАЯ [СКОРОСТЬ]</string>
+    <string name="history_title">ИСТОРИЯ [ТВОИХ ПОСТУПКОВ]</string>
+    <string name="history_empty">ТУТ ПОКА НИЧЕГО НЕТ.
+ТРЕКИ, КОТОРЫЕ ТЫ СЛУШАЕШЬ, ПОЯВЯТСЯ ЗДЕСЬ.</string>
+    <string name="history_clear">УНИЧТОЖИТЬ [ПРОШЛОЕ]</string>
+    <string name="history_clear_confirm">ВСЯ ИСТОРИЯ ПРОСЛУШИВАНИЯ БУДЕТ УДАЛЕНА.
+СТАТИСТИКА ТОЖЕ [ИСЧЕЗНЕТ].</string>
+    <string name="history_remove_entry">УБРАТЬ ИЗ [ПРОШЛОГО]</string>
+    <string name="history_today">СЕГОДНЯ</string>
+    <string name="history_yesterday">ВЧЕРА</string>
+    <string name="history_entry_format">%1$s, ПРОСЛУШАНО %2$s</string>
+    <string name="history_entry_repeated_format">%1$s, ПРОСЛУШАНО %2$s, ПРОСЛУШИВАНИЙ: %3$d</string>
+    <string name="settings_cache_limit">ЛИМИТ [ПАМЯТИ]</string>
+    <string name="settings_cache_limit_desc">НЕДАВНО ПРОСЛУШАННЫЕ ТРЕКИ ХРАНЯТСЯ ДЛЯ МГНОВЕННОГО ПОВТОРА. СТАРЫЕ УДАЛЯЮТСЯ, КОГДА ЛИМИТ ДОСТИГНУТ.</string>
+    <string name="settings_cache_limit_mb">%d [МБ]</string>
+    <string name="settings_cache_limit_gb">%d [ГБ]</string>
+    <string name="player_sleep_timer_after_track">ДО КОНЦА [ТРЕКА]</string>
+    <string name="player_sleep_timer_after_track_active">ВОСПРОИЗВЕДЕНИЕ ОСТАНОВИТСЯ В КОНЦЕ ЭТОГО [ТРЕКА]</string>
+    <string name="settings_crossfade_duration">ДЛИНА [ПЕРЕХОДА]</string>
+    <string name="settings_crossfade_duration_format">%d [С]</string>
+    <string name="track_play_next">ИГРАТЬ [СЛЕДУЮЩИМ]</string>
+    <string name="track_add_to_queue">ДОБАВИТЬ В [ОЧЕРЕДЬ]</string>
+    <string name="selection_queue_all">ДОБАВИТЬ В [ОЧЕРЕДЬ]</string>
+    <string name="player_exclude_artist_short">Don\'t recommend this artist</string>
+
+    <!-- Search tabs -->
+    <string name="tab_tracks">ТРЕКИ</string>
+    <string name="tab_artists">АРТИСТЫ</string>
+    <string name="tab_playlists">СПИСКИ [ПЕСЕН]</string>
+
+    <!-- Artist / Playlist -->
+    <string name="play_all">ИГРАТЬ [ВСЁ!!!]</string>
+    <string name="artist_tracks">ТРЕКИ</string>
+    <string name="artist_followers">%d [ПОКЛОННИКОВ]</string>
+    <string name="artist_tracks_count">%d [ТРЕКОВ]</string>
+    <string name="artist_at_username">@%s</string>
+    <string name="artist_id">ID: %d</string>
+    <string name="artist_error">ОШИБКА: %s</string>
+    <string name="playlist_by">[СОЗДАТЕЛЬ]: %s</string>
+    <string name="playlist_tracks_count">%d [ТРЕКОВ]</string>
+
+    <!-- Account -->
+    <string name="account_title">ТВОЙ [АККАУНТ]</string>
+    <string name="account_sign_in_soundcloud">ВОЙТИ ЧЕРЕЗ [SOUNDCLOUD]</string>
+    <string name="account_sign_in_title">ВОЙТИ В [RESONA]</string>
+    <string name="account_sign_in_desc">ПОЛУЧИТЬ ДОСТУП К ЛЮБИМЫМ, ПРОФИЛЮ И [ДРУГИМ ШТУКАМ]</string>
+    <string name="account_sign_out">ПОКИНУТЬ [АККАУНТ]</string>
+    <string name="account_share_link">ПОКАЗАТЬ [ПРОФИЛЬ]</string>
+    <string name="login_email_label">[ЭЛЕКТРОННАЯ ПОЧТА]</string>
+    <string name="login_password_label">[ПАРОЛЬ]</string>
+    <string name="login_sign_in_button">ВОЙТИ [!!!]</string>
+    <string name="login_signing_in">ВХОДИМ В [МИР]...</string>
+    <string name="login_or_continue_with">ИЛИ ПРОДОЛЖИТЬ С [ПОМОЩЬЮ]</string>
+    <string name="login_continue_google">ПРОДОЛЖИТЬ С [GOOGLE]</string>
+    <string name="login_continue_facebook">ПРОДОЛЖИТЬ С [FACEBOOK]</string>
+    <string name="login_trouble_use_browser">НЕ ПОЛУЧАЕТСЯ? ПОПРОБУЙ ВОЙТИ ЧЕРЕЗ [БРАУЗЕР].</string>
+    <string name="favorites_online_toggle_title">ЛЮБИМЫЕ [В СЕТИ]</string>
+    <string name="favorites_online_toggle_desc">СИНХРОНИЗИРОВАТЬ ЛАЙКИ С ТВОИМ НАСТОЯЩИМ [SOUNDCLOUD].</string>
+    <string name="favorites_badge_local">МЕСТНЫЙ [ЛЮБИМЧИК]</string>
+    <string name="favorites_badge_online">ЛАЙК [SOUNDCLOUD]</string>
+    <string name="favorites_badge_both">МЕСТНЫЙ + [SOUNDCLOUD]</string>
+    <string name="favorites_online_unlike_failed">НЕ УДАЛОСЬ УБРАТЬ ЛАЙК SOUNDCLOUD.
+[ОН ДЕРЖИТСЯ.]</string>
+    <string name="favorites_online_fetch_failed">НЕ УДАЛОСЬ ЗАГРУЗИТЬ ТВОИ ЛАЙКИ SOUNDCLOUD.</string>
+    <string name="favorites_online_sync_now">СИНХРОНИЗИРОВАТЬ [СЕЙЧАС]</string>
+    <string name="favorites_online_sync_now_desc">ЗАНОВО ПОЛУЧИТЬ ТВОИ ЛАЙКИ [ПРЯМО СЕЙЧАС]</string>
+    <string name="favorites_online_sync_now_done">СИНХРОНИЗИРОВАНО %d ОНЛАЙН-ЛЮБИМЫХ</string>
+    <string name="favorites_online_sync_now_failed">СИНХРОНИЗАЦИЯ [ПРОВАЛЕНА]</string>
+    <string name="account_settings">НАСТРОЙКИ [АККАУНТА]</string>
+
+    <!-- Settings -->
+    <string name="settings_title">НАСТРОЙКИ [МИРА]</string>
+    <string name="settings_customization">НАСТРОЙКА [МИРА]</string>
+    <string name="settings_color_theme">ЦВЕТОВАЯ [ЭНЕРГИЯ]</string>
+    <string name="settings_custom_color">[ОСОБЫЙ] ЦВЕТ</string>
+    <string name="settings_custom_color_hue">[ОТТЕНОК]</string>
+    <string name="settings_custom_color_saturation">[НАСЫЩЕННОСТЬ]</string>
+    <string name="settings_custom_color_brightness">[ЯРКОСТЬ]</string>
+    <string name="settings_home_sections">РАЗДЕЛЫ [ДОМА]</string>
+    <string name="settings_home_sections_desc">ВЫБЕРИ, КАКИЕ РАЗДЕЛЫ ПОЯВЛЯЮТСЯ В ДОМЕ И В КАКОМ [ПОРЯДКЕ].</string>
+    <string name="player_customize_hint">ВНЕШНИЙ ВИД ПЛЕЕРА МЕНЯЕТСЯ В НАСТРОЙКАХ, В РАЗДЕЛЕ [КАСТОМИЗАЦИЯ].</string>
+    <string name="settings_app_background">ФОН [МИРА]</string>
+    <string name="settings_app_background_dynamic">[ОБЛОЖКА]</string>
+    <string name="settings_app_background_default">[ОБЫЧНЫЙ]</string>
+    <string name="settings_app_background_custom">[СВОЙ]</string>
+    <string name="settings_app_background_player_only">ТОЛЬКО [ПЛЕЕР]</string>
+    <string name="settings_app_background_dynamic_desc">ВСЁ ПРИЛОЖЕНИЕ И ПЛЕЕР БЕРУТ ЦВЕТА ИЗ ОБЛОЖКИ ТЕКУЩЕГО [ТРЕКА].</string>
+    <string name="settings_app_background_default_desc">ПРОСТОЙ СВЕТЛЫЙ ИЛИ ТЁМНЫЙ ФОН, СЛЕДУЮЩИЙ ТВОЕЙ [ТЕМЕ].</string>
+    <string name="settings_app_background_custom_desc">ТВОЙ СОБСТВЕННЫЙ ЦВЕТ ДЛЯ ФОНА, А ТРЕКИ СТОЯТ ОТ НЕГО [ПОДАЛЬШЕ].</string>
+    <string name="settings_app_background_player_only_desc">ТОЛЬКО ПЛЕЕР СЛЕДУЕТ ОБЛОЖКЕ. ОСТАЛЬНОЕ ПРИЛОЖЕНИЕ ОСТАЁТСЯ [ОБЫЧНЫМ].</string>
+    <string name="settings_player_style">СТИЛЬ [ПЛЕЕРА]</string>
+    <string name="settings_pixel_glow">СВЕЧЕНИЕ ЗА [ОБЛОЖКОЙ]</string>
+    <string name="settings_pixel_glow_desc">МЯГКИЙ РАДИАЛЬНЫЙ ГРАДИЕНТ ЦВЕТА ТЕКУЩЕГО ТРЕКА. ТОТ ЖЕ, ЧТО ИСПОЛЬЗУЕТ [LEGACY ORB].</string>
+    <string name="settings_player_style_pixel">[ПИКСЕЛЬ]</string>
+    <string name="settings_player_style_legacy">[LEGACY]</string>
+    <string name="settings_player_background">ФОН [ПЛЕЕРА]</string>
+    <string name="settings_player_background_orb">[ОРБ]</string>
+    <string name="settings_player_background_blurred">[РАЗМЫТЫЙ]</string>
+    <string name="settings_player_background_minimal">[МИНИМАЛЬНЫЙ]</string>
+    <string name="settings_app_icon">ЗНАЧОК [МИРА]</string>
+    <string name="settings_app_icon_normal">[ОБЫЧНЫЙ]</string>
+    <string name="settings_app_icon_dynamic">[ДИНАМИЧЕСКИЙ]</string>
+    <string name="settings_app_icon_desc">ДИНАМИЧЕСКИЙ ЗНАЧОК ПОДСТРАИВАЕТСЯ ПОД ЦВЕТА ОБОЕВ НА ANDROID 13+, ЕСЛИ В НАСТРОЙКАХ ОБОЕВ ВКЛЮЧЕНЫ [ТЕМАТИЧЕСКИЕ ЗНАЧКИ].</string>
+    <string name="settings_dark_theme">ТЕМНОТА [МИРА]</string>
+    <string name="settings_dark_system">[СИСТЕМА]</string>
+    <string name="settings_dark_light">[СВЕТ]</string>
+    <string name="settings_dark_dark">[ТЬМА]</string>
+    <string name="settings_dynamic_color">ЦВЕТ ИЗ [ТРЕКА]</string>
+    <string name="settings_dynamic_color_desc">ЦВЕТ АКЦЕНТА МЕНЯЕТСЯ В ЗАВИСИМОСТИ ОТ [ТЕКУЩЕГО ТРЕКА].</string>
+    <string name="settings_autoplay">ИГРАТЬ СЛЕДУЮЩИЙ [АВТОМАТИЧЕСКИ]</string>
+    <string name="settings_crossfade">ПЛАВНЫЙ [ПЕРЕХОД]</string>
+    <string name="settings_crossfade_desc">ПЛАВНО МЕНЯЕТ ГРОМКОСТЬ МЕЖДУ ТРЕКАМИ ВМЕСТО РЕЗКОЙ [СМЕНЫ].</string>
+    <string name="settings_seek_bar_style">СТИЛЬ [ПОЛЗУНКА]</string>
+    <string name="settings_seek_bar_style_classic">[КЛАССИЧЕСКИЙ]</string>
+    <string name="settings_seek_bar_style_wavy">[ВОЛНИСТЫЙ]</string>
+    <string name="settings_lyrics_provider">ИСТОЧНИК [ТЕКСТОВ]</string>
+    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
+    <string name="settings_lyrics_provider_kugou">Kugou</string>
+    <string name="settings_lyrics_provider_desc">LRCLIB — ИСТОЧНИК ПО УМОЛЧАНИЮ И НАИБОЛЕЕ НАДЁЖНЫЙ. KUGOU ЭКСПЕРИМЕНТАЛЕН И ОЧЕНЬ НЕСТАБИЛЕН. ВКЛЮЧАЙ ЕГО ТОЛЬКО ЕСЛИ ЗНАЕШЬ, ЧТО [ДЕЛАЕШЬ].</string>
+    <string name="settings_lyrics_genius_fallback">ТЕКСТЫ ОТ [GENIUS]</string>
+    <string name="settings_lyrics_genius_fallback_desc">ЕСЛИ СИНХРОНИЗИРОВАННЫЙ ТЕКСТ НЕ НАЙДЕН, ИСКАТЬ ОБЫЧНЫЙ ТЕКСТ ЧЕРЕЗ НЕОФИЦИАЛЬНЫЙ ПОИСК GENIUS ВМЕСТО [ПУСТОТЫ].</string>
+    <string name="settings_haptics">[ОЩУЩЕНИЕ] НАЖАТИЯ</string>
+    <string name="settings_haptics_desc">ВИБРИРОВАТЬ ПРИ НАЖАТИЯХ И [ВЗАИМОДЕЙСТВИЯХ].</string>
+    <string name="settings_haptics_intensity">СИЛА [ОЩУЩЕНИЯ]</string>
+    <string name="settings_haptics_intensity_low">[СЛАБАЯ]</string>
+    <string name="settings_haptics_intensity_medium">[СРЕДНЯЯ]</string>
+    <string name="settings_haptics_intensity_high">[СИЛЬНАЯ]</string>
+    <string name="settings_developer_mode">РЕЖИМ [БОЛЬШАЯ ШИШКА]</string>
+    <string name="settings_developer_mode_desc">ПОКАЗЫВАЕТ ID ПОЛЬЗОВАТЕЛЕЙ. [ЗАЧЕМ?]</string>
+    <string name="settings_language">ЯЗЫК [МИРА]</string>
+    <string name="settings_language_en">ENGLISH</string>
+    <string name="settings_language_ru">РУССКИЙ</string>
+    <string name="settings_storage">[ХРАНИЛИЩЕ]</string>
+    <string name="settings_cache">[КЭШ]</string>
+    <string name="settings_cache_size">ВЫЧИСЛЯЕМ [НЕЧТО]...</string>
+    <string name="settings_cache_cleared">КЭШ [ОЧИЩЕН]</string>
+    <string name="settings_clear">ОЧИСТИТЬ</string>
+    <string name="settings_offline_tracks">ТРЕКИ [ОФЛАЙН]</string>
+    <string name="settings_offline_tracks_count">%1$d tracks · %2$s</string>
+    <string name="settings_offline_cleared">ОФЛАЙН-ТРЕКИ [ИСЧЕЗЛИ]</string>
+    <string name="settings_client_id">ОБНОВИТЬ [CLIENT ID]</string>
+    <string name="settings_client_id_desc">Only needed if playback or search stops working (error 401)</string>
+    <string name="settings_client_id_refreshed">CLIENT ID [ОБНОВЛЁН]</string>
+    <string name="settings_keep_android_open_title">[KEEP ANDROID OPEN]</string>
+    <string name="settings_keep_android_open_desc">RESONA ПОДДЕРЖИВАЕТ ДВИЖЕНИЕ KEEP ANDROID OPEN, КОТОРОЕ ВЫСТУПАЕТ ПРОТИВ ПЛАНА GOOGLE ТРЕБОВАТЬ ПОДТВЕРЖДЕНИЕ ЛИЧНОСТИ ДЛЯ КАЖДОГО ANDROID-ПРИЛОЖЕНИЯ — ВКЛЮЧАЯ УСТАНОВЛЕННЫЕ ВНЕ PLAY STORE. УЗНАТЬ БОЛЬШЕ НА [keepandroidopen.org].</string>
+    <string name="settings_about">О [RESONA]</string>
+    <string name="settings_version">ВЕРСИЯ %s</string>
+    <string name="settings_eula">[ПРЕДУПРЕЖДЕНИЕ]</string>
+    <string name="settings_eula_desc">[УСЛОВИЯ] ИСПОЛЬЗОВАНИЯ</string>
+    <string name="eula_title">[ПРЕДУПРЕЖДЕНИЕ]</string>
+    <string name="eula_body">RESONA — НЕОФИЦИАЛЬНОЕ ОТКРЫТОЕ ПРИЛОЖЕНИЕ ДЛЯ ПРОСМОТРА И ВОСПРОИЗВЕДЕНИЯ КОНТЕНТА SOUNDCLOUD. ОНО НИКАК НЕ СВЯЗАНО С SOUNDCLOUD И НЕ ПОДДЕРЖИВАЕТСЯ ИМ.
+
+ТЫ ИСПОЛЬЗУЕШЬ ЭТО ПРИЛОЖЕНИЕ НА СВОЙ РИСК. ГАРАНТИЙ НЕТ. РАЗРАБОТЧИК НЕ НЕСЁТ ОТВЕТСТВЕННОСТИ ЗА ПРОБЛЕМЫ, ПОТЕРЮ ДАННЫХ ИЛИ ПРОБЛЕМЫ С АККАУНТОМ.
+
+ВСЯ МУЗЫКА, ГРАФИКА И ПРОЧИЙ КОНТЕНТ ОСТАЮТСЯ СОБСТВЕННОСТЬЮ ИХ АВТОРОВ И ПРАВООБЛАДАТЕЛЕЙ НА SOUNDCLOUD. RESONA НЕ ХРАНИТ И НЕ ВЛАДЕЕТ ИМИ — ОНА ЛИШЬ ВОСПРОИЗВОДИТ ТО, ЧТО УЖЕ ДОСТУПНО ПУБЛИЧНО.
+
+ИСПОЛЬЗУЯ ЭТО ПРИЛОЖЕНИЕ, ТЫ ТАКЖЕ СОГЛАШАЕШЬСЯ СОБЛЮДАТЬ СОБСТВЕННЫЕ УСЛОВИЯ SOUNDCLOUD.
+
+RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. ТЫ МОЖЕШЬ ЧИТАТЬ КОД, МЕНЯТЬ ЕГО ИЛИ ВНОСИТЬ [ВКЛАД].</string>
+    <string name="eula_gate_checkbox">Я ПРОЧИТАЛ И СОГЛАСЕН. [НАВЕРНОЕ.]</string>
+    <string name="eula_decline">НЕТ.</string>
+    <string name="eula_agree">СОГЛАСИТЬСЯ И [ПРОДОЛЖИТЬ]</string>
+    <string name="settings_debug_menu">[ОЧЕНЬ СЕКРЕТНОЕ] МЕНЮ</string>
+    <string name="settings_debug_menu_desc">ИНСТРУМЕНТЫ РАЗРАБОТЧИКА И [ДРУГИЕ СТРАННЫЕ ВЕЩИ]</string>
+    <string name="settings_updates">[ОБНОВЛЕНИЯ]</string>
+    <string name="settings_update_channel_release">[RELEASE]</string>
+    <string name="settings_update_channel_canary">[CANARY]</string>
+    <string name="settings_auto_check_updates">АВТОМАТИЧЕСКИ ИСКАТЬ [НОВОЕ]</string>
+    <string name="settings_check_for_updates">ПРОВЕРИТЬ [ОБНОВЛЕНИЯ]</string>
+    <string name="settings_checking_for_updates">ПОИСК [НОВОГО]...</string>
+    <string name="settings_update_up_to_date">ТЫ ИСПОЛЬЗУЕШЬ ПОСЛЕДНЮЮ ВЕРСИЮ.
+[ПОКА ЧТО.]</string>
+    <string name="settings_update_check_failed">НЕ УДАЛОСЬ ПРОВЕРИТЬ ОБНОВЛЕНИЯ.
+[ОНИ СКРЫВАЮТСЯ.]</string>
+
+    <!-- Update dialogs -->
+    <string name="update_dialog_title_release">У ТЕБЯ ЕСТЬ НОВАЯ ВЕРСИЯ!!!</string>
+    <string name="update_dialog_message_release">ВЕРСИЯ: %1$s
+
+ЧТО НОВОГО:
+%2$s</string>
+    <string name="update_dialog_no_changelog">СПИСОК ИЗМЕНЕНИЙ НЕ [ПРЕДОСТАВЛЕН].</string>
+    <string name="update_dialog_title_canary">НОВАЯ [CANARY] СБОРКА!!!</string>
+    <string name="update_dialog_message_canary">ДОСТУПНА БОЛЕЕ НОВАЯ СБОРКА CANARY.
+[ТЫ ЗНАЕШЬ, ЧТО ДЕЛАЕШЬ?]</string>
+    <string name="update_dialog_later">ПОТОМ</string>
+    <string name="crash_dialog_title">RESONA [УПАЛА].</string>
+    <string name="crash_dialog_message">RESОNA ПЕРЕСТАЛА БЫТЬ RESONA.
+ВОТ ЧТО ПРОИЗОШЛО ПРЯМО ПЕРЕД [ЭТИМ].</string>
+    <string name="crash_dialog_dismiss">ПОНЯТНО.</string>
+    <string name="update_dialog_open_github">ОТКРЫТЬ [ТАИНСТВЕННЫЙ АРХИВ]</string>
+
+    <!-- Debug Menu -->
+    <string name="debug_menu_title">[НЕ ВХОДИТЬ]</string>
+    <string name="debug_menu_build_info">ИНФОРМАЦИЯ О [СОЗДАНИИ]</string>
+    <string name="debug_menu_version">ВЕРСИЯ</string>
+    <string name="debug_menu_build_type">ТИП [ШТУКИ]</string>
+    <string name="debug_menu_application_id">ID [СУЩЕСТВОВАНИЯ]</string>
+    <string name="debug_menu_device">[УСТРОЙСТВО]</string>
+    <string name="debug_menu_client_id">SOUNDCLOUD CLIENT ID ([НЕ ПОКАЗЫВАЙ НИКОМУ!])</string>
+    <string name="debug_menu_client_id_current">СЕЙЧАС: %s</string>
+    <string name="debug_menu_client_id_override_hint">[РУЧНОЕ] ВМЕШАТЕЛЬСТВО</string>
+    <string name="debug_menu_client_id_save">[УСТАНОВИТЬ]</string>
+    <string name="debug_menu_database">ЛОКАЛЬНАЯ [ПАМЯТЬ]</string>
+    <string name="debug_menu_favorite_tracks">ЛЮБИМЫХ ТРЕКОВ: %d</string>
+    <string name="debug_menu_favorite_artists">ЛЮБИМЫХ АРТИСТОВ: %d</string>
+    <string name="debug_menu_favorite_playlists">ЛЮБИМЫХ СПИСКОВ: %d</string>
+    <string name="debug_menu_offline_tracks">ОФЛАЙН-ТРЕКОВ: %d</string>
+    <string name="debug_menu_reset_database">СБРОСИТЬ [ПАМЯТЬ МИРА]</string>
+    <string name="debug_menu_reset_database_desc">УДАЛИТ ЛЮБИМЫЕ, ОФЛАЙН-ТРЕКИ И ИСТОРИЮ ИМПОРТА.
+[ВСЁ.]</string>
+    <string name="debug_menu_reset_database_done">ЛОКАЛЬНАЯ ПАМЯТЬ [СБРОШЕНА]</string>
+    <string name="debug_menu_actions">[ДЕЙСТВИЯ]</string>
+    <string name="debug_menu_copy_report">СКОПИРОВАТЬ [ТАИНСТВЕННЫЙ ОТЧЁТ]</string>
+    <string name="debug_menu_copy_report_desc">КОПИРУЕТ ИНФОРМАЦИЮ О СБОРКЕ, УСТРОЙСТВЕ И CLIENT ID В [БУФЕР].</string>
+    <string name="debug_menu_copy">[СКОПИРОВАТЬ]</string>
+    <string name="debug_menu_report_copied">ОТЧЁТ [СКОПИРОВАН].</string>
+    <string name="debug_menu_test_crash">СЛОМАТЬ [ВСЁ РАДИ ТЕСТА]</string>
+    <string name="debug_menu_test_crash_desc">ПРИНУДИТЕЛЬНО УРОНИТ RESONA.
+[НЕ ГОВОРИ, ЧТО Я НЕ ПРЕДУПРЕЖДАЛ.]</string>
+    <string name="debug_menu_diagnostics">[ДИАГНОСТИКА]</string>
+    <string name="debug_menu_verbose_network">ПОДРОБНЫЙ [СЕТЕВОЙ] ЖУРНАЛ</string>
+    <string name="debug_menu_verbose_network_desc">ЗАПИСЫВАЕТ ПОЛНЫЕ ТЕЛА ЗАПРОСОВ И ОТВЕТОВ В ЖУРНАЛ НИЖЕ.</string>
+    <string name="debug_menu_screenshot_mode">РЕЖИМ [СКРИНШОТА]</string>
+    <string name="debug_menu_screenshot_mode_toggle">СКРЫТЬ ОБЛОЖКИ &amp; [АВАТАРЫ]</string>
+    <string name="debug_menu_screenshot_mode_desc">Replaces track, playlist and artist artwork with placeholders app-wide, so screenshots don\'t show copyrighted covers. Navigate to a screen after enabling for it to take effect.</string>
+    <string name="debug_menu_screenshot_mode_clear_cache">ОЧИСТИТЬ [КЭШ КАРТИНОК]</string>
+    <string name="debug_menu_screenshot_mode_cache_cleared">КЭШ КАРТИНОК [ОЧИЩЕН]</string>
+    <string name="debug_menu_player_state">СОСТОЯНИЕ [ПЛЕЕРА]</string>
+    <string name="debug_menu_player_state_desc">ТЕКУЩИЙ СНИМОК PlayerController. ПОЛЕЗЕН ПРИ ПОИСКЕ ПРОБЛЕМ С MIX И [ОЧЕРЕДЬЮ].</string>
+    <string name="debug_menu_trace">ЖУРНАЛ [СЛЕДОВ]</string>
+    <string name="debug_menu_trace_desc">НЕДАВНИЕ СОБЫТИЯ ПРИЛОЖЕНИЯ (ВХОД, СИНХРОНИЗАЦИЯ ЛЮБИМЫХ, СЕТЬ).</string>
+    <string name="debug_menu_trace_empty">СЛЕДОВ ПОКА [НЕТ].</string>
+    <string name="debug_menu_clear">ЗАБЫТЬ [ЭТО]</string>
+    <string name="debug_menu_greetings">ПРИВЕТСТВИЕ [МИРА]</string>
+    <string name="debug_menu_greetings_desc">ПРИНУДИТЕЛЬНО ВЫБИРАЕТ ВРЕМЯ СУТОК ИЛИ КОНКРЕТНУЮ ФРАЗУ ДЛЯ ПРОСМОТРА ПРИВЕТСТВИЯ [ДОМА].</string>
+    <string name="debug_menu_greetings_current">СЕЙЧАС: %s</string>
+    <string name="debug_menu_greeting_period_morning">[УТРО]</string>
+    <string name="debug_menu_greeting_period_afternoon">[ДЕНЬ]</string>
+    <string name="debug_menu_greeting_period_evening">[ВЕЧЕР]</string>
+    <string name="debug_menu_greeting_period_night">[НОЧЬ]</string>
+    <string name="debug_menu_greetings_clear">ИСПОЛЬЗОВАТЬ [НАСТОЯЩЕЕ ВРЕМЯ]</string>
+
+    <!-- Import / Export -->
+    <string name="import_export_title">[ИМПОРТ] / ЭКСПОРТ</string>
+    <string name="export_favorites">ВЫНЕСТИ [ЛЮБИМЫЕ] НАРУЖУ</string>
+    <string name="export_favorites_desc">СОХРАНЯЕТ ТРЕКИ, АРТИСТОВ И СПИСКИ В [JSON-ФАЙЛ].</string>
+    <string name="import_favorites">ПРИНЕСТИ [ЛЮБИМЫЕ] СЮДА</string>
+    <string name="import_favorites_desc">ЗАГРУЖАЕТ ЛЮБИМЫЕ ИЗ JSON. СОХРАНЯЕТСЯ ТОЛЬКО В ЛОКАЛЬНЫЕ/ОФЛАЙН-ЛЮБИМЫЕ — С ТВОИМИ ЛАЙКАМИ SOUNDCLOUD НЕ [СИНХРОНИЗИРУЕТСЯ].</string>
+    <string name="import_sc_title">ПРИНЕСТИ ИЗ [SOUNDCLOUD]</string>
+    <string name="import_sc_desc">ВВЕДИ ИМЯ ПОЛЬЗОВАТЕЛЯ SOUNDCLOUD ИЛИ URL ПРОФИЛЯ. СОХРАНЯЕТСЯ ТОЛЬКО В ЛОКАЛЬНЫЕ/ОФЛАЙН-ЛЮБИМЫЕ.</string>
+    <string name="import_sc_hint">ИМЯ ПОЛЬЗОВАТЕЛЯ ИЛИ soundcloud.com/username</string>
+    <string name="import_sc_resolve">НАЙТИ [ПЕРСОНАЖА]</string>
+    <string name="import_sc_fetch">ПОЛУЧИТЬ [ЛАЙКИ]</string>
+    <string name="import_sc_cancel">НЕТ.</string>
+    <string name="import_sc_resolving">ПОИСК [ПЕРСОНАЖА]...</string>
+    <string name="import_sc_fetched">ПОЛУЧЕНО %d ТРЕКОВ...</string>
+    <string name="import_sc_slow">ДЛЯ ПРОФИЛЕЙ С МНОЖЕСТВОМ ЛАЙКОВ ЭТО МОЖЕТ ЗАНЯТЬ [ВРЕМЯ].</string>
+    <string name="import_sc_preview">[ПРЕДПРОСМОТР]</string>
+    <string name="import_sc_preview_count">%1$d ЛАЙКНУТЫХ ТРЕКОВ ОТ %2$s</string>
+    <string name="import_sc_preview_playlists">%d ЛАЙКНУТЫХ [СПИСКОВ]</string>
+    <string name="import_sc_fetch_playlists">ПОЛУЧИТЬ [СПИСКИ]</string>
+    <string name="import_sc_fetching_playlists">ПОЛУЧЕНО %d СПИСКОВ...</string>
+    <string name="import_sc_replace">ЗАМЕНИТЬ ТЕКУЩИЕ [ЛЮБИМЫЕ]</string>
+    <string name="import_sc_merge">СМЕШАТЬ С ТЕКУЩИМИ [ЛЮБИМЫМИ]</string>
+    <string name="import_sc_importing">ПЕРЕНОСИМ [ДОБЫЧУ]...</string>
+    <string name="import_sc_dismiss">УЙТИ</string>
+
+    <!-- Telegram import (BETA) -->
+    <string name="import_tg_title">ПРИНЕСТИ ИЗ [TELEGRAM]</string>
+    <string name="import_tg_beta">[BETA]</string>
+    <string name="import_tg_desc">СКАНИРУЕТ ЧАТ НА НАЛИЧИЕ АУДИО, СОПОСТАВЛЯЕТ ЕГО С SOUNDCLOUD И ДОБАВЛЯЕТ НЕ НАЙДЕННОЕ ТУДА В ОФЛАЙН-ТРЕКИ. СОПОСТАВЛЕНИЯ СОХРАНЯЮТСЯ ТОЛЬКО ЛОКАЛЬНО.</string>
+    <string name="import_tg_unavailable">В ЭТОЙ СБОРКЕ ЭТО НЕ НАСТРОЕНО — СМОТРИ ЗАМЕТКИ ПО НАСТРОЙКЕ [TELEGRAM-ИМПОРТА].</string>
+    <string name="import_tg_start">ВОЙТИ ЧЕРЕЗ [TELEGRAM]</string>
+    <string name="import_tg_connecting">СОЕДИНЕНИЕ С [ДРУГИМ МИРОМ]...</string>
+    <string name="import_tg_phone_hint">Phone number (with country code)</string>
+    <string name="import_tg_send_phone">ПРОДОЛЖИТЬ</string>
+    <string name="import_tg_code_sent">КОД ОТПРАВЛЕН НА %s</string>
+    <string name="import_tg_code_hint">[СЕКРЕТНЫЙ КОД]</string>
+    <string name="import_tg_send_code">ПРОДОЛЖИТЬ</string>
+    <string name="import_tg_password_hint">[ОБЛАЧНЫЙ] ПАРОЛЬ</string>
+    <string name="import_tg_send_password">ПРОДОЛЖИТЬ</string>
+    <string name="import_tg_load_chats">ВЫБРАТЬ [МЕСТО]</string>
+    <string name="import_tg_log_out">ПОКИНУТЬ [TELEGRAM]</string>
+    <string name="import_tg_loading_chats">ЗАГРУЗКА [ЧАТОВ]...</string>
+    <string name="import_tg_select_folder">НАЙТИ [ЧАТ]</string>
+    <string name="import_tg_all_chats">ВСЕ [МИРЫ]</string>
+    <string name="import_tg_pinned">[ПРИКРЕПЛЁННЫЕ]</string>
+    <string name="import_tg_select_chat">ВЫБЕРИ ЧАТ ДЛЯ [СКАНИРОВАНИЯ]</string>
+    <string name="import_tg_progress">СКАНИРОВАНИЕ... ОБРАБОТАНО %1$d
+%2$s</string>
+    <string name="import_tg_progress_stats">СОВПАЛО: %1$d · ОФЛАЙН: %2$d · ПРОВАЛЕНО: %3$d · УЖЕ В БИБЛИОТЕКЕ: %4$d</string>
+    <string name="import_tg_done">ИМПОРТ [ЗАВЕРШЁН]</string>
+
+    <!-- Messages -->
+    <string name="msg_export_success">ЛЮБИМЫЕ УСПЕШНО [ВЫНЕСЕНЫ].</string>
+    <string name="msg_export_failed">ЭКСПОРТ [ПРОВАЛЕН]: %s</string>
+    <string name="msg_import_result">ПРИНЕСЕНО: %1$d ТРЕКОВ, %2$d АРТИСТОВ, %3$d СПИСКОВ</string>
+    <string name="msg_import_failed">ИМПОРТ [ПРОВАЛЕН]: %s</string>
+    <string name="msg_sc_import_result">ПРИНЕСЕНО %d ТРЕКОВ ИЗ SOUNDCLOUD</string>
+    <string name="msg_sc_import_failed">ИМПОРТ [ПРОВАЛЕН]</string>
+    <string name="msg_sc_resolve_failed">НЕ УДАЛОСЬ НАЙТИ [ПЕРСОНАЖА].</string>
+    <string name="msg_sc_search_failed">ПОИСК [ПРОВАЛЕН].</string>
+    <string name="msg_sc_no_results">ПЕРСОНАЖЕЙ НЕ [НАЙДЕНО].</string>
+    <string name="import_sc_searching">ПОИСК [ПЕРСОНАЖА]...</string>
+    <string name="import_sc_select_profile">ВЫБРАТЬ [ПЕРСОНАЖА]</string>
+    <string name="msg_sc_fetch_failed">НЕ УДАЛОСЬ ПОЛУЧИТЬ [ЛАЙКИ].</string>
+
+    <!-- About -->
+    <string name="about_github">[GITHUB]</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_build_canary">[CANARY]-СБОРКА</string>
+    <string name="easter_egg_caption">ЭТО НИЧЕГО НЕ ДЕЛАЕТ.</string>
+    <string name="easter_egg_press_me">[НАЖМИ МЕНЯ]</string>
+    <string name="easter_egg_launch">ЗАПУСК!!!</string>
+    <string name="easter_egg_gravity">[ГРАВИТАЦИЯ]</string>
+
+    <!-- Badges -->
+    <string name="badge_developer">ЗНАЧОК [РАЗРАБОТЧИКА]</string>
+    <string name="badge_developer_desc">ЭТОТ ПОЛЬЗОВАТЕЛЬ — РАЗРАБОТЧИК RESONA.
+[ОН ЗНАЕТ СЛИШКОМ МНОГО.]</string>
+    <string name="badge_supporter">ЗНАЧОК [ПОДДЕРЖКИ]</string>
+    <string name="badge_supporter_desc">ЭТОТ ПОЛЬЗОВАТЕЛЬ ПОДДЕРЖАЛ RESONA.
+[СПАСИБО.]</string>
+    <string name="badge_unknown">НЕИЗВЕСТНЫЙ [ЗНАЧОК].</string>
+    <string name="badge_received">%1$s received the %2$s badge.</string>
+
+    <!-- Common -->
+    <string name="back">НАЗАД</string>
+    <string name="done">ГОТОВО!</string>
+    <string name="close">ЗАКРЫТЬ</string>
+    <string name="cancel">ОТМЕНА [!!!]</string>
+
+    <!-- Sorting -->
+    <string name="sort_button">[СОРТИРОВКА]</string>
+    <string name="sort_sheet_title">СОРТИРОВАТЬ [ПО]:</string>
+    <string name="sort_default">[КАК ЕСТЬ]</string>
+    <string name="sort_title">[НАЗВАНИЮ]</string>
+    <string name="sort_artist">[АРТИСТУ]</string>
+    <string name="sort_duration">[ДЛИТЕЛЬНОСТИ]</string>
+    <string name="sort_direction">[НАПРАВЛЕНИЕ]</string>
+    <string name="sort_dir_original">[ВПЕРЁД]</string>
+    <string name="sort_dir_reversed">[НАЗАД]</string>
+    <string name="sort_dir_a_z">[А → Я]</string>
+    <string name="sort_dir_z_a">[Я → А]</string>
+    <string name="sort_dir_shortest">[КОРОТКОЕ]</string>
+    <string name="sort_dir_longest">[ДЛИННОЕ]</string>
+
+    <!-- Multi-select -->
+    <string name="selection_clear">ЗАБЫТЬ [ВЫБРАННОЕ]</string>
+    <string name="selection_count">ВЫБРАНО: %1$d</string>
+    <string name="selection_favorite_all">ПЕРЕКЛЮЧИТЬ [ЛЮБИМОЕ]</string>
+    <string name="selection_download_all">ПЕРЕКЛЮЧИТЬ [ЗАГРУЗКУ]</string>
+    <string name="selection_select_all">ВЫБРАТЬ [ВСЁ]</string>
+
+    <!-- Theme names -->
+    <string name="theme_sc_orange">SOUNDCLOUD [ОРАНЖЕВЫЙ]</string>
+    <string name="theme_ultraviolet">[УЛЬТРАФИОЛЕТ]</string>
+    <string name="theme_mint">[МЯТА]</string>
+    <string name="theme_ocean">[ОКЕАН]</string>
+    <string name="theme_system">СИСТЕМА ([MATERIAL YOU])</string>
+    <string name="theme_from_track">ИЗ [ОБЛОЖКИ ТРЕКА]</string>
+    <string name="player_close_lyrics">ЗАКРЫТЬ [ТЕКСТ]</string>
+    <string name="statistics_period_week">[НЕДЕЛЯ]</string>
+    <string name="statistics_period_month">[МЕСЯЦ]</string>
+    <string name="statistics_period_year">[ГОД]</string>
+    <string name="statistics_period_all">[ВСЁ]</string>
+    <string name="search_error_network_title">[СВЯЗЬ ПОТЕРЯНА]</string>
+    <string name="search_error_network_desc">ПРОВЕРЬ ИНТЕРНЕТ И [ПОПРОБУЙ СНОВА].</string>
+    <string name="search_error_auth_title">[ДОСТУП ЗАПРЕЩЁН]</string>
+    <string name="search_error_auth_desc">ТВОЙ CLIENT ID, ВЕРОЯТНО, УЖЕ [УСТАРЕЛ].</string>
+    <string name="search_error_not_found_title">[НИЧЕГО НЕТ]</string>
+    <string name="search_error_not_found_desc">ПОПРОБУЙ ДРУГОЙ [ЗАПРОС].</string>
+    <string name="search_error_track_gone_title">ТРЕК [НЕ НАЙДЕН]</string>
+    <string name="search_error_track_gone_desc">ОН БЫЛ УДАЛЁН ИЛИ СТАЛ [ПРИВАТНЫМ].</string>
+    <string name="search_error_server_title">SOUNDCLOUD [НЕ ОТВЕЧАЕТ]</string>
+    <string name="search_error_server_desc">ПРОБЛЕМА НА ИХ СТОРОНЕ. ПОПРОБУЙ [ПОЗЖЕ].</string>
+    <string name="search_error_link_title">ССЫЛКА [НЕ ОТКРЫЛАСЬ]</string>
+    <string name="search_error_link_desc">ПРОВЕРЬ [ССЫЛКУ] И ПОПРОБУЙ СНОВА.</string>
+    <string name="search_error_unknown_title">ЧТО-ТО ПОШЛО [НЕ ТАК].</string>
+    <string name="search_error_unknown_desc">ПОПРОБУЙ ВЫПОЛНИТЬ ЗАПРОС [СНОВА].</string>
+    <string name="search_error_hint_check_connection">ПРОВЕРЬ WI-FI ИЛИ МОБИЛЬНЫЕ [ДАННЫЕ].</string>
+    <string name="search_error_hint_pull_to_retry">ПОТЯНИ СПИСОК ВНИЗ, ЧТОБЫ [ПОВТОРИТЬ].</string>
+    <string name="search_error_hint_client_id">НАСТРОЙКИ → ОБНОВИТЬ [CLIENT ID].</string>
+    <string name="search_error_hint_wait">ОБЫЧНО ЭТО ПРОХОДИТ ЗА НЕСКОЛЬКО [МИНУТ].</string>
+    <string name="search_error_hint_change_query">ПОПРОБУЙ БОЛЕЕ КОРОТКИЕ ИЛИ ДРУГИЕ [СЛОВА].</string>
+    <string name="search_error_hint_search_by_name">ИЩИ ТРЕК ПО ЕГО [НАЗВАНИЮ].</string>
+    <string name="search_error_hint_check_link">ССЫЛКА ДОЛЖНА ВЕСТИ НА [soundcloud.com].</string>
+    <string name="calculating">ВЫЧИСЛЯЕМ [НЕЧТО]...</string>
+    <string name="action_favorite">СОХРАНИТЬ В [СЕРДЦЕ]</string>
+    <string name="action_download">[ЗАПОЛУЧИТЬ]</string>
+    <string name="action_share">РАССКАЗАТЬ [ВСЕМ]</string>
+    <string name="favorites_removed_count">УДАЛЕНО ИЗ ЛЮБИМЫХ: %d</string>
+    <string name="undo">НАЗАД! [Я ПЕРЕДУМАЛ.]</string>
+    <string name="history_entry_removed">ИЗ ИСТОРИИ [УДАЛЕНО]</string>
+    <string name="favorite_added">ДОБАВЛЕНО В [СЕРДЦЕ]</string>
+    <string name="favorite_removed">УДАЛЕНО ИЗ [СЕРДЦА]</string>
+    <string name="bulk_download_progress">ЗАГРУЗКА %1$d ИЗ %2$d</string>
+    <string name="bulk_download_done">ЗАГРУЖЕНО %1$d ИЗ %2$d</string>
+    <string name="bulk_download_failed">ПРОВАЛЕНО: %1$d</string>
+    <string name="bulk_download_cancel">ОСТАНОВИТЬ [ДОБЫЧУ]</string>
+    <string name="settings_dividers">[РАЗДЕЛИТЕЛИ]</string>
+    <string name="settings_dividers_desc">ЛИНИИ МЕЖДУ ЭЛЕМЕНТАМИ В НАСТРОЙКАХ, МЕНЮ И [МИНИ-ПЛЕЕРЕ]</string>
+    <string name="settings_dividers_hidden">[СКРЫТЫ]</string>
+    <string name="settings_dividers_subtle">[ТИХИЕ]</string>
+    <string name="settings_dividers_bright">[ЯРКИЕ]</string>
+    <string name="settings_drm_hiding">DRM [ТРЕКИ]</string>
+    <string name="settings_drm_hiding_desc">SOUNDCLOUD ШИФРУЕТ НЕКОТОРЫЕ ЗАГРУЗКИ, И ПРИЛОЖЕНИЕ НЕ МОЖЕТ ИХ ВОСПРОИЗВЕСТИ. ЧАЩЕ ВСЕГО ЭТО ЗАТРАГИВАЕТ РЕЛИЗЫ КРУПНЫХ [ЛЕЙБЛОВ].</string>
+    <string name="settings_drm_hiding_full">[ПОЛНОСТЬЮ]</string>
+    <string name="settings_drm_hiding_partial">[ЧАСТИЧНО]</string>
+    <string name="settings_drm_hiding_off">[ВЫКЛ.]</string>
+    <string name="settings_drm_hiding_full_desc">ЗАШИФРОВАННЫЕ ТРЕКИ НИКОГДА НЕ ПОКАЗЫВАЮТСЯ В ПРОФИЛЕ [АРТИСТА].</string>
+    <string name="settings_drm_hiding_partial_desc">ЗАШИФРОВАННЫЙ ТРЕК СКРЫВАЕТСЯ ТОЛЬКО ЕСЛИ У ТОГО ЖЕ АРТИСТА ЕСТЬ ВОСПРОИЗВОДИМАЯ КОПИЯ. БЕЗ КОПИИ ТРЕК ОСТАЁТСЯ ВИДИМЫМ И ПОМЕЧАЕТСЯ КАК [НЕДОСТУПНЫЙ].</string>
+    <string name="settings_drm_hiding_off_desc">ПОКАЗЫВАЕТСЯ КАЖДЫЙ ТРЕК, А ЗАШИФРОВАННЫЕ ПОМЕЧАЮТСЯ КАК [НЕДОСТУПНЫЕ].</string>
+    <string name="auto_export">АВТОМАТИЧЕСКИЙ [ВЫНОС]</string>
+    <string name="auto_export_desc">ОДИН РАЗ СОХРАНЯЕТ ЛЮБИМЫЕ В ВЫБРАННЫЙ ТОБОЙ ФАЙЛ. ПОТОМ СОХРАНЕНИЕ ПРОИСХОДИТ В ФОНЕ БЕЗ ПОВТОРНОГО [СПРОСА].</string>
+    <string name="auto_export_pick_file">ВЫБРАТЬ [ФАЙЛ]</string>
+    <string name="auto_export_change_file">ИЗМЕНИТЬ [ФАЙЛ]</string>
+    <string name="auto_export_no_file">ФАЙЛ ЕЩЁ НЕ [ВЫБРАН].</string>
+    <string name="auto_export_interval_6h">[6 ЧАСОВ]</string>
+    <string name="auto_export_interval_daily">[КАЖДЫЙ ДЕНЬ]</string>
+    <string name="auto_export_interval_weekly">[КАЖДУЮ НЕДЕЛЮ]</string>
+    <string name="auto_export_last_run">ПОСЛЕДНЕЕ СОХРАНЕНИЕ: %s</string>
+    <string name="auto_export_never">ЕЩЁ НЕ [СОХРАНЯЛОСЬ]</string>
+    <string name="auto_export_run_now">СОХРАНИТЬ [СЕЙЧАС]</string>
+    <string name="auto_export_battery_note">ANDROID МОЖЕТ ОТКЛАДЫВАТЬ ФОНОВЫЕ СОХРАНЕНИЯ ПРИ ЭКОНОМИИ БАТАРЕИ. ПРИЛОЖЕНИЕ ТАКЖЕ СОХРАНЯЕТСЯ ПРИ ЗАПУСКЕ, ЕСЛИ КОПИЯ [УСТАРЕЛА].</string>
+    <string name="settings_language_custom">[СВОЙ]</string>
+    <string name="custom_language_title">[СВОЙ] ПЕРЕВОД</string>
+    <string name="custom_language_desc">ЗАГРУЗИ ФАЙЛ strings.xml, ПЕРЕВЕДЁННЫЙ ТОБОЙ ИЛИ КЕМ-ТО ЕЩЁ. СНАЧАЛА СОХРАНИ ШАБЛОН, ПЕРЕВЕДИ ТЕКСТ ВНУТРИ ТЕГОВ, А ЗАТЕМ ЗАГРУЗИ ФАЙЛ [ОБРАТНО].</string>
+    <string name="custom_language_template">СОХРАНИТЬ [ШАБЛОН]</string>
+    <string name="custom_language_pick">ЗАГРУЗИТЬ [ПЕРЕВОД]</string>
+    <string name="custom_language_replace">ЗАМЕНИТЬ [ПЕРЕВОД]</string>
+    <string name="custom_language_none">ФАЙЛ ЕЩЁ НЕ [ЗАГРУЖЕН].</string>
+    <string name="custom_language_stats">ПРИМЕНЕНО %1$d ИЗ %2$d СТРОК ИЗ ТВОЕГО ФАЙЛА</string>
+    <string name="custom_language_unknown">НЕИЗВЕСТНЫЕ КЛЮЧИ [ПРОПУЩЕНЫ]: %d</string>
+    <string name="custom_language_missing_note">ВСЁ, ЧЕГО НЕТ В ТВОЁМ ФАЙЛЕ, ОСТАНЕТСЯ НА [АНГЛИЙСКОМ].</string>
+    <string name="custom_language_clear">УДАЛИТЬ [ПЕРЕВОД]</string>
+    <string name="custom_language_loaded">[ПЕРЕВОД] ЗАГРУЖЕН!</string>
+    <string name="custom_language_failed">НЕ УДАЛОСЬ ПРОЧИТАТЬ [ТАИНСТВЕННЫЙ ФАЙЛ].</string>
+    <string name="custom_language_template_saved">[ШАБЛОН] СОХРАНЁН!</string>
+    <string name="custom_language_catalog">[КАТАЛОГ] ПЕРЕВОДОВ</string>
+    <string name="custom_language_catalog_desc">ГОТОВЫЕ ПЕРЕВОДЫ ОТ [ДРУГИХ ПЕРСОНАЖЕЙ]</string>
+</resources>

@@ -30,6 +30,17 @@
       "updated": "2026-09-12"
     },
     {
+      "id": "BIG_SHOT",
+      "name": "[BIG SHOT]",
+      "englishName": "Now your chance to be [BIG SHOT]",
+      "author": "savo-o",
+      "file": "BIG_SHOT.xml",
+      "appVersion": "1.5",
+      "strings": 534,
+      "arrays": 4,
+      "updated": "2026-09-12"
+    },
+    {
       "id": "nya",
       "name": "Няняняня",
       "englishName": "Nya (joke)",
