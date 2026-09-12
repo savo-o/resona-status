@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "template": {
     "file": "template.xml",
-    "appVersion": "1.5",
-    "strings": 536,
+    "appVersion": "1.4",
+    "strings": 428,
     "arrays": 4
   },
   "translations": [
