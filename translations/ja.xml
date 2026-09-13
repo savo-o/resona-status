@@ -204,7 +204,7 @@
     <string name="history_title">再生履歴</string>
     <string name="history_empty">ここにはまだ何もありません。再生したトラックが履歴に表示されます。</string>
     <string name="history_clear">履歴を消去</string>
-    <string name="history_clear_confirm">すべての再生履歴が削除され、統計もリセットされます。</string>
+    <string name="history_clear_confirm">すべての再生履歴が削除されます。統計は保持されます。</string>
     <string name="history_remove_entry">履歴から削除</string>
     <string name="history_today">今日</string>
     <string name="history_yesterday">昨日</string>
@@ -309,6 +309,8 @@
     <string name="settings_autoplay">次のトラックを自動再生</string>
     <string name="settings_crossfade">クロスフェード</string>
     <string name="settings_crossfade_desc">トラック間で音量をフェードさせ、突然切り替わらないようにします</string>
+    <string name="settings_pause_for_other_apps">他のアプリの再生時に一時停止</string>
+    <string name="settings_pause_for_other_apps_desc">他のアプリが音声の再生を始めたときに音楽を一時停止します。オフにすると、音楽は同時に再生され続けます</string>
     <string name="settings_seek_bar_style">シークバーのスタイル</string>
     <string name="settings_seek_bar_style_classic">クラシック</string>
     <string name="settings_seek_bar_style_wavy">ウェーブ</string>
@@ -617,4 +619,18 @@
     <string name="custom_language_loaded">翻訳を読み込みました</string>
     <string name="custom_language_failed">ファイルを読み込めませんでした</string>
     <string name="custom_language_template_saved">テンプレートを保存しました</string>
+    <string name="custom_language_catalog">翻訳カタログ</string>
+    <string name="custom_language_catalog_desc">コミュニティによる翻訳</string>
+    <string name="custom_language_safe_mode">カスタム翻訳が原因でアプリがクラッシュしたため、翻訳を無効にしました。設定から修正済みのファイルを読み込んでください。</string>
+    <string name="custom_language_disabled_too_large">カスタム翻訳ファイルが3 MBを超えているため、無効にしました。設定からより小さいファイルを読み込んでください。</string>
+    <string name="custom_language_checking">ファイルを確認しています…</string>
+    <string name="custom_language_too_large">ファイルが3 MBを超えています。通常の翻訳は約50 KBです。</string>
+    <string name="custom_language_warning_title">翻訳ファイルに問題があります</string>
+    <string name="custom_language_warning_size">ファイルサイズ：%s</string>
+    <string name="custom_language_warning_long">元の文より大幅に長い文字列：%d。レイアウトが崩れたり、アプリが遅くなったりする可能性があります。</string>
+    <string name="custom_language_warning_placeholders">%%sや%%dなどのプレースホルダーが壊れている文字列：%d。代わりに元のテキストが表示されます。</string>
+    <string name="custom_language_warning_hint">これらの文字列をスキップして残りを読み込むか、ファイルをそのまま読み込めます。</string>
+    <string name="custom_language_warning_skip">問題のある文字列をスキップ</string>
+    <string name="custom_language_warning_anyway">そのまま読み込む</string>
+    <string name="custom_language_official_note">翻訳は公式サイトのカタログからダウンロードするのが安全です。他の場所のファイルは壊れていたり、大きすぎたりすることがあります。</string>
 </resources>

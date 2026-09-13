@@ -204,7 +204,7 @@
     <string name="history_title">Исторія прослушиванія</string>
     <string name="history_empty">Здѣсь пока ничего нѣтъ. Прослушанные треки появятся въ исторіи.</string>
     <string name="history_clear">Очистить исторію</string>
-    <string name="history_clear_confirm">Вся исторія прослушиванія будетъ удалена. Статистика также сбросится.</string>
+    <string name="history_clear_confirm">Вся исторія прослушиванія будетъ удалена. Статистика сохранится.</string>
     <string name="history_remove_entry">Удалить изъ исторіи</string>
     <string name="history_today">Сегодня</string>
     <string name="history_yesterday">Вчера</string>
@@ -309,6 +309,8 @@
     <string name="settings_autoplay">Автовоспроизведеніе слѣдующаго трека</string>
     <string name="settings_crossfade">Кроссфейд</string>
     <string name="settings_crossfade_desc">Плавно измѣнять громкость между треками вмѣсто рѣзкой смѣны</string>
+    <string name="settings_pause_for_other_apps">Пауза при звукѣ другихъ приложеній</string>
+    <string name="settings_pause_for_other_apps_desc">Ставить музыку на паузу, когда другое приложеніе начинаетъ воспроизводить звукъ. Если выключено, музыка продолжитъ играть одновременно съ нимъ</string>
     <string name="settings_seek_bar_style">Стиль полосы перемотки</string>
     <string name="settings_seek_bar_style_classic">Классическій</string>
     <string name="settings_seek_bar_style_wavy">Волнистый</string>
@@ -617,4 +619,18 @@
     <string name="custom_language_loaded">Переводъ загруженъ</string>
     <string name="custom_language_failed">Не удалось прочесть файлъ</string>
     <string name="custom_language_template_saved">Шаблонъ сохранёнъ</string>
+    <string name="custom_language_catalog">Каталогъ переводовъ</string>
+    <string name="custom_language_catalog_desc">Готовые переводы отъ сообщества</string>
+    <string name="custom_language_safe_mode">Приложеніе падало изъ-за вашего перевода, поэтому онъ отключёнъ. Загрузите исправленный файлъ въ настройкахъ.</string>
+    <string name="custom_language_disabled_too_large">Файлъ вашего перевода больше 3 МБ, поэтому онъ отключёнъ. Загрузите файлъ поменьше въ настройкахъ.</string>
+    <string name="custom_language_checking">Провѣряемъ файлъ…</string>
+    <string name="custom_language_too_large">Файлъ больше 3 МБ. Обычный переводъ вѣситъ около 50 КБ.</string>
+    <string name="custom_language_warning_title">Проблемы въ файлѣ перевода</string>
+    <string name="custom_language_warning_size">Размѣръ файла: %s</string>
+    <string name="custom_language_warning_long">Строкъ, которыя намного длиннѣе оригинала: %d. Онѣ могутъ сломать интерфейсъ и замедлить приложеніе.</string>
+    <string name="custom_language_warning_placeholders">Строкъ съ ошибками въ подстановкахъ вродѣ %%s или %%d: %d. Вмѣсто нихъ будетъ показанъ оригинальный текстъ.</string>
+    <string name="custom_language_warning_hint">Можно пропустить эти строки и оставить остальныя или загрузить файлъ какъ есть.</string>
+    <string name="custom_language_warning_skip">Пропустить проблемныя строки</string>
+    <string name="custom_language_warning_anyway">Загрузить какъ есть</string>
+    <string name="custom_language_official_note">Переводы надёжнѣе скачивать изъ каталога на офиціальномъ сайтѣ. Файлы изъ другихъ мѣстъ могутъ оказаться битыми или слишкомъ большими.</string>
 </resources>

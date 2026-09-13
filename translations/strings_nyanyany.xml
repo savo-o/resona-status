@@ -309,6 +309,8 @@
     <string name="settings_autoplay">няняняняня</string>
     <string name="settings_crossfade">няняняняня</string>
     <string name="settings_crossfade_desc">няняняняня</string>
+    <string name="settings_pause_for_other_apps">няняняняня</string>
+    <string name="settings_pause_for_other_apps_desc">няняняняня</string>
     <string name="settings_seek_bar_style">няняняняня</string>
     <string name="settings_seek_bar_style_classic">няняняняня</string>
     <string name="settings_seek_bar_style_wavy">няняняняня</string>
@@ -617,4 +619,18 @@
     <string name="custom_language_loaded">няняняняня</string>
     <string name="custom_language_failed">няняняняня</string>
     <string name="custom_language_template_saved">няняняняня</string>
+    <string name="custom_language_catalog">няняняняня</string>
+    <string name="custom_language_catalog_desc">няняняняня</string>
+    <string name="custom_language_safe_mode">няняняняня</string>
+    <string name="custom_language_disabled_too_large">няняняняня</string>
+    <string name="custom_language_checking">няняняняня</string>
+    <string name="custom_language_too_large">няняняняня</string>
+    <string name="custom_language_warning_title">няняняняня</string>
+    <string name="custom_language_warning_size">няняняняня</string>
+    <string name="custom_language_warning_long">няняняняня</string>
+    <string name="custom_language_warning_placeholders">няняняняня</string>
+    <string name="custom_language_warning_hint">няняняняня</string>
+    <string name="custom_language_warning_skip">няняняняня</string>
+    <string name="custom_language_warning_anyway">няняняняня</string>
+    <string name="custom_language_official_note">няняняняня</string>
 </resources>

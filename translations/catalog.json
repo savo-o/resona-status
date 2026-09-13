@@ -14,9 +14,9 @@
       "author": "savo-o",
       "file": "ja.xml",
       "appVersion": "1.5",
-      "strings": 534,
+      "strings": 550,
       "arrays": 4,
-      "updated": "2026-09-12"
+      "updated": "2026-09-13"
     },
     {
       "id": "ru-pre-reform",
@@ -25,9 +25,9 @@
       "author": "savo-o",
       "file": "strings_pre_reform_ru.xml",
       "appVersion": "1.5",
-      "strings": 534,
+      "strings": 550,
       "arrays": 4,
-      "updated": "2026-09-12"
+      "updated": "2026-09-13"
     },
     {
       "id": "BIG_SHOT",
@@ -36,9 +36,9 @@
       "author": "savo-o",
       "file": "BIG_SHOT.xml",
       "appVersion": "1.5",
-      "strings": 534,
+      "strings": 550,
       "arrays": 4,
-      "updated": "2026-09-12"
+      "updated": "2026-09-13"
     },
     {
       "id": "nya",
@@ -47,9 +47,9 @@
       "author": "savo-o",
       "file": "strings_nyanyany.xml",
       "appVersion": "1.5",
-      "strings": 534,
+      "strings": 550,
       "arrays": 4,
-      "updated": "2026-09-12"
+      "updated": "2026-09-13"
     }
   ]
 }

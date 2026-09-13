@@ -210,7 +210,7 @@
 ТРЕКИ, КОТОРЫЕ ТЫ СЛУШАЕШЬ, ПОЯВЯТСЯ ЗДЕСЬ.</string>
     <string name="history_clear">УНИЧТОЖИТЬ [ПРОШЛОЕ]</string>
     <string name="history_clear_confirm">ВСЯ ИСТОРИЯ ПРОСЛУШИВАНИЯ БУДЕТ УДАЛЕНА.
-СТАТИСТИКА ТОЖЕ [ИСЧЕЗНЕТ].</string>
+НО СТАТИСТИКА [ОСТАНЕТСЯ С ТОБОЙ]!</string>
     <string name="history_remove_entry">УБРАТЬ ИЗ [ПРОШЛОГО]</string>
     <string name="history_today">СЕГОДНЯ</string>
     <string name="history_yesterday">ВЧЕРА</string>
@@ -316,6 +316,8 @@
     <string name="settings_autoplay">ИГРАТЬ СЛЕДУЮЩИЙ [АВТОМАТИЧЕСКИ]</string>
     <string name="settings_crossfade">ПЛАВНЫЙ [ПЕРЕХОД]</string>
     <string name="settings_crossfade_desc">ПЛАВНО МЕНЯЕТ ГРОМКОСТЬ МЕЖДУ ТРЕКАМИ ВМЕСТО РЕЗКОЙ [СМЕНЫ].</string>
+    <string name="settings_pause_for_other_apps">[ПАУЗА] ПРИ ЗВУКЕ ДРУГИХ ПРИЛОЖЕНИЙ</string>
+    <string name="settings_pause_for_other_apps_desc">СТАВИТЬ МУЗЫКУ НА [ПАУЗУ], КОГДА ДРУГОЕ ПРИЛОЖЕНИЕ НАЧИНАЕТ [ИЗДАВАТЬ ЗВУКИ]. ЕСЛИ ВЫКЛЮЧЕНО, МУЗЫКА ПРОДОЛЖИТ ИГРАТЬ [ОДНОВРЕМЕННО] С НИМ</string>
     <string name="settings_seek_bar_style">СТИЛЬ [ПОЛЗУНКА]</string>
     <string name="settings_seek_bar_style_classic">[КЛАССИЧЕСКИЙ]</string>
     <string name="settings_seek_bar_style_wavy">[ВОЛНИСТЫЙ]</string>
@@ -646,4 +648,16 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="custom_language_template_saved">[ШАБЛОН] СОХРАНЁН!</string>
     <string name="custom_language_catalog">[КАТАЛОГ] ПЕРЕВОДОВ</string>
     <string name="custom_language_catalog_desc">ГОТОВЫЕ ПЕРЕВОДЫ ОТ [ДРУГИХ ПЕРСОНАЖЕЙ]</string>
+    <string name="custom_language_safe_mode">ПРИЛОЖЕНИЕ [ПАДАЛО] ИЗ-ЗА ТВОЕГО ПЕРЕВОДА, ПОЭТОМУ ОН [ОТКЛЮЧЁН]. ЗАГРУЗИ [ИСПРАВЛЕННЫЙ] ФАЙЛ В НАСТРОЙКАХ!</string>
+    <string name="custom_language_disabled_too_large">ТВОЙ ФАЙЛ ПЕРЕВОДА БОЛЬШЕ [3 МБ]!! СЛИШКОМ [BIG SHOT] ДАЖЕ ДЛЯ МЕНЯ. ОН ОТКЛЮЧЁН, ЗАГРУЗИ ФАЙЛ [ПОМЕНЬШЕ] В НАСТРОЙКАХ.</string>
+    <string name="custom_language_checking">[ПРОВЕРЯЕМ] ФАЙЛ…</string>
+    <string name="custom_language_too_large">ФАЙЛ БОЛЬШЕ [3 МБ]! ОБЫЧНЫЙ ПЕРЕВОД ВЕСИТ ВСЕГО [50 КБ].</string>
+    <string name="custom_language_warning_title">[ПРОБЛЕМЫ] В ФАЙЛЕ ПЕРЕВОДА!!</string>
+    <string name="custom_language_warning_size">[РАЗМЕР] ФАЙЛА: %s</string>
+    <string name="custom_language_warning_long">СТРОК, КОТОРЫЕ [НАМНОГО ДЛИННЕЕ] ОРИГИНАЛА: %d. ОНИ МОГУТ [СЛОМАТЬ] ИНТЕРФЕЙС И ЗАМЕДЛИТЬ ПРИЛОЖЕНИЕ.</string>
+    <string name="custom_language_warning_placeholders">СТРОК СО [СЛОМАННЫМИ] ПОДСТАНОВКАМИ ВРОДЕ %%s ИЛИ %%d: %d. ВМЕСТО НИХ БУДЕТ [ОРИГИНАЛЬНЫЙ ТЕКСТ].</string>
+    <string name="custom_language_warning_hint">МОЖНО [ПРОПУСТИТЬ] ЭТИ СТРОКИ И ОСТАВИТЬ ОСТАЛЬНЫЕ ИЛИ ЗАГРУЗИТЬ ФАЙЛ [КАК ЕСТЬ].</string>
+    <string name="custom_language_warning_skip">ПРОПУСТИТЬ [ПРОБЛЕМНЫЕ] СТРОКИ</string>
+    <string name="custom_language_warning_anyway">ЗАГРУЗИТЬ [КАК ЕСТЬ]</string>
+    <string name="custom_language_official_note">ПЕРЕВОДЫ [НАДЁЖНЕЕ] КАЧАТЬ ИЗ КАТАЛОГА НА [ОФИЦИАЛЬНОМ САЙТЕ]. ФАЙЛЫ ИЗ [ДРУГИХ МЕСТ] МОГУТ ОКАЗАТЬСЯ БИТЫМИ ИЛИ СЛИШКОМ [BIG].</string>
 </resources>
