@@ -186,9 +186,16 @@
     <string name="player_lyrics">ТЕКСТ [ПЕСНИ]</string>
     <string name="player_lyrics_none_found">ТЕКСТ НЕ НАЙДЕН.
 [ПЕСНЯ МОЛЧИТ.]</string>
+    <string name="player_lyrics_back_to_current">К [ТЕКУЩЕЙ] СТРОКЕ</string>
     <string name="player_lyrics_source">ТЕКСТ ЧЕРЕЗ %s</string>
-    <string name="player_lyrics_offset_earlier">СДВИНУТЬ ТЕКСТ [НАЗАД]</string>
-    <string name="player_lyrics_offset_later">СДВИНУТЬ ТЕКСТ [ВПЕРЁД]</string>
+    <string name="player_lyrics_offset_earlier">ПОКАЗЫВАТЬ ТЕКСТ [РАНЬШЕ]</string>
+    <string name="player_lyrics_offset_later">ПОКАЗЫВАТЬ ТЕКСТ [ПОЗЖЕ]</string>
+    <string name="player_lyrics_drift_value">%+.1f С/МИН</string>
+    <string name="player_lyrics_drift_faster">УСКОРЯТЬ ТЕКСТ [СО ВРЕМЕНЕМ]</string>
+    <string name="player_lyrics_drift_slower">ЗАМЕДЛЯТЬ ТЕКСТ [СО ВРЕМЕНЕМ]</string>
+    <string name="player_lyrics_sync">[СИНХРОНИЗАЦИЯ]</string>
+    <string name="player_lyrics_offset_label">[СДВИГ]</string>
+    <string name="player_lyrics_drift_label">[РАСТЯЖЕНИЕ]</string>
     <string name="player_playing_from">ИГРАЕТ ИЗ %1$s</string>
     <string name="player_source_mix">[MIX]</string>
     <string name="player_source_favorites">[ЛЮБИМЫЕ]</string>
@@ -237,7 +244,12 @@
     <!-- Artist / Playlist -->
     <string name="play_all">ИГРАТЬ [ВСЁ!!!]</string>
     <string name="artist_tracks">ТРЕКИ</string>
-    <string name="artist_followers">%d [ПОКЛОННИКОВ]</string>
+    <plurals name="followers_count">
+        <item quantity="one">%d [ПОКЛОННИК]</item>
+        <item quantity="few">%d [ПОКЛОННИКА]</item>
+        <item quantity="many">%d [ПОКЛОННИКОВ]</item>
+        <item quantity="other">%d [ПОКЛОННИКА]</item>
+    </plurals>
     <string name="artist_tracks_count">%d [ТРЕКОВ]</string>
     <string name="artist_at_username">@%s</string>
     <string name="artist_id">ID: %d</string>
@@ -321,10 +333,6 @@
     <string name="settings_seek_bar_style">СТИЛЬ [ПОЛЗУНКА]</string>
     <string name="settings_seek_bar_style_classic">[КЛАССИЧЕСКИЙ]</string>
     <string name="settings_seek_bar_style_wavy">[ВОЛНИСТЫЙ]</string>
-    <string name="settings_lyrics_provider">ИСТОЧНИК [ТЕКСТОВ]</string>
-    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
-    <string name="settings_lyrics_provider_kugou">Kugou</string>
-    <string name="settings_lyrics_provider_desc">LRCLIB — ИСТОЧНИК ПО УМОЛЧАНИЮ И НАИБОЛЕЕ НАДЁЖНЫЙ. KUGOU ЭКСПЕРИМЕНТАЛЕН И ОЧЕНЬ НЕСТАБИЛЕН. ВКЛЮЧАЙ ЕГО ТОЛЬКО ЕСЛИ ЗНАЕШЬ, ЧТО [ДЕЛАЕШЬ].</string>
     <string name="settings_lyrics_genius_fallback">ТЕКСТЫ ОТ [GENIUS]</string>
     <string name="settings_lyrics_genius_fallback_desc">ЕСЛИ СИНХРОНИЗИРОВАННЫЙ ТЕКСТ НЕ НАЙДЕН, ИСКАТЬ ОБЫЧНЫЙ ТЕКСТ ЧЕРЕЗ НЕОФИЦИАЛЬНЫЙ ПОИСК GENIUS ВМЕСТО [ПУСТОТЫ].</string>
     <string name="settings_haptics">[ОЩУЩЕНИЕ] НАЖАТИЯ</string>
@@ -350,7 +358,9 @@
     <string name="settings_client_id_desc">Only needed if playback or search stops working (error 401)</string>
     <string name="settings_client_id_refreshed">CLIENT ID [ОБНОВЛЁН]</string>
     <string name="settings_keep_android_open_title">[KEEP ANDROID OPEN]</string>
-    <string name="settings_keep_android_open_desc">RESONA ПОДДЕРЖИВАЕТ ДВИЖЕНИЕ KEEP ANDROID OPEN, КОТОРОЕ ВЫСТУПАЕТ ПРОТИВ ПЛАНА GOOGLE ТРЕБОВАТЬ ПОДТВЕРЖДЕНИЕ ЛИЧНОСТИ ДЛЯ КАЖДОГО ANDROID-ПРИЛОЖЕНИЯ — ВКЛЮЧАЯ УСТАНОВЛЕННЫЕ ВНЕ PLAY STORE. УЗНАТЬ БОЛЬШЕ НА [keepandroidopen.org].</string>
+    <string name="settings_keep_android_open_desc">GOOGLE ПЛАНИРУЕТ ОБЯЗАТЬ ВСЕХ ANDROID-РАЗРАБОТЧИКОВ ОТДАВАТЬ ЕЙ СВОИ [ЛИЧНЫЕ ДАННЫЕ], ДАЖЕ ДЛЯ ПРИЛОЖЕНИЙ ВНЕ PLAY STORE. РАЗРАБОТЧИК RESONA ГОВОРИТ [НЕТ], ПОЭТОМУ ПОСЛЕ ВСТУПЛЕНИЯ ПРАВИЛА В СИЛУ RESONA МОЖЕТ ПЕРЕСТАТЬ УСТАНАВЛИВАТЬСЯ НА [СЕРТИФИЦИРОВАННЫЕ] ANDROID-УСТРОЙСТВА.</string>
+    <string name="settings_keep_android_open_summary">НАША [ПОЗИЦИЯ] ПО ВЕРИФИКАЦИИ GOOGLE</string>
+    <string name="settings_keep_android_open_learn_more">[УЗНАТЬ БОЛЬШЕ]</string>
     <string name="settings_about">О [RESONA]</string>
     <string name="settings_version">ВЕРСИЯ %s</string>
     <string name="settings_eula">[ПРЕДУПРЕЖДЕНИЕ]</string>
@@ -423,6 +433,9 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="debug_menu_copy_report_desc">КОПИРУЕТ ИНФОРМАЦИЮ О СБОРКЕ, УСТРОЙСТВЕ И CLIENT ID В [БУФЕР].</string>
     <string name="debug_menu_copy">[СКОПИРОВАТЬ]</string>
     <string name="debug_menu_report_copied">ОТЧЁТ [СКОПИРОВАН].</string>
+    <string name="debug_menu_lyrics_sync">СИНХРОНИЗАЦИЯ [ТЕКСТА]</string>
+    <string name="debug_menu_lyrics_sync_count">ТРЕКОВ С [КОРРЕКЦИЕЙ]: %d</string>
+    <string name="debug_menu_lyrics_sync_desc">КОПИРУЕТ СДВИГ, РАСТЯЖЕНИЕ И ДЛИТЕЛЬНОСТИ LRCLIB ПО ВСЕМ [ИСПРАВЛЕННЫМ] ТРЕКАМ В CSV.</string>
     <string name="debug_menu_test_crash">СЛОМАТЬ [ВСЁ РАДИ ТЕСТА]</string>
     <string name="debug_menu_test_crash_desc">ПРИНУДИТЕЛЬНО УРОНИТ RESONA.
 [НЕ ГОВОРИ, ЧТО Я НЕ ПРЕДУПРЕЖДАЛ.]</string>
@@ -531,7 +544,7 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="badge_supporter_desc">ЭТОТ ПОЛЬЗОВАТЕЛЬ ПОДДЕРЖАЛ RESONA.
 [СПАСИБО.]</string>
     <string name="badge_unknown">НЕИЗВЕСТНЫЙ [ЗНАЧОК].</string>
-    <string name="badge_received">%1$s received the %2$s badge.</string>
+    <string name="badge_received">%1$s ПОЛУЧАЕТ [%2$s]!</string>
 
     <!-- Common -->
     <string name="back">НАЗАД</string>
@@ -607,6 +620,8 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="bulk_download_done">ЗАГРУЖЕНО %1$d ИЗ %2$d</string>
     <string name="bulk_download_failed">ПРОВАЛЕНО: %1$d</string>
     <string name="bulk_download_cancel">ОСТАНОВИТЬ [ДОБЫЧУ]</string>
+    <string name="bulk_download_parallel_on">КАЧАТЬ ПО %1$d ТРЕКА [ОДНОВРЕМЕННО]</string>
+    <string name="bulk_download_parallel_off">КАЧАТЬ ПО [ОДНОМУ] ТРЕКУ</string>
     <string name="settings_dividers">[РАЗДЕЛИТЕЛИ]</string>
     <string name="settings_dividers_desc">ЛИНИИ МЕЖДУ ЭЛЕМЕНТАМИ В НАСТРОЙКАХ, МЕНЮ И [МИНИ-ПЛЕЕРЕ]</string>
     <string name="settings_dividers_hidden">[СКРЫТЫ]</string>
@@ -660,4 +675,11 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="custom_language_warning_skip">ПРОПУСТИТЬ [ПРОБЛЕМНЫЕ] СТРОКИ</string>
     <string name="custom_language_warning_anyway">ЗАГРУЗИТЬ [КАК ЕСТЬ]</string>
     <string name="custom_language_official_note">ПЕРЕВОДЫ [НАДЁЖНЕЕ] КАЧАТЬ ИЗ КАТАЛОГА НА [ОФИЦИАЛЬНОМ САЙТЕ]. ФАЙЛЫ ИЗ [ДРУГИХ МЕСТ] МОГУТ ОКАЗАТЬСЯ БИТЫМИ ИЛИ СЛИШКОМ [BIG].</string>
+    <string name="msg_import_skipped">ПРОПУЩЕНО [БИТЫХ] ЗАПИСЕЙ: %d</string>
+    <string name="msg_auto_export_backup_kept">ИЗБРАННОЕ [ПУСТОЕ], ПОЭТОМУ СОХРАНЁННАЯ КОПИЯ НЕ ПЕРЕЗАПИСАНА.</string>
+    <string name="auto_export_access_lost">ПРИЛОЖЕНИЕ ПОТЕРЯЛО [ДОСТУП] К ФАЙЛУ. ВЫБЕРИТЕ ФАЙЛ ЗАНОВО, ЧТОБЫ КОПИЯ СНОВА СОХРАНЯЛАСЬ.</string>
+    <string name="favorites_import_progress">ИМПОРТ [ИЗБРАННОГО]: %d</string>
+    <string name="favorites_import_cancel">ОТМЕНИТЬ [ИМПОРТ]</string>
+    <string name="favorites_import_already_running">ИМПОРТ [УЖЕ ИДЁТ]!</string>
+    <string name="badge_how_to_get">КАК [ПОЛУЧИТЬ]</string>
 </resources>

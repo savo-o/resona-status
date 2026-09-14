@@ -182,9 +182,16 @@
     <string name="player_repeat">няняняняня</string>
     <string name="player_lyrics">няняняняня</string>
     <string name="player_lyrics_none_found">няняняняня</string>
+    <string name="player_lyrics_back_to_current">няняняняня</string>
     <string name="player_lyrics_source">няняняняня</string>
     <string name="player_lyrics_offset_earlier">няняняняня</string>
     <string name="player_lyrics_offset_later">няняняняня</string>
+    <string name="player_lyrics_drift_value">няняняняня</string>
+    <string name="player_lyrics_drift_faster">няняняняня</string>
+    <string name="player_lyrics_drift_slower">няняняняня</string>
+    <string name="player_lyrics_sync">няняняняня</string>
+    <string name="player_lyrics_offset_label">няняняняня</string>
+    <string name="player_lyrics_drift_label">няняняняня</string>
     <string name="player_playing_from">няняняняня</string>
     <string name="player_source_mix">няняняняня</string>
     <string name="player_source_favorites">няняняняня</string>
@@ -231,7 +238,12 @@
     <!-- Artist / Playlist -->
     <string name="play_all">няняняняня</string>
     <string name="artist_tracks">няняняняня</string>
-    <string name="artist_followers">няняняняня</string>
+    <plurals name="followers_count">
+        <item quantity="one">няняняняня</item>
+        <item quantity="few">няняняняня</item>
+        <item quantity="many">няняняняня</item>
+        <item quantity="other">няняняняня</item>
+    </plurals>
     <string name="artist_tracks_count">няняняняня</string>
     <string name="artist_at_username">няняняняня</string>
     <string name="artist_id">няняняняня</string>
@@ -314,10 +326,6 @@
     <string name="settings_seek_bar_style">няняняняня</string>
     <string name="settings_seek_bar_style_classic">няняняняня</string>
     <string name="settings_seek_bar_style_wavy">няняняняня</string>
-    <string name="settings_lyrics_provider">няняняняня</string>
-    <string name="settings_lyrics_provider_lrclib">няняняняня</string>
-    <string name="settings_lyrics_provider_kugou">няняняняня</string>
-    <string name="settings_lyrics_provider_desc">няняняняня</string>
     <string name="settings_lyrics_genius_fallback">няняняняня</string>
     <string name="settings_lyrics_genius_fallback_desc">няняняняня</string>
     <string name="settings_haptics">няняняняня</string>
@@ -344,6 +352,8 @@
     <string name="settings_client_id_refreshed">няняняняня</string>
     <string name="settings_keep_android_open_title">няняняняня</string>
     <string name="settings_keep_android_open_desc">няняняняня</string>
+    <string name="settings_keep_android_open_summary">няняняняня</string>
+    <string name="settings_keep_android_open_learn_more">няняняняня</string>
     <string name="settings_about">няняняняня</string>
     <string name="settings_version">няняняняня</string>
     <string name="settings_eula">няняняняня</string>
@@ -400,6 +410,9 @@
     <string name="debug_menu_copy_report_desc">няняняняня</string>
     <string name="debug_menu_copy">няняняняня</string>
     <string name="debug_menu_report_copied">няняняняня</string>
+    <string name="debug_menu_lyrics_sync">няняняняня</string>
+    <string name="debug_menu_lyrics_sync_count">няняняняня</string>
+    <string name="debug_menu_lyrics_sync_desc">няняняняня</string>
     <string name="debug_menu_test_crash">няняняняня</string>
     <string name="debug_menu_test_crash_desc">няняняняня</string>
     <string name="debug_menu_diagnostics">няняняняня</string>
@@ -580,6 +593,8 @@
     <string name="bulk_download_done">няняняняня</string>
     <string name="bulk_download_failed">няняняняня</string>
     <string name="bulk_download_cancel">няняняняня</string>
+    <string name="bulk_download_parallel_on">няняняняня</string>
+    <string name="bulk_download_parallel_off">няняняняня</string>
     <string name="settings_dividers">няняняняня</string>
     <string name="settings_dividers_desc">няняняняня</string>
     <string name="settings_dividers_hidden">няняняняня</string>
@@ -633,4 +648,11 @@
     <string name="custom_language_warning_skip">няняняняня</string>
     <string name="custom_language_warning_anyway">няняняняня</string>
     <string name="custom_language_official_note">няняняняня</string>
+    <string name="msg_import_skipped">няняняняня</string>
+    <string name="msg_auto_export_backup_kept">няняняняня</string>
+    <string name="auto_export_access_lost">няняняняня</string>
+    <string name="favorites_import_progress">няняняняня</string>
+    <string name="favorites_import_cancel">няняняняня</string>
+    <string name="favorites_import_already_running">няняняняня</string>
+    <string name="badge_how_to_get">няняняняня</string>
 </resources>

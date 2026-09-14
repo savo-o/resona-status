@@ -182,9 +182,16 @@
     <string name="player_repeat">リピート</string>
     <string name="player_lyrics">歌詞</string>
     <string name="player_lyrics_none_found">このトラックの歌詞は見つかりませんでした</string>
+    <string name="player_lyrics_back_to_current">現在の行へ</string>
     <string name="player_lyrics_source">歌詞提供：%s</string>
-    <string name="player_lyrics_offset_earlier">歌詞を前にずらす</string>
-    <string name="player_lyrics_offset_later">歌詞を後ろにずらす</string>
+    <string name="player_lyrics_offset_earlier">歌詞を早めに表示</string>
+    <string name="player_lyrics_offset_later">歌詞を遅めに表示</string>
+    <string name="player_lyrics_drift_value">%+.1f 秒/分</string>
+    <string name="player_lyrics_drift_faster">時間とともに歌詞を速める</string>
+    <string name="player_lyrics_drift_slower">時間とともに歌詞を遅くする</string>
+    <string name="player_lyrics_sync">同期</string>
+    <string name="player_lyrics_offset_label">オフセット</string>
+    <string name="player_lyrics_drift_label">伸縮</string>
     <string name="player_playing_from">%1$sから再生中</string>
     <string name="player_source_mix">ミックス</string>
     <string name="player_source_favorites">お気に入り</string>
@@ -231,7 +238,9 @@
     <!-- Artist / Playlist -->
     <string name="play_all">すべて再生</string>
     <string name="artist_tracks">Tracks</string>
-    <string name="artist_followers">フォロワー%d人</string>
+    <plurals name="followers_count">
+        <item quantity="other">フォロワー%d人</item>
+    </plurals>
     <string name="artist_tracks_count">%dトラック</string>
     <string name="artist_at_username">@%s</string>
     <string name="artist_id">ID：%d</string>
@@ -314,10 +323,6 @@
     <string name="settings_seek_bar_style">シークバーのスタイル</string>
     <string name="settings_seek_bar_style_classic">クラシック</string>
     <string name="settings_seek_bar_style_wavy">ウェーブ</string>
-    <string name="settings_lyrics_provider">歌詞プロバイダー</string>
-    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
-    <string name="settings_lyrics_provider_kugou">Kugou</string>
-    <string name="settings_lyrics_provider_desc">LRCLIBがデフォルトで最も信頼性の高いソースです。Kugouは実験的で非常に不安定です。仕組みを理解している場合のみ有効にしてください。</string>
     <string name="settings_lyrics_genius_fallback">Geniusの非同期歌詞</string>
     <string name="settings_lyrics_genius_fallback_desc">同期歌詞が見つからない場合、何も表示せずにGeniusの非公式検索から通常の歌詞を取得します</string>
     <string name="settings_haptics">触覚フィードバック</string>
@@ -343,7 +348,9 @@
     <string name="settings_client_id_desc">再生または検索が動作しなくなった場合（エラー401）のみ必要です</string>
     <string name="settings_client_id_refreshed">Client IDを更新しました</string>
     <string name="settings_keep_android_open_title">Keep Android Open</string>
-    <string name="settings_keep_android_open_desc">ResonaはKeep Android Open運動を支持しています。この運動は、Playストア外からインストールされたアプリを含む、すべてのAndroidアプリに本人確認を義務付けるGoogleの計画に反対しています。詳しくはkeepandroidopen.orgをご覧ください。</string>
+    <string name="settings_keep_android_open_desc">Googleは、Playストア外からインストールされるアプリも含め、すべてのAndroid開発者に個人の身元情報をGoogleへ提出することを義務付ける予定です。Resonaの開発者はこの要件に従わないため、規則の施行後は認定AndroidデバイスにResonaをインストールできなくなる可能性があります。</string>
+    <string name="settings_keep_android_open_summary">Googleの開発者認証に対する私たちの立場</string>
+    <string name="settings_keep_android_open_learn_more">詳細</string>
     <string name="settings_about">アプリについて</string>
     <string name="settings_version">バージョン %s</string>
     <string name="settings_eula">免責事項</string>
@@ -400,6 +407,9 @@
     <string name="debug_menu_copy_report_desc">ビルド、デバイス、クライアント情報をクリップボードにコピーします</string>
     <string name="debug_menu_copy">コピー</string>
     <string name="debug_menu_report_copied">デバッグレポートをコピーしました</string>
+    <string name="debug_menu_lyrics_sync">歌詞の同期</string>
+    <string name="debug_menu_lyrics_sync_count">補正済みのトラック：%d</string>
+    <string name="debug_menu_lyrics_sync_desc">補正したすべてのトラックのオフセット、伸縮、LRCLIBの長さをCSVでコピーします</string>
     <string name="debug_menu_test_crash">テストクラッシュを発生</string>
     <string name="debug_menu_test_crash_desc">クラッシュ処理をテストするため、アプリを強制的にクラッシュさせます</string>
     <string name="debug_menu_diagnostics">診断</string>
@@ -504,7 +514,7 @@
     <string name="badge_supporter">サポーターバッジ</string>
     <string name="badge_supporter_desc">このユーザーはResonaのサポーターです。</string>
     <string name="badge_unknown">不明なバッジ。</string>
-    <string name="badge_received">%1$sが%2$sバッジを獲得しました。</string>
+    <string name="badge_received">%1$sが%2$sを獲得しました。</string>
 
     <!-- Common -->
     <string name="back">戻る</string>
@@ -580,6 +590,8 @@
     <string name="bulk_download_done">%2$d件中%1$d件をダウンロードしました</string>
     <string name="bulk_download_failed">失敗：%1$d</string>
     <string name="bulk_download_cancel">ダウンロードをキャンセル</string>
+    <string name="bulk_download_parallel_on">%1$d曲を同時にダウンロード</string>
+    <string name="bulk_download_parallel_off">1曲ずつダウンロード</string>
     <string name="settings_dividers">区切り線</string>
     <string name="settings_dividers_desc">設定、メニュー、ミニプレーヤーの項目間に線を表示します</string>
     <string name="settings_dividers_hidden">オフ</string>
@@ -633,4 +645,11 @@
     <string name="custom_language_warning_skip">問題のある文字列をスキップ</string>
     <string name="custom_language_warning_anyway">そのまま読み込む</string>
     <string name="custom_language_official_note">翻訳は公式サイトのカタログからダウンロードするのが安全です。他の場所のファイルは壊れていたり、大きすぎたりすることがあります。</string>
+    <string name="msg_import_skipped">破損したエントリをスキップしました：%d</string>
+    <string name="msg_auto_export_backup_kept">お気に入りが空のため、保存済みのコピーは上書きされませんでした</string>
+    <string name="auto_export_access_lost">アプリがファイルへのアクセス権を失いました。コピーの保存を続けるには、ファイルを選び直してください</string>
+    <string name="favorites_import_progress">お気に入りをインポート中：%d</string>
+    <string name="favorites_import_cancel">インポートをキャンセル</string>
+    <string name="favorites_import_already_running">インポートはすでに実行中です</string>
+    <string name="badge_how_to_get">入手方法</string>
 </resources>

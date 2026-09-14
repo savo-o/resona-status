@@ -12,7 +12,7 @@ const DEGRADED_MS = 3000;
 const services = [
     { id: 'soundcloud', name: 'SoundCloud API', url: 'https://api-v2.soundcloud.com/' },
     { id: 'lyrics', name: 'Lyrics API (lrclib.net)', url: 'https://lrclib.net/api/search?track_name=test&artist_name=test' },
-    { id: 'kugou', name: 'Kugou API', url: 'https://songsearch.kugou.com/song_search_v2?keyword=test&page=1&pagesize=10&userid=-1&clientver=&platform=WebFilter&filter=2&iscorrection=1&privilege_filter=0' },
+    { id: 'genius', name: 'Genius', url: 'https://genius.com/api/search/multi?q=test' },
 ];
 
 async function checkService(service) {

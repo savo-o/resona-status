@@ -182,9 +182,16 @@
     <string name="player_repeat">Повторъ</string>
     <string name="player_lyrics">Тексты</string>
     <string name="player_lyrics_none_found">Тексты этого трека не найдены</string>
+    <string name="player_lyrics_back_to_current">Къ текущей строкѣ</string>
     <string name="player_lyrics_source">Тексты: %s</string>
-    <string name="player_lyrics_offset_earlier">Сдвинуть текстъ раньше</string>
-    <string name="player_lyrics_offset_later">Сдвинуть текстъ позже</string>
+    <string name="player_lyrics_offset_earlier">Показывать текстъ раньше</string>
+    <string name="player_lyrics_offset_later">Показывать текстъ позже</string>
+    <string name="player_lyrics_drift_value">%+.1f с/мин</string>
+    <string name="player_lyrics_drift_faster">Ускорять текстъ со временемъ</string>
+    <string name="player_lyrics_drift_slower">Замедлять текстъ со временемъ</string>
+    <string name="player_lyrics_sync">Синхронизація</string>
+    <string name="player_lyrics_offset_label">Сдвигъ</string>
+    <string name="player_lyrics_drift_label">Растяженіе</string>
     <string name="player_playing_from">Воспроизведеніе изъ %1$s</string>
     <string name="player_source_mix">Миксъ</string>
     <string name="player_source_favorites">Избранное</string>
@@ -231,7 +238,12 @@
     <!-- Artist / Playlist -->
     <string name="play_all">Play All</string>
     <string name="artist_tracks">Треки</string>
-    <string name="artist_followers">%d подписчиковъ</string>
+    <plurals name="followers_count">
+        <item quantity="one">%d подписчикъ</item>
+        <item quantity="few">%d подписчика</item>
+        <item quantity="many">%d подписчиковъ</item>
+        <item quantity="other">%d подписчика</item>
+    </plurals>
     <string name="artist_tracks_count">%d трековъ</string>
     <string name="artist_at_username">@%s</string>
     <string name="artist_id">ID: %d</string>
@@ -314,10 +326,6 @@
     <string name="settings_seek_bar_style">Стиль полосы перемотки</string>
     <string name="settings_seek_bar_style_classic">Классическій</string>
     <string name="settings_seek_bar_style_wavy">Волнистый</string>
-    <string name="settings_lyrics_provider">Поставщикъ текстовъ</string>
-    <string name="settings_lyrics_provider_lrclib">LRCLIB</string>
-    <string name="settings_lyrics_provider_kugou">Kugou</string>
-    <string name="settings_lyrics_provider_desc">LRCLIB — источникъ по умолчанію и наиболее надёжный. Kugou эксперименталенъ и весьма нестабиленъ. Включайте его, только если понимаете, что дѣлаете.</string>
     <string name="settings_lyrics_genius_fallback">Несинхронныя тексты изъ Genius</string>
     <string name="settings_lyrics_genius_fallback_desc">Если синхронныя тексты не найдены, искатьъ обычный текстъ черезъ неофиціальный поискъ Genius, вмѣсто того чтобы ничего не показывать</string>
     <string name="settings_haptics">Тактильная отдача</string>
@@ -343,7 +351,9 @@
     <string name="settings_client_id_desc">Нужно только если перестали работать воспроизведеніе или поискъ (ошибка 401)</string>
     <string name="settings_client_id_refreshed">Client ID обновлёнъ</string>
     <string name="settings_keep_android_open_title">Keep Android Open</string>
-    <string name="settings_keep_android_open_desc">Resona поддерживаетъ движеніе Keep Android Open, выступающее противъ плана Google требовать подтвержденія личности для каждаго Android-приложенія, въ томъ числѣ установленнаго внѣ Play Store. Подробности на keepandroidopen.org.</string>
+    <string name="settings_keep_android_open_desc">Google планируетъ обязать всѣхъ Android-разработчиковъ передавать ей свои личныя данныя, въ томъ числѣ для приложеній, которыя устанавливаются не изъ Play Store. Разработчикъ Resona отказывается выполнять это требованіе, поэтому послѣ вступленія правила въ силу Resona можетъ перестать устанавливаться на сертифицированныя Android-устройства.</string>
+    <string name="settings_keep_android_open_summary">Наша позиція по верификаціи разработчиковъ Google</string>
+    <string name="settings_keep_android_open_learn_more">Подробнѣе</string>
     <string name="settings_about">О приложеніи</string>
     <string name="settings_version">Версія %s</string>
     <string name="settings_eula">Отказъ отъ отвѣтственности</string>
@@ -400,6 +410,9 @@
     <string name="debug_menu_copy_report_desc">Копируетъ свѣденія о сборкѣ, устройствѣ и клиентѣ въ буферъ обмѣна</string>
     <string name="debug_menu_copy">Копировать</string>
     <string name="debug_menu_report_copied">Отчётъ отладки скопированъ</string>
+    <string name="debug_menu_lyrics_sync">Синхронизація текста</string>
+    <string name="debug_menu_lyrics_sync_count">Трековъ съ коррекціей: %d</string>
+    <string name="debug_menu_lyrics_sync_desc">Копируетъ сдвигъ, растяженіе и длительности LRCLIB по всѣмъ исправленнымъ трекамъ въ CSV</string>
     <string name="debug_menu_test_crash">Вызвать тестовый сбой</string>
     <string name="debug_menu_test_crash_desc">Принудительно вызываетъ сбой приложенія для проверки обработки сбоевъ</string>
     <string name="debug_menu_diagnostics">Діагностика</string>
@@ -504,7 +517,7 @@
     <string name="badge_supporter">Значокъ сторонника</string>
     <string name="badge_supporter_desc">Этотъ пользователь — сторонникъ Resona.</string>
     <string name="badge_unknown">Неизвѣстный значокъ.</string>
-    <string name="badge_received">%1$s получилъ значокъ «%2$s».</string>
+    <string name="badge_received">%2$s есть у пользователя %1$s.</string>
 
     <!-- Common -->
     <string name="back">Назадъ</string>
@@ -580,6 +593,8 @@
     <string name="bulk_download_done">Загружено %1$d изъ %2$d</string>
     <string name="bulk_download_failed">Ошибокъ: %1$d</string>
     <string name="bulk_download_cancel">Отмѣнить загрузки</string>
+    <string name="bulk_download_parallel_on">Скачивать по %1$d трека одновременно</string>
+    <string name="bulk_download_parallel_off">Скачивать по одному треку</string>
     <string name="settings_dividers">Раздѣлители</string>
     <string name="settings_dividers_desc">Линіи между пунктами въ настройкахъ, меню и мини-проигрывателѣ</string>
     <string name="settings_dividers_hidden">Выкл.</string>
@@ -633,4 +648,11 @@
     <string name="custom_language_warning_skip">Пропустить проблемныя строки</string>
     <string name="custom_language_warning_anyway">Загрузить какъ есть</string>
     <string name="custom_language_official_note">Переводы надёжнѣе скачивать изъ каталога на офиціальномъ сайтѣ. Файлы изъ другихъ мѣстъ могутъ оказаться битыми или слишкомъ большими.</string>
+    <string name="msg_import_skipped">Пропущено поврежденныхъ записей: %d</string>
+    <string name="msg_auto_export_backup_kept">Избранное пустое, поэтому сохраненная копія не перезаписана</string>
+    <string name="auto_export_access_lost">Приложеніе потеряло доступъ къ файлу. Выберите файлъ заново, чтобы копія снова сохранялась</string>
+    <string name="favorites_import_progress">Импортъ избраннаго: %d</string>
+    <string name="favorites_import_cancel">Отмѣнить импортъ</string>
+    <string name="favorites_import_already_running">Импортъ уже идётъ</string>
+    <string name="badge_how_to_get">Какъ получить</string>
 </resources>
