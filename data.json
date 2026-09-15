@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:35:30.357Z",
+  "generated_at": "2026-09-15T09:34:13.961Z",
   "services": [
     {
       "id": "soundcloud",
@@ -7,8 +7,8 @@
       "url": "https://api-v2.soundcloud.com/",
       "status": "operational",
       "http_status": 401,
-      "latency_ms": 380,
-      "checked_at": "2026-09-15T04:35:30.357Z",
+      "latency_ms": 245,
+      "checked_at": "2026-09-15T09:34:13.961Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -694,6 +694,11 @@
           "t": "2026-09-15T04:35:30.357Z",
           "status": "operational",
           "latency_ms": 380
+        },
+        {
+          "t": "2026-09-15T09:34:13.961Z",
+          "status": "operational",
+          "latency_ms": 245
         }
       ]
     },
@@ -703,8 +708,8 @@
       "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
       "status": "operational",
       "http_status": 200,
-      "latency_ms": 546,
-      "checked_at": "2026-09-15T04:35:30.357Z",
+      "latency_ms": 636,
+      "checked_at": "2026-09-15T09:34:13.961Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -1390,6 +1395,11 @@
           "t": "2026-09-15T04:35:30.357Z",
           "status": "operational",
           "latency_ms": 546
+        },
+        {
+          "t": "2026-09-15T09:34:13.961Z",
+          "status": "operational",
+          "latency_ms": 636
         }
       ]
     },
@@ -1397,10 +1407,10 @@
       "id": "genius",
       "name": "Genius",
       "url": "https://genius.com/api/search/multi?q=test",
-      "status": "operational",
-      "http_status": 403,
-      "latency_ms": 113,
-      "checked_at": "2026-09-15T04:35:30.357Z",
+      "status": "down",
+      "http_status": 0,
+      "latency_ms": 63,
+      "checked_at": "2026-09-15T09:34:13.961Z",
       "history": [
         {
           "t": "2026-09-14T20:19:24.917Z",
@@ -1421,6 +1431,11 @@
           "t": "2026-09-15T04:35:30.357Z",
           "status": "operational",
           "latency_ms": 113
+        },
+        {
+          "t": "2026-09-15T09:34:13.961Z",
+          "status": "down",
+          "latency_ms": 63
         }
       ]
     }
