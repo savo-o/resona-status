@@ -179,6 +179,13 @@
     <string name="player_save_offline">オフライン用に保存</string>
     <string name="player_saved_offline">オフライン用に保存済み</string>
     <string name="player_shuffle">シャッフル</string>
+    <string name="player_more_like_this">似た曲をもっと</string>
+    <string name="player_comments">コメント</string>
+    <string name="player_comment_hint">%s にコメント</string>
+    <string name="player_comment_send">送信</string>
+    <string name="player_comment_sent">コメントを投稿しました</string>
+    <string name="player_comment_failed">コメントを投稿できませんでした</string>
+    <string name="player_more_like_this_empty">似たトラックは見つかりませんでした</string>
     <string name="player_repeat">リピート</string>
     <string name="player_lyrics">歌詞</string>
     <string name="player_lyrics_none_found">このトラックの歌詞は見つかりませんでした</string>
@@ -192,6 +199,11 @@
     <string name="player_lyrics_sync">同期</string>
     <string name="player_lyrics_offset_label">オフセット</string>
     <string name="player_lyrics_drift_label">伸縮</string>
+    <string name="lyrics_card_share">共有</string>
+    <string name="lyrics_card_style_artwork">アートワーク</string>
+    <string name="lyrics_card_style_color">カラー</string>
+    <string name="lyrics_card_style_dark">ダーク</string>
+    <string name="lyrics_card_pick_lines">最大 %d 行まで選択</string>
     <string name="player_playing_from">%1$sから再生中</string>
     <string name="player_source_mix">ミックス</string>
     <string name="player_source_favorites">お気に入り</string>
@@ -247,6 +259,24 @@
     <string name="artist_error">エラー：%s</string>
     <string name="playlist_by">%s</string>
     <string name="playlist_tracks_count">%dトラック</string>
+    <string name="detail_popular">人気</string>
+    <string name="detail_show_more">もっと見る</string>
+    <string name="detail_show_less">折りたたむ</string>
+    <string name="detail_albums">アルバム</string>
+    <string name="detail_all_tracks">すべてのトラック</string>
+    <string name="detail_related_artists">ファンはこちらも聴いています</string>
+    <string name="detail_about_artist">概要</string>
+    <string name="detail_verified_artist">SoundCloud 認証済みアーティスト</string>
+    <string name="detail_add_to_favorites">お気に入り</string>
+    <string name="detail_in_favorites">お気に入り済み</string>
+    <string name="detail_more_by">%s の他の曲</string>
+    <string name="detail_duration_hours">%1$d 時間 %2$d 分</string>
+    <string name="detail_duration_minutes">%d 分</string>
+    <string name="playlist_kind_album">アルバム</string>
+    <string name="playlist_kind_ep">EP</string>
+    <string name="playlist_kind_single">シングル</string>
+    <string name="playlist_kind_compilation">コンピレーション</string>
+    <string name="playlist_kind_playlist">プレイリスト</string>
 
     <!-- Account -->
     <string name="account_title">アカウント</string>
@@ -297,6 +327,14 @@
     <string name="settings_app_background_custom_desc">背景に好きな色を設定し、トラックのピルはそこから離して表示します</string>
     <string name="settings_app_background_player_only_desc">プレーヤーだけがカバーに合わせて変化し、その他の部分はシンプルなままです</string>
     <string name="settings_player_style">プレーヤーのスタイル</string>
+    <string name="settings_artwork_glow">アートワークの発光</string>
+    <string name="settings_artwork_glow_artwork">アートワーク</string>
+    <string name="settings_artwork_glow_theme">テーマ</string>
+    <string name="settings_artwork_glow_off">オフ</string>
+    <string name="settings_marquee_titles">流れるタイトル</string>
+    <string name="settings_marquee_titles_desc">長いトラック名が切り詰められず流れて表示されます</string>
+    <string name="settings_timed_comments">タイムコメント</string>
+    <string name="settings_timed_comments_desc">SoundCloud のコメントがトラックのその瞬間にシークバーの上に表示されます</string>
     <string name="settings_pixel_glow">アートワークの背後のグロー</string>
     <string name="settings_pixel_glow_desc">現在のトラックの色を使った柔らかな放射状グラデーション。Legacy Orbプレーヤーと同じ効果です</string>
     <string name="settings_player_style_pixel">ピクセル</string>
@@ -305,6 +343,29 @@
     <string name="settings_player_background_orb">オーブ</string>
     <string name="settings_player_background_blurred">ぼかし</string>
     <string name="settings_player_background_minimal">ミニマル</string>
+    <string name="settings_font">フォント</string>
+    <string name="settings_font_roundness">丸みのあるフォント</string>
+    <string name="settings_font_roundness_desc">Google Sans Flex の角を丸くします。キリル文字は独自のフォントのままで変わりません</string>
+    <string name="settings_font_roundness_level">丸み</string>
+    <string name="settings_font_roundness_format">%d%%</string>
+    <string name="settings_font_sample">Resona · Playback 123</string>
+    <string name="settings_artwork_shape">アートワークの形</string>
+    <string name="settings_artwork_size">アートワークのサイズ</string>
+    <string name="settings_artwork_size_format">%d%%</string>
+    <string name="settings_artwork_ring">アートワークの輪郭</string>
+    <string name="settings_artwork_ring_desc">トラックの進行状況をアートワークの周りの輪郭で表示します</string>
+    <string name="artwork_shape_blob">波</string>
+    <string name="artwork_shape_circle">円</string>
+    <string name="artwork_shape_square">四角</string>
+    <string name="artwork_shape_cookie_9">クッキー</string>
+    <string name="artwork_shape_cookie_12">スカラップ</string>
+    <string name="artwork_shape_clover_4">四つ葉のクローバー</string>
+    <string name="artwork_shape_clover_8">八つ葉のクローバー</string>
+    <string name="artwork_shape_sunny">太陽</string>
+    <string name="artwork_shape_soft_burst">閃光</string>
+    <string name="artwork_shape_flower">花</string>
+    <string name="artwork_shape_puffy_diamond">ひし形</string>
+    <string name="artwork_shape_heart">ハート</string>
     <string name="settings_app_icon">アプリアイコン</string>
     <string name="settings_app_icon_normal">通常</string>
     <string name="settings_app_icon_dynamic">ダイナミック</string>
@@ -451,7 +512,7 @@
     <string name="import_sc_fetched">%dトラックを取得しました…</string>
     <string name="import_sc_slow">「いいね」が多いプロフィールでは時間がかかる場合があります</string>
     <string name="import_sc_preview">プレビュー</string>
-    <string name="import_sc_preview_count">%sから%d件の「いいね」トラック</string>
+    <string name="import_sc_preview_count">%2$sから%1$d件の「いいね」トラック</string>
     <string name="import_sc_preview_playlists">「いいね」したプレイリスト%d件</string>
     <string name="import_sc_fetch_playlists">プレイリストを取得</string>
     <string name="import_sc_fetching_playlists">%d件のプレイリストを取得しました…</string>
@@ -464,6 +525,10 @@
     <string name="import_tg_title">Telegramからインポート</string>
     <string name="import_tg_beta">ベータ</string>
     <string name="import_tg_desc">チャット内の共有音声をスキャンしてSoundCloudと照合し、見つからなかったものをオフライントラックに追加します。一致したものはローカル/オフラインのお気に入りにのみ保存され、SoundCloudの自分の「いいね」とは同期されません。</string>
+    <string name="import_tg_mode_match">まず照合</string>
+    <string name="import_tg_mode_download_all">すべてダウンロード</string>
+    <string name="import_tg_mode_match_desc">SoundCloud で見つかったトラックはお気に入りに追加され、残りは Telegram からダウンロードされます。</string>
+    <string name="import_tg_mode_download_all_desc">すべてのトラックがオフライン用に保存されます。一致したものは SoundCloud から、残りは Telegram からダウンロードされます。通信量とストレージを多く使います。</string>
     <string name="import_tg_unavailable">このビルドでは設定されていません — Telegramインポートのセットアップメモを確認してください。</string>
     <string name="import_tg_start">Telegramでログイン</string>
     <string name="import_tg_connecting">接続中…</string>
@@ -507,6 +572,7 @@
     <string name="easter_egg_press_me">押してみて</string>
     <string name="easter_egg_launch">起動</string>
     <string name="easter_egg_gravity">重力</string>
+    <string name="easter_egg_party">よし、これはちゃんと何かする</string>
 
     <!-- Badges -->
     <string name="badge_developer">開発者バッジ</string>

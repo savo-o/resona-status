@@ -182,6 +182,13 @@
     <string name="player_save_offline">СОХРАНИТЬ В [ДРУГОЙ МИР]</string>
     <string name="player_saved_offline">СОХРАНЕНО В [ДРУГОМ МИРЕ]</string>
     <string name="player_shuffle">[ХАОС]</string>
+    <string name="player_more_like_this">ЕЩЁ [ПОХОЖЕЕ]</string>
+    <string name="player_comments">КОММЕНТАРИИ</string>
+    <string name="player_comment_hint">КОММЕНТАРИЙ НА %s</string>
+    <string name="player_comment_send">ОТПРАВИТЬ!!</string>
+    <string name="player_comment_sent">КОММЕНТАРИЙ [ОПУБЛИКОВАН]</string>
+    <string name="player_comment_failed">НЕ УДАЛОСЬ ОПУБЛИКОВАТЬ [КОММЕНТАРИЙ]</string>
+    <string name="player_more_like_this_empty">ПОХОЖИХ ТРЕКОВ [НЕ НАЙДЕНО]</string>
     <string name="player_repeat">СНОВА?!</string>
     <string name="player_lyrics">ТЕКСТ [ПЕСНИ]</string>
     <string name="player_lyrics_none_found">ТЕКСТ НЕ НАЙДЕН.
@@ -196,6 +203,11 @@
     <string name="player_lyrics_sync">[СИНХРОНИЗАЦИЯ]</string>
     <string name="player_lyrics_offset_label">[СДВИГ]</string>
     <string name="player_lyrics_drift_label">[РАСТЯЖЕНИЕ]</string>
+    <string name="lyrics_card_share">ПОДЕЛИТЬСЯ</string>
+    <string name="lyrics_card_style_artwork">ОБЛОЖКА</string>
+    <string name="lyrics_card_style_color">ЦВЕТ</string>
+    <string name="lyrics_card_style_dark">ТЁМНАЯ</string>
+    <string name="lyrics_card_pick_lines">ВЫБЕРИ ДО %d [СТРОК]</string>
     <string name="player_playing_from">ИГРАЕТ ИЗ %1$s</string>
     <string name="player_source_mix">[MIX]</string>
     <string name="player_source_favorites">[ЛЮБИМЫЕ]</string>
@@ -256,6 +268,24 @@
     <string name="artist_error">ОШИБКА: %s</string>
     <string name="playlist_by">[СОЗДАТЕЛЬ]: %s</string>
     <string name="playlist_tracks_count">%d [ТРЕКОВ]</string>
+    <string name="detail_popular">ПОПУЛЯРНОЕ</string>
+    <string name="detail_show_more">ПОКАЗАТЬ ЕЩЁ</string>
+    <string name="detail_show_less">СВЕРНУТЬ</string>
+    <string name="detail_albums">АЛЬБОМЫ</string>
+    <string name="detail_all_tracks">ВСЕ ТРЕКИ</string>
+    <string name="detail_related_artists">ФАНАТАМ ТАКЖЕ [НРАВИТСЯ]</string>
+    <string name="detail_about_artist">ОБ АРТИСТЕ</string>
+    <string name="detail_verified_artist">SOUNDCLOUD [ПОДТВЕРДИЛ] ЭТОГО АРТИСТА</string>
+    <string name="detail_add_to_favorites">В [ИЗБРАННОЕ]</string>
+    <string name="detail_in_favorites">В ИЗБРАННОМ</string>
+    <string name="detail_more_by">ЕЩЁ ОТ %s</string>
+    <string name="detail_duration_hours">%1$d Ч %2$d МИН</string>
+    <string name="detail_duration_minutes">%d МИН</string>
+    <string name="playlist_kind_album">АЛЬБОМ</string>
+    <string name="playlist_kind_ep">EP</string>
+    <string name="playlist_kind_single">СИНГЛ</string>
+    <string name="playlist_kind_compilation">СБОРНИК</string>
+    <string name="playlist_kind_playlist">ПЛЕЙЛИСТ</string>
 
     <!-- Account -->
     <string name="account_title">ТВОЙ [АККАУНТ]</string>
@@ -307,6 +337,14 @@
     <string name="settings_app_background_custom_desc">ТВОЙ СОБСТВЕННЫЙ ЦВЕТ ДЛЯ ФОНА, А ТРЕКИ СТОЯТ ОТ НЕГО [ПОДАЛЬШЕ].</string>
     <string name="settings_app_background_player_only_desc">ТОЛЬКО ПЛЕЕР СЛЕДУЕТ ОБЛОЖКЕ. ОСТАЛЬНОЕ ПРИЛОЖЕНИЕ ОСТАЁТСЯ [ОБЫЧНЫМ].</string>
     <string name="settings_player_style">СТИЛЬ [ПЛЕЕРА]</string>
+    <string name="settings_artwork_glow">СВЕЧЕНИЕ ОБЛОЖКИ</string>
+    <string name="settings_artwork_glow_artwork">ОБЛОЖКА</string>
+    <string name="settings_artwork_glow_theme">ТЕМА</string>
+    <string name="settings_artwork_glow_off">ВЫКЛЮЧИТЬ</string>
+    <string name="settings_marquee_titles">БЕГУЩИЕ НАЗВАНИЯ</string>
+    <string name="settings_marquee_titles_desc">ДЛИННЫЕ НАЗВАНИЯ ТРЕКОВ [ЕДУТ], А НЕ ОБРЕЗАЮТСЯ</string>
+    <string name="settings_timed_comments">КОММЕНТАРИИ ПО ВРЕМЕНИ</string>
+    <string name="settings_timed_comments_desc">КОММЕНТАРИИ SOUNDCLOUD ВСПЛЫВАЮТ НАД ПОЛЗУНКОМ В СВОЙ [МОМЕНТ]</string>
     <string name="settings_pixel_glow">СВЕЧЕНИЕ ЗА [ОБЛОЖКОЙ]</string>
     <string name="settings_pixel_glow_desc">МЯГКИЙ РАДИАЛЬНЫЙ ГРАДИЕНТ ЦВЕТА ТЕКУЩЕГО ТРЕКА. ТОТ ЖЕ, ЧТО ИСПОЛЬЗУЕТ [LEGACY ORB].</string>
     <string name="settings_player_style_pixel">[ПИКСЕЛЬ]</string>
@@ -315,6 +353,29 @@
     <string name="settings_player_background_orb">[ОРБ]</string>
     <string name="settings_player_background_blurred">[РАЗМЫТЫЙ]</string>
     <string name="settings_player_background_minimal">[МИНИМАЛЬНЫЙ]</string>
+    <string name="settings_font">ШРИФТ</string>
+    <string name="settings_font_roundness">ЗАКРУГЛЁННЫЙ ШРИФТ</string>
+    <string name="settings_font_roundness_desc">СГЛАЖИВАЕТ УГЛЫ GOOGLE SANS FLEX. КИРИЛЛИЦА ЖИВЁТ СО СВОИМ ШРИФТОМ И [НЕ МЕНЯЕТСЯ]</string>
+    <string name="settings_font_roundness_level">ЗАКРУГЛЕНИЕ</string>
+    <string name="settings_font_roundness_format">%d%%</string>
+    <string name="settings_font_sample">RESONA · PLAYBACK 123</string>
+    <string name="settings_artwork_shape">ФОРМА ОБЛОЖКИ</string>
+    <string name="settings_artwork_size">РАЗМЕР ОБЛОЖКИ</string>
+    <string name="settings_artwork_size_format">%d%%</string>
+    <string name="settings_artwork_ring">ОБВОДКА ОБЛОЖКИ</string>
+    <string name="settings_artwork_ring_desc">ПОКАЗЫВАТЬ ПРОГРЕСС ТРЕКА ОБВОДКОЙ ВОКРУГ [ОБЛОЖКИ]</string>
+    <string name="artwork_shape_blob">ВОЛНА</string>
+    <string name="artwork_shape_circle">КРУГ</string>
+    <string name="artwork_shape_square">КВАДРАТ</string>
+    <string name="artwork_shape_cookie_9">ПЕЧЕНЬЕ</string>
+    <string name="artwork_shape_cookie_12">ФЕСТОН</string>
+    <string name="artwork_shape_clover_4">ЧЕТЫРЁХЛИСТНЫЙ КЛЕВЕР</string>
+    <string name="artwork_shape_clover_8">ВОСЬМИЛИСТНЫЙ КЛЕВЕР</string>
+    <string name="artwork_shape_sunny">СОЛНЦЕ</string>
+    <string name="artwork_shape_soft_burst">ВСПЫШКА</string>
+    <string name="artwork_shape_flower">ЦВЕТОК</string>
+    <string name="artwork_shape_puffy_diamond">РОМБ</string>
+    <string name="artwork_shape_heart">СЕРДЦЕ</string>
     <string name="settings_app_icon">ЗНАЧОК [МИРА]</string>
     <string name="settings_app_icon_normal">[ОБЫЧНЫЙ]</string>
     <string name="settings_app_icon_dynamic">[ДИНАМИЧЕСКИЙ]</string>
@@ -491,6 +552,10 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="import_tg_title">ПРИНЕСТИ ИЗ [TELEGRAM]</string>
     <string name="import_tg_beta">[BETA]</string>
     <string name="import_tg_desc">СКАНИРУЕТ ЧАТ НА НАЛИЧИЕ АУДИО, СОПОСТАВЛЯЕТ ЕГО С SOUNDCLOUD И ДОБАВЛЯЕТ НЕ НАЙДЕННОЕ ТУДА В ОФЛАЙН-ТРЕКИ. СОПОСТАВЛЕНИЯ СОХРАНЯЮТСЯ ТОЛЬКО ЛОКАЛЬНО.</string>
+    <string name="import_tg_mode_match">СНАЧАЛА [ПОИСК]</string>
+    <string name="import_tg_mode_download_all">СКАЧИВАТЬ ВСЁ</string>
+    <string name="import_tg_mode_match_desc">ТРЕКИ, НАЙДЕННЫЕ НА SOUNDCLOUD, ИДУТ В ИЗБРАННОЕ. ОСТАЛЬНЫЕ [СКАЧИВАЮТСЯ] ИЗ TELEGRAM.</string>
+    <string name="import_tg_mode_download_all_desc">КАЖДЫЙ ТРЕК УХОДИТ В ОФЛАЙН: СОВПАДЕНИЯ С SOUNDCLOUD, ОСТАЛЬНОЕ ИЗ TELEGRAM. БОЛЬШЕ ТРАФИКА И [ПАМЯТИ].</string>
     <string name="import_tg_unavailable">В ЭТОЙ СБОРКЕ ЭТО НЕ НАСТРОЕНО — СМОТРИ ЗАМЕТКИ ПО НАСТРОЙКЕ [TELEGRAM-ИМПОРТА].</string>
     <string name="import_tg_start">ВОЙТИ ЧЕРЕЗ [TELEGRAM]</string>
     <string name="import_tg_connecting">СОЕДИНЕНИЕ С [ДРУГИМ МИРОМ]...</string>
@@ -535,6 +600,7 @@ RESONA БЕСПЛАТНА И РАСПРОСТРАНЯЕТСЯ ПОД GPL V3. Т�
     <string name="easter_egg_press_me">[НАЖМИ МЕНЯ]</string>
     <string name="easter_egg_launch">ЗАПУСК!!!</string>
     <string name="easter_egg_gravity">[ГРАВИТАЦИЯ]</string>
+    <string name="easter_egg_party">ОКЕЙ, ВОТ ЭТО [КОЕ-ЧТО ДЕЛАЕТ!!!]</string>
 
     <!-- Badges -->
     <string name="badge_developer">ЗНАЧОК [РАЗРАБОТЧИКА]</string>

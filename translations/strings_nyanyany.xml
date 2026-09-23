@@ -179,6 +179,13 @@
     <string name="player_save_offline">няняняняня</string>
     <string name="player_saved_offline">няняняняня</string>
     <string name="player_shuffle">няняняняня</string>
+    <string name="player_more_like_this">няняняняня</string>
+    <string name="player_comments">няняняняня</string>
+    <string name="player_comment_hint">няняняняня</string>
+    <string name="player_comment_send">няняняняня</string>
+    <string name="player_comment_sent">няняняняня</string>
+    <string name="player_comment_failed">няняняняня</string>
+    <string name="player_more_like_this_empty">няняняняня</string>
     <string name="player_repeat">няняняняня</string>
     <string name="player_lyrics">няняняняня</string>
     <string name="player_lyrics_none_found">няняняняня</string>
@@ -192,6 +199,11 @@
     <string name="player_lyrics_sync">няняняняня</string>
     <string name="player_lyrics_offset_label">няняняняня</string>
     <string name="player_lyrics_drift_label">няняняняня</string>
+    <string name="lyrics_card_share">няняняняня</string>
+    <string name="lyrics_card_style_artwork">няняняняня</string>
+    <string name="lyrics_card_style_color">няняняняня</string>
+    <string name="lyrics_card_style_dark">няняняняня</string>
+    <string name="lyrics_card_pick_lines">няняняняня</string>
     <string name="player_playing_from">няняняняня</string>
     <string name="player_source_mix">няняняняня</string>
     <string name="player_source_favorites">няняняняня</string>
@@ -250,6 +262,24 @@
     <string name="artist_error">няняняняня</string>
     <string name="playlist_by">няняняняня</string>
     <string name="playlist_tracks_count">няняняняня</string>
+    <string name="detail_popular">няняняняня</string>
+    <string name="detail_show_more">няняняняня</string>
+    <string name="detail_show_less">няняняняня</string>
+    <string name="detail_albums">няняняняня</string>
+    <string name="detail_all_tracks">няняняняня</string>
+    <string name="detail_related_artists">няняняняня</string>
+    <string name="detail_about_artist">няняняняня</string>
+    <string name="detail_verified_artist">няняняняня</string>
+    <string name="detail_add_to_favorites">няняняняня</string>
+    <string name="detail_in_favorites">няняняняня</string>
+    <string name="detail_more_by">няняняняня</string>
+    <string name="detail_duration_hours">няняняняня</string>
+    <string name="detail_duration_minutes">няняняняня</string>
+    <string name="playlist_kind_album">няняняняня</string>
+    <string name="playlist_kind_ep">няняняняня</string>
+    <string name="playlist_kind_single">няняняняня</string>
+    <string name="playlist_kind_compilation">няняняняня</string>
+    <string name="playlist_kind_playlist">няняняняня</string>
 
     <!-- Account -->
     <string name="account_title">няняняняня</string>
@@ -300,6 +330,14 @@
     <string name="settings_app_background_custom_desc">няняняняня</string>
     <string name="settings_app_background_player_only_desc">няняняняня</string>
     <string name="settings_player_style">няняняняня</string>
+    <string name="settings_artwork_glow">няняняняня</string>
+    <string name="settings_artwork_glow_artwork">няняняняня</string>
+    <string name="settings_artwork_glow_theme">няняняняня</string>
+    <string name="settings_artwork_glow_off">няняняняня</string>
+    <string name="settings_marquee_titles">няняняняня</string>
+    <string name="settings_marquee_titles_desc">няняняняня</string>
+    <string name="settings_timed_comments">няняняняня</string>
+    <string name="settings_timed_comments_desc">няняняняня</string>
     <string name="settings_pixel_glow">няняняняня</string>
     <string name="settings_pixel_glow_desc">няняняняня</string>
     <string name="settings_player_style_pixel">няняняняня</string>
@@ -308,6 +346,29 @@
     <string name="settings_player_background_orb">няняняняня</string>
     <string name="settings_player_background_blurred">няняняняня</string>
     <string name="settings_player_background_minimal">няняняняня</string>
+    <string name="settings_font">няняняняня</string>
+    <string name="settings_font_roundness">няняняняня</string>
+    <string name="settings_font_roundness_desc">няняняняня</string>
+    <string name="settings_font_roundness_level">няняняняня</string>
+    <string name="settings_font_roundness_format">няняняняня</string>
+    <string name="settings_font_sample">няняняняня</string>
+    <string name="settings_artwork_shape">няняняняня</string>
+    <string name="settings_artwork_size">няняняняня</string>
+    <string name="settings_artwork_size_format">няняняняня</string>
+    <string name="settings_artwork_ring">няняняняня</string>
+    <string name="settings_artwork_ring_desc">няняняняня</string>
+    <string name="artwork_shape_blob">няняняняня</string>
+    <string name="artwork_shape_circle">няняняняня</string>
+    <string name="artwork_shape_square">няняняняня</string>
+    <string name="artwork_shape_cookie_9">няняняняня</string>
+    <string name="artwork_shape_cookie_12">няняняняня</string>
+    <string name="artwork_shape_clover_4">няняняняня</string>
+    <string name="artwork_shape_clover_8">няняняняня</string>
+    <string name="artwork_shape_sunny">няняняняня</string>
+    <string name="artwork_shape_soft_burst">няняняняня</string>
+    <string name="artwork_shape_flower">няняняняня</string>
+    <string name="artwork_shape_puffy_diamond">няняняняня</string>
+    <string name="artwork_shape_heart">няняняняня</string>
     <string name="settings_app_icon">няняняняня</string>
     <string name="settings_app_icon_normal">няняняняня</string>
     <string name="settings_app_icon_dynamic">няняняняня</string>
@@ -467,6 +528,10 @@
     <string name="import_tg_title">няняняняня</string>
     <string name="import_tg_beta">няняняняня</string>
     <string name="import_tg_desc">няняняняня</string>
+    <string name="import_tg_mode_match">няняняняня</string>
+    <string name="import_tg_mode_download_all">няняняняня</string>
+    <string name="import_tg_mode_match_desc">няняняняня</string>
+    <string name="import_tg_mode_download_all_desc">няняняняня</string>
     <string name="import_tg_unavailable">няняняняня</string>
     <string name="import_tg_start">няняняняня</string>
     <string name="import_tg_connecting">няняняняня</string>
@@ -510,6 +575,7 @@
     <string name="easter_egg_press_me">няняняняня</string>
     <string name="easter_egg_launch">няняняняня</string>
     <string name="easter_egg_gravity">няняняняня</string>
+    <string name="easter_egg_party">няняняняня</string>
 
     <!-- Badges -->
     <string name="badge_developer">няняняняня</string>

@@ -179,6 +179,13 @@
     <string name="player_save_offline">Сохранить для оффлайна</string>
     <string name="player_saved_offline">Сохранено для оффлайна</string>
     <string name="player_shuffle">Перемѣшать</string>
+    <string name="player_more_like_this">Ещё похожее</string>
+    <string name="player_comments">Комментаріи</string>
+    <string name="player_comment_hint">Комментарій на %s</string>
+    <string name="player_comment_send">Отправить</string>
+    <string name="player_comment_sent">Комментарій опубликованъ</string>
+    <string name="player_comment_failed">Не удалось опубликовать комментарій</string>
+    <string name="player_more_like_this_empty">Похожіе треки не найдены</string>
     <string name="player_repeat">Повторъ</string>
     <string name="player_lyrics">Тексты</string>
     <string name="player_lyrics_none_found">Тексты этого трека не найдены</string>
@@ -192,6 +199,11 @@
     <string name="player_lyrics_sync">Синхронизація</string>
     <string name="player_lyrics_offset_label">Сдвигъ</string>
     <string name="player_lyrics_drift_label">Растяженіе</string>
+    <string name="lyrics_card_share">Подѣлиться</string>
+    <string name="lyrics_card_style_artwork">Обложка</string>
+    <string name="lyrics_card_style_color">Цвѣтъ</string>
+    <string name="lyrics_card_style_dark">Тёмная</string>
+    <string name="lyrics_card_pick_lines">Выберите до %d строкъ</string>
     <string name="player_playing_from">Воспроизведеніе изъ %1$s</string>
     <string name="player_source_mix">Миксъ</string>
     <string name="player_source_favorites">Избранное</string>
@@ -250,6 +262,24 @@
     <string name="artist_error">Ошибка: %s</string>
     <string name="playlist_by">%s</string>
     <string name="playlist_tracks_count">%d трековъ</string>
+    <string name="detail_popular">Популярное</string>
+    <string name="detail_show_more">Показать ещё</string>
+    <string name="detail_show_less">Свернуть</string>
+    <string name="detail_albums">Альбомы</string>
+    <string name="detail_all_tracks">Всѣ треки</string>
+    <string name="detail_related_artists">Похожіе артисты</string>
+    <string name="detail_about_artist">Объ артистѣ</string>
+    <string name="detail_verified_artist">Верифицированъ на SoundCloud</string>
+    <string name="detail_add_to_favorites">Въ избранное</string>
+    <string name="detail_in_favorites">Въ избранномъ</string>
+    <string name="detail_more_by">Ещё отъ %s</string>
+    <string name="detail_duration_hours">%1$d ч %2$d мин</string>
+    <string name="detail_duration_minutes">%d мин</string>
+    <string name="playlist_kind_album">Альбомъ</string>
+    <string name="playlist_kind_ep">EP</string>
+    <string name="playlist_kind_single">Синглъ</string>
+    <string name="playlist_kind_compilation">Сборникъ</string>
+    <string name="playlist_kind_playlist">Плейлистъ</string>
 
     <!-- Account -->
     <string name="account_title">Учётная запись</string>
@@ -300,6 +330,14 @@
     <string name="settings_app_background_custom_desc">Вашъ собственный цвѣтъ фона, при этомъ плашки трековъ отстоятъ отъ него</string>
     <string name="settings_app_background_player_only_desc">Только проигрыватель подстраивается подъ обложку, остальное приложеніе остаётся простымъ</string>
     <string name="settings_player_style">Стиль проигрывателя</string>
+    <string name="settings_artwork_glow">Подсвѣтка обложки</string>
+    <string name="settings_artwork_glow_artwork">Обложка</string>
+    <string name="settings_artwork_glow_theme">Тема</string>
+    <string name="settings_artwork_glow_off">Выключить</string>
+    <string name="settings_marquee_titles">Бѣгущія названія</string>
+    <string name="settings_marquee_titles_desc">Длинныя названія трековъ прокручиваются, а не обрѣзаются</string>
+    <string name="settings_timed_comments">Комментаріи по времени</string>
+    <string name="settings_timed_comments_desc">Комментаріи SoundCloud появляются надъ ползункомъ въ свой моментъ трека</string>
     <string name="settings_pixel_glow">Свѣченіе за обложкой</string>
     <string name="settings_pixel_glow_desc">Мягкій радиальный градіентъ въ цвѣтѣ текущаго трека — тотъ же, что используетъ проигрыватель Legacy Orb</string>
     <string name="settings_player_style_pixel">Пиксельный</string>
@@ -308,6 +346,29 @@
     <string name="settings_player_background_orb">Сфера</string>
     <string name="settings_player_background_blurred">Размытый</string>
     <string name="settings_player_background_minimal">Минималистичный</string>
+    <string name="settings_font">Шрифтъ</string>
+    <string name="settings_font_roundness">Закруглённый шрифтъ</string>
+    <string name="settings_font_roundness_desc">Сглаживаетъ углы шрифта Google Sans Flex. Кириллица используетъ свой шрифтъ и не мѣняется</string>
+    <string name="settings_font_roundness_level">Закругленіе</string>
+    <string name="settings_font_roundness_format">%d%%</string>
+    <string name="settings_font_sample">Resona · Playback 123</string>
+    <string name="settings_artwork_shape">Форма обложки</string>
+    <string name="settings_artwork_size">Размѣръ обложки</string>
+    <string name="settings_artwork_size_format">%d%%</string>
+    <string name="settings_artwork_ring">Обводка обложки</string>
+    <string name="settings_artwork_ring_desc">Показывать прогрессъ трека обводкой вокругъ обложки</string>
+    <string name="artwork_shape_blob">Волна</string>
+    <string name="artwork_shape_circle">Кругъ</string>
+    <string name="artwork_shape_square">Квадратъ</string>
+    <string name="artwork_shape_cookie_9">Печенье</string>
+    <string name="artwork_shape_cookie_12">Фестонъ</string>
+    <string name="artwork_shape_clover_4">Четырёхлистный клеверъ</string>
+    <string name="artwork_shape_clover_8">Восьмилистный клеверъ</string>
+    <string name="artwork_shape_sunny">Солнце</string>
+    <string name="artwork_shape_soft_burst">Вспышка</string>
+    <string name="artwork_shape_flower">Цвѣтокъ</string>
+    <string name="artwork_shape_puffy_diamond">Ромбъ</string>
+    <string name="artwork_shape_heart">Сердце</string>
     <string name="settings_app_icon">Значокъ приложенія</string>
     <string name="settings_app_icon_normal">Обычный</string>
     <string name="settings_app_icon_dynamic">Динамическій</string>
@@ -454,7 +515,7 @@
     <string name="import_sc_fetched">Получено трековъ: %d…</string>
     <string name="import_sc_slow">Для профилей съ множествомъ лайковъ это можетъ занять некоторое время</string>
     <string name="import_sc_preview">Предпросмотръ</string>
-    <string name="import_sc_preview_count">%d понравившихся трековъ отъ %s</string>
+    <string name="import_sc_preview_count">%1$d понравившихся трековъ отъ %2$s</string>
     <string name="import_sc_preview_playlists">%d понравившихся плейлистовъ</string>
     <string name="import_sc_fetch_playlists">Получить плейлисты</string>
     <string name="import_sc_fetching_playlists">Получено плейлистовъ: %d…</string>
@@ -467,6 +528,10 @@
     <string name="import_tg_title">Импортировать изъ Telegram</string>
     <string name="import_tg_beta">БЕТА</string>
     <string name="import_tg_desc">Просканировать чатъ на предметъ отправленныхъ аудіозаписей, сопоставить ихъ съ SoundCloud и добавить всё ненайденное въ оффлайнъ-треки. Совпаденія сохраняются только въ локальномъ/оффлайнъ-избранномъ и не синхронизируются съ вашими лайками SoundCloud.</string>
+    <string name="import_tg_mode_match">Сначала поискъ</string>
+    <string name="import_tg_mode_download_all">Скачивать всѣ</string>
+    <string name="import_tg_mode_match_desc">Треки, найденные на SoundCloud, добавляются въ избранное, остальные скачиваются изъ Telegram.</string>
+    <string name="import_tg_mode_download_all_desc">Всѣ треки сохраняются оффлайнъ: найденные скачиваются съ SoundCloud, остальные изъ Telegram. Расходуетъ больше трафика и памяти.</string>
     <string name="import_tg_unavailable">Въ этой сборкѣ не настроено — см. замѣтки по настройкѣ импорта изъ Telegram.</string>
     <string name="import_tg_start">Войти черезъ Telegram</string>
     <string name="import_tg_connecting">Соединеніе…</string>
@@ -510,6 +575,7 @@
     <string name="easter_egg_press_me">Нажми меня</string>
     <string name="easter_egg_launch">Запустить</string>
     <string name="easter_egg_gravity">Гравитація</string>
+    <string name="easter_egg_party">А вотъ это уже кое-что дѣлаетъ</string>
 
     <!-- Badges -->
     <string name="badge_developer">Значокъ разработчика</string>
