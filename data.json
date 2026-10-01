@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:28:42.643Z",
+  "generated_at": "2026-10-01T06:21:09.214Z",
   "services": [
     {
       "id": "soundcloud",
@@ -7,8 +7,8 @@
       "url": "https://api-v2.soundcloud.com/",
       "status": "operational",
       "http_status": 401,
-      "latency_ms": 300,
-      "checked_at": "2026-10-01T00:28:42.643Z",
+      "latency_ms": 244,
+      "checked_at": "2026-10-01T06:21:09.214Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -1194,6 +1194,11 @@
           "t": "2026-10-01T00:28:42.643Z",
           "status": "operational",
           "latency_ms": 300
+        },
+        {
+          "t": "2026-10-01T06:21:09.214Z",
+          "status": "operational",
+          "latency_ms": 244
         }
       ]
     },
@@ -1203,8 +1208,8 @@
       "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
       "status": "operational",
       "http_status": 200,
-      "latency_ms": 315,
-      "checked_at": "2026-10-01T00:28:42.643Z",
+      "latency_ms": 153,
+      "checked_at": "2026-10-01T06:21:09.214Z",
       "history": [
         {
           "t": "2026-08-27T21:31:59.512Z",
@@ -2390,6 +2395,11 @@
           "t": "2026-10-01T00:28:42.643Z",
           "status": "operational",
           "latency_ms": 315
+        },
+        {
+          "t": "2026-10-01T06:21:09.214Z",
+          "status": "operational",
+          "latency_ms": 153
         }
       ]
     },
@@ -2399,8 +2409,8 @@
       "url": "https://genius.com/api/search/multi?q=test",
       "status": "operational",
       "http_status": 403,
-      "latency_ms": 173,
-      "checked_at": "2026-10-01T00:28:42.643Z",
+      "latency_ms": 32,
+      "checked_at": "2026-10-01T06:21:09.214Z",
       "history": [
         {
           "t": "2026-09-14T20:19:24.917Z",
@@ -2921,6 +2931,11 @@
           "t": "2026-10-01T00:28:42.643Z",
           "status": "operational",
           "latency_ms": 173
+        },
+        {
+          "t": "2026-10-01T06:21:09.214Z",
+          "status": "operational",
+          "latency_ms": 32
         }
       ]
     }
