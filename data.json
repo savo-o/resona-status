@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:01:14.009Z",
+  "generated_at": "2026-10-12T22:49:35.048Z",
   "services": [
     {
       "id": "soundcloud",
@@ -7,14 +7,9 @@
       "url": "https://api-v2.soundcloud.com/",
       "status": "operational",
       "http_status": 401,
-      "latency_ms": 268,
-      "checked_at": "2026-10-12T16:01:14.009Z",
+      "latency_ms": 315,
+      "checked_at": "2026-10-12T22:49:35.048Z",
       "history": [
-        {
-          "t": "2026-08-28T11:59:38.614Z",
-          "status": "operational",
-          "latency_ms": 251
-        },
         {
           "t": "2026-08-28T15:18:47.374Z",
           "status": "operational",
@@ -1449,6 +1444,11 @@
           "t": "2026-10-12T16:01:14.009Z",
           "status": "operational",
           "latency_ms": 268
+        },
+        {
+          "t": "2026-10-12T22:49:35.048Z",
+          "status": "operational",
+          "latency_ms": 315
         }
       ]
     },
@@ -1458,14 +1458,9 @@
       "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
       "status": "operational",
       "http_status": 200,
-      "latency_ms": 862,
-      "checked_at": "2026-10-12T16:01:14.009Z",
+      "latency_ms": 329,
+      "checked_at": "2026-10-12T22:49:35.048Z",
       "history": [
-        {
-          "t": "2026-08-28T11:59:38.614Z",
-          "status": "operational",
-          "latency_ms": 480
-        },
         {
           "t": "2026-08-28T15:18:47.374Z",
           "status": "operational",
@@ -2900,6 +2895,11 @@
           "t": "2026-10-12T16:01:14.009Z",
           "status": "operational",
           "latency_ms": 862
+        },
+        {
+          "t": "2026-10-12T22:49:35.048Z",
+          "status": "operational",
+          "latency_ms": 329
         }
       ]
     },
@@ -2909,8 +2909,8 @@
       "url": "https://genius.com/api/search/multi?q=test",
       "status": "operational",
       "http_status": 403,
-      "latency_ms": 136,
-      "checked_at": "2026-10-12T16:01:14.009Z",
+      "latency_ms": 57,
+      "checked_at": "2026-10-12T22:49:35.048Z",
       "history": [
         {
           "t": "2026-09-14T20:19:24.917Z",
@@ -3716,6 +3716,11 @@
           "t": "2026-10-12T16:01:14.009Z",
           "status": "operational",
           "latency_ms": 136
+        },
+        {
+          "t": "2026-10-12T22:49:35.048Z",
+          "status": "operational",
+          "latency_ms": 57
         }
       ]
     }
