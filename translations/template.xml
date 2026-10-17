@@ -68,7 +68,7 @@
         <item>Burning the midnight oil</item>
         <item>Late-night sounds, just for you</item>
         <item>Can\'t sleep?</item>
-        <item>Neverending Night</item>
+        <item>Even the darkest night comes to an end.</item>
     </string-array>
     <string name="home_mix_subtitle_count">%d tracks in your mix</string>
     <string name="home_mix_empty_title">Start Listening</string>
@@ -128,6 +128,8 @@
     <string name="search_artists">Artists</string>
     <string name="search_playlists">Playlists</string>
     <string name="search_nothing_found">Nothing found</string>
+    <string name="search_lyric_matches">Sounds like lyrics from</string>
+    <string name="search_lyric_play">Find and play</string>
     <string name="search_empty">let\'s go search something…</string>
     <string name="search_empty_title">Search all of SoundCloud</string>
     <string name="search_empty_desc">This searches everything on SoundCloud, not only your library.</string>
@@ -229,6 +231,16 @@
     <string name="player_queue">Queue</string>
     <string name="player_queue_remove">Remove from queue</string>
     <string name="player_speed">Speed</string>
+    <string name="player_loop">Loop a part</string>
+    <string name="player_loop_title">Loop</string>
+    <string name="player_loop_range">%1$s – %2$s</string>
+    <string name="player_loop_start">Start</string>
+    <string name="player_loop_end">End</string>
+    <string name="player_loop_enable">Loop it</string>
+    <string name="player_loop_disable">Turn off loop</string>
+    <string name="player_loop_set_now">Set to current moment</string>
+    <string name="player_loop_earlier">Half a second earlier</string>
+    <string name="player_loop_later">Half a second later</string>
     <string name="player_speed_format">%s\u00D7</string>
     <string name="player_speed_reset">Normal speed</string>
     <string name="history_title">Listening history</string>
@@ -268,6 +280,7 @@
     <string name="artist_tracks_count">%d tracks</string>
     <string name="artist_at_username">@%s</string>
     <string name="artist_id">ID: %d</string>
+    <string name="id_copied">ID copied</string>
     <string name="artist_error">Error: %s</string>
     <string name="playlist_by">%s</string>
     <string name="detail_popular">Popular</string>
@@ -405,8 +418,17 @@
     <string name="settings_seek_bar_style">Seek bar style</string>
     <string name="settings_seek_bar_style_classic">Classic</string>
     <string name="settings_seek_bar_style_wavy">Wavy</string>
+    <string name="settings_seek_bar_style_waveform">Waveform</string>
     <string name="settings_lyrics_genius_fallback">Unsynced lyrics from Genius</string>
     <string name="settings_lyrics_genius_fallback_desc">When no synced lyrics are found, look up plain lyrics from Genius\'s unofficial search instead of showing nothing</string>
+    <string name="settings_lyrics_genius_annotations">Genius annotations</string>
+    <string name="settings_lyrics_genius_annotations_desc">Lines explained on Genius are marked in the lyrics. Tap the mark to read the annotation</string>
+    <string name="lyrics_annotation_title">Genius annotation</string>
+    <string name="lyrics_annotation_unreviewed">Not reviewed yet</string>
+    <string name="lyrics_annotation_verified">From the artist</string>
+    <string name="lyrics_annotation_votes">%d votes</string>
+    <string name="lyrics_annotation_open">Open on Genius</string>
+    <string name="lyrics_annotation_mark">Annotation</string>
     <string name="settings_haptics">Haptic Feedback</string>
     <string name="settings_haptics_desc">Vibrate on taps and interactions</string>
     <string name="settings_haptics_intensity">Vibration Intensity</string>
@@ -414,7 +436,7 @@
     <string name="settings_haptics_intensity_medium">Medium</string>
     <string name="settings_haptics_intensity_high">High</string>
     <string name="settings_developer_mode">Developer Mode</string>
-    <string name="settings_developer_mode_desc">Show user IDs in profiles</string>
+    <string name="settings_developer_mode_desc">Show the debug menu</string>
     <string name="settings_language">Language</string>
     <string name="settings_language_en">English</string>
     <string name="settings_language_ru">Русский</string>
@@ -568,11 +590,17 @@
     <string name="debug_menu_recap_force_banner_desc">Shows the banner on Home for the current year, ignoring the date window, the 10 hour threshold and hiding. Resets when the app restarts</string>
     <string name="debug_menu_recap_open">Open recap</string>
     <string name="debug_menu_recap_demo">Demo</string>
+    <string name="debug_menu_generated_artwork">Generated covers</string>
+    <string name="debug_menu_generated_artwork_everywhere">Generate everywhere</string>
     <string name="debug_menu_recap">Year recap</string>
     <string name="debug_menu_recap_desc">Raw numbers the year recap will be built from. Shown without the date window and the 10 hour threshold</string>
     <string name="debug_menu_lyrics_sync">Lyrics sync</string>
     <string name="debug_menu_lyrics_sync_count">Tracks with a correction: %d</string>
     <string name="debug_menu_lyrics_sync_desc">Copies offset, stretch and LRCLIB durations for every corrected track as CSV</string>
+    <string name="debug_menu_waveforms">Waveforms</string>
+    <string name="debug_menu_waveforms_count">Saved waveforms: %d</string>
+    <string name="debug_menu_waveforms_clear">Clear</string>
+    <string name="debug_menu_waveforms_cleared">Waveforms removed: %d</string>
     <string name="debug_menu_test_crash">Trigger Test Crash</string>
     <string name="debug_menu_test_crash_desc">Force-crashes the app to test crash handling</string>
     <string name="debug_menu_diagnostics">Diagnostics</string>
@@ -884,6 +912,8 @@
     <string name="sound_percent_format">%d%%</string>
     <string name="settings_beat_pulse">Pulse to the beat</string>
     <string name="settings_beat_pulse_desc">The glow behind the artwork reacts to the bass of the track</string>
+    <string name="settings_animated_artwork">Moving generated covers</string>
+    <string name="settings_animated_artwork_desc">Covers drawn for tracks without artwork flow slowly in the player</string>
     <string name="playlist_add_to">Add to playlist</string>
     <string name="playlist_new">New playlist</string>
     <string name="playlist_local_label">On device</string>
@@ -962,11 +992,4 @@
     <string name="datadome_blocked_title">Access restricted</string>
     <string name="datadome_blocked_subtitle">SoundCloud has temporarily blocked this network. Switch to another network or VPN server, then sign out and sign in again.</string>
     <string name="datadome_close">Close</string>
-    <string name="debug_menu_custom_server">Custom server</string>
-    <string name="debug_menu_custom_server_current">Active: %s</string>
-    <string name="debug_menu_custom_server_off">Off, using SoundCloud</string>
-    <string name="debug_menu_custom_server_desc">Requests to api-v2.soundcloud.com go to this server instead. Your SoundCloud token is not sent to it. Restart the app after changing it.</string>
-    <string name="debug_menu_custom_server_hint">Server address</string>
-    <string name="debug_menu_custom_server_invalid">Invalid address</string>
-    <string name="debug_menu_custom_server_reset">Back to SoundCloud</string>
 </resources>
