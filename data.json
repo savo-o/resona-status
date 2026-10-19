@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:37:06.549Z",
+  "generated_at": "2026-10-19T23:03:27.644Z",
   "services": [
     {
       "id": "soundcloud",
@@ -7,14 +7,9 @@
       "url": "https://api-v2.soundcloud.com/",
       "status": "operational",
       "http_status": 401,
-      "latency_ms": 299,
-      "checked_at": "2026-10-19T19:37:06.549Z",
+      "latency_ms": 310,
+      "checked_at": "2026-10-19T23:03:27.644Z",
       "history": [
-        {
-          "t": "2026-09-03T23:49:50.601Z",
-          "status": "operational",
-          "latency_ms": 315
-        },
         {
           "t": "2026-09-04T01:25:15.845Z",
           "status": "operational",
@@ -1449,6 +1444,11 @@
           "t": "2026-10-19T19:37:06.549Z",
           "status": "operational",
           "latency_ms": 299
+        },
+        {
+          "t": "2026-10-19T23:03:27.644Z",
+          "status": "operational",
+          "latency_ms": 310
         }
       ]
     },
@@ -1456,16 +1456,11 @@
       "id": "lyrics",
       "name": "Lyrics API (lrclib.net)",
       "url": "https://lrclib.net/api/search?track_name=test&artist_name=test",
-      "status": "operational",
-      "http_status": 200,
-      "latency_ms": 244,
-      "checked_at": "2026-10-19T19:37:06.549Z",
+      "status": "down",
+      "http_status": 503,
+      "latency_ms": 543,
+      "checked_at": "2026-10-19T23:03:27.644Z",
       "history": [
-        {
-          "t": "2026-09-03T23:49:50.601Z",
-          "status": "operational",
-          "latency_ms": 244
-        },
         {
           "t": "2026-09-04T01:25:15.845Z",
           "status": "operational",
@@ -2900,6 +2895,11 @@
           "t": "2026-10-19T19:37:06.549Z",
           "status": "operational",
           "latency_ms": 244
+        },
+        {
+          "t": "2026-10-19T23:03:27.644Z",
+          "status": "down",
+          "latency_ms": 543
         }
       ]
     },
@@ -2909,8 +2909,8 @@
       "url": "https://genius.com/api/search/multi?q=test",
       "status": "operational",
       "http_status": 403,
-      "latency_ms": 54,
-      "checked_at": "2026-10-19T19:37:06.549Z",
+      "latency_ms": 128,
+      "checked_at": "2026-10-19T23:03:27.644Z",
       "history": [
         {
           "t": "2026-09-14T20:19:24.917Z",
@@ -3941,6 +3941,11 @@
           "t": "2026-10-19T19:37:06.549Z",
           "status": "operational",
           "latency_ms": 54
+        },
+        {
+          "t": "2026-10-19T23:03:27.644Z",
+          "status": "operational",
+          "latency_ms": 128
         }
       ]
     }
