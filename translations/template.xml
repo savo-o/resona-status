@@ -991,5 +991,13 @@
     <string name="datadome_subtitle">SoundCloud wants to make sure you are not a robot. After the check the action will be retried automatically.</string>
     <string name="datadome_blocked_title">Access restricted</string>
     <string name="datadome_blocked_subtitle">SoundCloud has temporarily blocked this network. Switch to another network or VPN server, then sign out and sign in again.</string>
+    <string name="read_only_title">Read-only mode</string>
+    <string name="read_only_check_loop">SoundCloud keeps asking for a check even after you pass it, so likes and comments are not sent. Your network or account is temporarily flagged. Wait a while or switch to another network or VPN server.</string>
+    <string name="read_only_blocked">SoundCloud temporarily blocked this network, so likes and comments are not sent. Switch to another network or VPN server.</string>
+    <string name="read_only_hide">Hide</string>
     <string name="datadome_close">Close</string>
+    <string name="settings_liquid_glass">Liquid Glass (may cause lags!)</string>
+    <string name="settings_liquid_glass_desc">Translucent glass on the dock and player, like on iOS</string>
+    <string name="settings_dock_background">Background behind the dock</string>
+    <string name="settings_dock_background_desc">Solid background behind the dock. When off, content shows through it</string>
 </resources>
